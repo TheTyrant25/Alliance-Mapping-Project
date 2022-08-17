@@ -123,16 +123,12 @@
 			report_state = 1
 			if (src in gauntlet_controller.gauntlet)
 				gauntlet_controller.increaseCritters(src)
-			if (src in colosseum_controller.colosseum)
-				colosseum_controller.increaseCritters(src)
 
 	proc/report_death()
 		if (report_state == 1)
 			report_state = 0
 			if (src in gauntlet_controller.gauntlet)
 				gauntlet_controller.decreaseCritters(src)
-			if (src in colosseum_controller.colosseum)
-				colosseum_controller.decreaseCritters(src)
 
 	serialize(var/savefile/F, var/path, var/datum/sandbox/sandbox)
 		..()
@@ -225,7 +221,7 @@
 		..()
 		if (!src.alive)
 			if (src.skinresult && max_skins)
-				if (istype(W, /obj/item/circular_saw) || istype(W, /obj/item/kitchen/utensil/knife) || istype(W, /obj/item/scalpel) || istype(W, /obj/item/raw_material/shard) || istype(W, /obj/item/sword) || istype(W, /obj/item/saw) || issnippingtool(W))
+				if (issawingtool(W) || iscuttingtool(W) || issnippingtool(W))
 
 					for(var/i, i<rand(1, max_skins), i++)
 						new src.skinresult (src.loc)
@@ -548,15 +544,6 @@
 				if (isliving(M))
 					waking = 1
 					break
-
-		//for(var/mob/living/M in range(10, src))
-		//	if(M.client)
-		//		waking = 1
-		//		break
-
-		if (!waking)
-			if (get_area(src) == colosseum_controller.colosseum)
-				waking = 1
 
 		if(waking)
 			hibernate_check = 20
