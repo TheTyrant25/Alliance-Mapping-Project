@@ -1,35 +1,19 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"at" = (
-/obj/disposalpipe/segment{
+"aD" = (
+/obj/cable{
+	icon_state = "1-4"
+	},
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
+"aQ" = (
+/obj/stool/chair/comfy{
 	dir = 4;
-	icon_state = "pipe-c"
-	},
-/turf/unsimulated/floor/blackwhite/whitegrime,
-/area/space)
-"aR" = (
-/obj/cable{
-	icon_state = "2-9"
+	name = "ratty brown chair"
 	},
 /obj/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
+	dir = 4
 	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"bc" = (
-/obj/machinery/door/poddoor/blast{
-	icon_state = "bdoorright1";
-	dir = 8
-	},
-/turf/unsimulated/floor/plating,
-/area/space)
-"bf" = (
-/obj/cable{
-	dir = null;
-	icon_state = "6-8"
-	},
-/obj/disposalpipe/junction/left/south,
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
 "bn" = (
 /obj/stool/chair/comfy{
@@ -50,15 +34,41 @@
 /obj/machinery/atmospherics/pipe/simple/insulated/cold,
 /turf/unsimulated/floor/engine,
 /area/space)
+"bM" = (
+/obj/disposalpipe/junction/middle/south,
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "bP" = (
 /obj/machinery/atmospherics/mixer,
 /turf/unsimulated/floor/engine,
 /area/space)
-"cP" = (
-/obj/cable{
-	icon_state = "2-5"
-	},
+"cb" = (
+/mob/living/critter/aberration,
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"cc" = (
+/obj/machinery/disposal,
+/obj/disposalpipe/trunk/north,
 /turf/unsimulated/floor/black/grime,
+/area/space)
+"ct" = (
+/mob/living/critter/aberration,
+/turf/simulated/floor/purple/checker,
+/area/space)
+"cP" = (
+/obj/decal/cleanable/blood/drip/high,
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"cR" = (
+/obj/machinery/door/poddoor/blast{
+	icon_state = "bdoorleft1";
+	dir = 8
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"cV" = (
+/obj/machinery/door/unpowered/wood/stall,
+/turf/unsimulated/floor/grey/whitegrime/other,
 /area/space)
 "dl" = (
 /obj/stool/chair/office/blue{
@@ -70,6 +80,38 @@
 	},
 /turf/simulated/floor/carpet/red/fancy/narrow/east,
 /area/space)
+"dm" = (
+/obj/cable{
+	icon_state = "2-9"
+	},
+/obj/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"dy" = (
+/obj/machinery/optable{
+	id = "OR1"
+	},
+/turf/simulated/floor/white/grime,
+/area/space)
+"dB" = (
+/obj/decal/cleanable/blood/drip/high,
+/turf/unsimulated/floor/grime,
+/area/space)
+"dE" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib2"
+	},
+/turf/unsimulated/floor/grime,
+/area/space)
+"dJ" = (
+/obj/machinery/conveyor/SN{
+	id = "Janus_disposals"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
 "dQ" = (
 /obj/stool/chair/comfy{
 	name = "ratty brown chair";
@@ -77,18 +119,42 @@
 	},
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
-"dW" = (
-/obj/machinery/conveyor/SN{
-	id = "Janus_disposals"
+"dU" = (
+/obj/decal/cleanable/blood/splatter,
+/turf/unsimulated/floor/grime,
+/area/space)
+"dV" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
 	},
-/obj/machinery/crusher,
-/turf/unsimulated/floor/plating,
+/obj/cable{
+	icon_state = "5-8"
+	},
+/obj/disposalpipe/junction/right/east,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "dZ" = (
 /obj/machinery/atmospherics/pipe/vent{
 	dir = 1
 	},
 /turf/unsimulated/outdoors/grass,
+/area/space)
+"ed" = (
+/obj/iv_stand,
+/turf/simulated/floor/white/grime,
+/area/space)
+"eg" = (
+/obj/disposalpipe/broken{
+	dir = 1
+	},
+/obj/disposalpipe/broken{
+	dir = 2
+	},
+/obj/cable{
+	icon_state = "1-4"
+	},
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "eh" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
@@ -101,21 +167,56 @@
 /obj/machinery/glass_recycler,
 /turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
-"eM" = (
-/obj/cable{
-	icon_state = "4-10"
+"ez" = (
+/obj/submachine/chef_sink/chem_sink{
+	dir = 4
 	},
-/obj/barricade,
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/grey/whitegrime/other,
 /area/space)
-"eN" = (
+"eB" = (
 /obj/cable{
 	icon_state = "5-8"
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"fv" = (
-/turf/simulated/floor/purplewhite,
+"eS" = (
+/obj/machinery/traymachine/locking/crematorium,
+/turf/unsimulated/floor/plating,
+/area/space)
+"eT" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib1"
+	},
+/turf/unsimulated/floor/grime,
+/area/space)
+"eU" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibarm"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"fz" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"fK" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"fM" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "fN" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -129,15 +230,10 @@
 "fU" = (
 /turf/simulated/floor/carpet/red/fancy/edge,
 /area/space)
-"gi" = (
-/obj/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
+"ga" = (
+/obj/machinery/conveyor/NS{
+	id = "Janus_disposals"
 	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"gm" = (
-/obj/machinery/traymachine/locking/crematorium,
 /turf/unsimulated/floor/plating,
 /area/space)
 "gp" = (
@@ -166,9 +262,11 @@
 /area/space)
 "gD" = (
 /obj/disposalpipe/segment,
-/turf/simulated/floor/purplewhite{
-	dir = 1
-	},
+/turf/simulated/floor/purple/checker,
+/area/space)
+"gE" = (
+/mob/living/critter/aberration,
+/turf/unsimulated/floor/grime,
 /area/space)
 "gG" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
@@ -177,15 +275,73 @@
 /obj/machinery/meter,
 /turf/unsimulated/floor/engine,
 /area/space)
-"gW" = (
-/turf/unsimulated/floor/pryable,
+"gK" = (
+/obj/cable{
+	dir = null;
+	icon_state = "4-9"
+	},
+/obj/cable{
+	icon_state = "4-10"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"gY" = (
+/obj/cable{
+	icon_state = "4-10"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"hb" = (
+/obj/machinery/disposal,
+/obj/disposalpipe/trunk/south,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"hn" = (
+/obj/machinery/computer3/terminal/console_lower{
+	dir = 4
+	},
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "hu" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold,
 /turf/unsimulated/floor/engine,
 /area/space)
+"hD" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib2"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
 "hR" = (
+/obj/machinery/traymachine/morgue,
+/turf/simulated/floor/white/grime,
+/area/space)
+"ir" = (
+/obj/disposalpipe/junction/left/west,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"iz" = (
 /turf/simulated/floor/purple,
+/area/space)
+"iE" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/white/grime,
+/area/space)
+"iV" = (
+/obj/stool/chair/comfy{
+	name = "ratty brown chair";
+	dir = 8
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
 "iZ" = (
 /obj/cable{
@@ -203,18 +359,34 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"jo" = (
-/obj/disposalpipe/segment{
-	dir = 1;
-	icon_state = "pipe-c"
+"jt" = (
+/obj/machinery/atmospherics/unary/cryo_cell{
+	pipe_direction = 2
 	},
+/turf/simulated/floor/white/grime,
+/area/space)
+"jD" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibdown1"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"jI" = (
+/mob/living/critter/aberration,
+/turf/simulated/floor/purplewhite{
+	dir = 9
+	},
+/area/space)
+"jT" = (
+/obj/table/wood/auto,
+/obj/random_item_spawner/tableware,
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
-"jX" = (
-/obj/disposalpipe/segment{
-	dir = 4
+"jU" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib3"
 	},
-/turf/unsimulated/floor/specialroom/cafeteria,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "kc" = (
 /obj/cable{
@@ -222,11 +394,40 @@
 	},
 /turf/simulated/floor/carpet/red/fancy/narrow/east,
 /area/space)
-"kU" = (
+"kp" = (
 /obj/cable{
 	icon_state = "4-10"
 	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
 /turf/unsimulated/floor/black/grime,
+/area/space)
+"kq" = (
+/turf/simulated/floor/purple/checker,
+/area/space)
+"kt" = (
+/obj/cable{
+	icon_state = "1-10"
+	},
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"kw" = (
+/obj/stool/bar,
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"kI" = (
+/obj/machinery/conveyor/SN{
+	id = "Janus_disposals"
+	},
+/obj/machinery/crusher,
+/turf/unsimulated/floor/plating,
+/area/space)
+"kL" = (
+/obj/disposalpipe/trunk/west,
+/obj/machinery/disposal,
+/turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
 "li" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
@@ -235,25 +436,26 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/space)
-"ls" = (
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/black/grime,
+"lr" = (
+/obj/disposaloutlet,
+/obj/disposalpipe/trunk/north,
+/turf/unsimulated/floor/plating,
 /area/space)
-"lV" = (
-/obj/cable{
-	dir = null;
-	icon_state = "4-9"
+"lP" = (
+/obj/machinery/door/poddoor/blast{
+	icon_state = "bdoorright1";
+	dir = 8
 	},
-/obj/cable{
-	icon_state = "4-10"
-	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"mg" = (
+/obj/table/wood/auto,
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"ml" = (
 /obj/disposalpipe/segment{
 	dir = 4
 	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"mc" = (
-/obj/disposalpipe/junction/middle/south,
 /turf/unsimulated/floor/black/grime,
 /area/space)
 "mo" = (
@@ -264,23 +466,24 @@
 	dir = 6
 	},
 /area/space)
-"mA" = (
-/obj/cable{
-	icon_state = "1-8"
-	},
-/turf/unsimulated/floor/plating,
+"mF" = (
+/turf/cordon,
 /area/space)
-"mO" = (
-/obj/disposalpipe/segment{
-	dir = 4
+"ng" = (
+/turf/simulated/floor/purplewhite{
+	dir = 8
 	},
-/turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
 "nC" = (
 /obj/cable{
 	icon_state = "4-8"
 	},
 /turf/unsimulated/floor/plating,
+/area/space)
+"nR" = (
+/turf/simulated/floor/purplewhite{
+	dir = 5
+	},
 /area/space)
 "nV" = (
 /obj/overlay{
@@ -301,15 +504,40 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"of" = (
+/obj/random_item_spawner/organs/bloody,
+/turf/unsimulated/floor/grime,
+/area/space)
 "oi" = (
 /obj/landmark{
 	name = "telesci"
 	},
 /obj/decal/fakeobjects/teleport_pad,
+/obj/fluid_spawner{
+	amount = 10000;
+	reagent_id = "blood"
+	},
 /turf/unsimulated/floor/engine,
 /area/space)
 "oj" = (
 /turf/unsimulated/floor/blackwhite/whitegrime,
+/area/space)
+"ok" = (
+/obj/disposalpipe/segment,
+/obj/cable{
+	icon_state = "1-2"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"ol" = (
+/obj/cable{
+	dir = null;
+	icon_state = "1-6"
+	},
+/obj/cable{
+	icon_state = "1-10"
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "om" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
@@ -320,40 +548,53 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"ou" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibmid3"
+	},
+/turf/unsimulated/floor/grime,
+/area/space)
 "oD" = (
 /obj/table/reinforced/auto,
 /turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 8
 	},
 /area/space)
-"oG" = (
-/obj/machinery/disposal,
-/obj/disposalpipe/trunk/north,
+"oE" = (
+/obj/cable{
+	icon_state = "2-9"
+	},
+/obj/disposalpipe/segment,
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"oO" = (
-/obj/cable{
-	icon_state = "4-8"
+"oV" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibdown1"
 	},
+/turf/unsimulated/floor/grime,
+/area/space)
+"pa" = (
 /obj/disposalpipe/segment{
 	dir = 4
 	},
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/blackwhite/whitegrime,
+/area/space)
+"pq" = (
+/obj/machinery/atmospherics/pipe/manifold{
+	dir = 8
+	},
+/turf/simulated/floor/white/grime,
 /area/space)
 "px" = (
 /obj/artifact_spawner,
 /turf/unsimulated/floor/grime,
 /area/space)
-"pE" = (
-/obj/disposalpipe/segment,
-/turf/simulated/floor/purple/checker,
-/area/space)
-"pP" = (
+"pG" = (
 /obj/disposalpipe/segment{
-	dir = 4;
+	dir = 1;
 	icon_state = "pipe-c"
 	},
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
 "pV" = (
 /obj/cable{
@@ -368,14 +609,16 @@
 "qg" = (
 /turf/unsimulated/floor/specialroom/bar,
 /area/space)
-"qv" = (
-/turf/simulated/floor/purplewhite{
-	dir = 1
+"qF" = (
+/obj/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
 	},
-/area/space)
-"qL" = (
-/obj/disposalpipe/junction/left/south,
 /turf/unsimulated/floor/black/grime,
+/area/space)
+"rg" = (
+/obj/decal/cleanable/blood/drip/high,
+/turf/unsimulated/floor/engine,
 /area/space)
 "rh" = (
 /obj/cable/brown{
@@ -394,17 +637,24 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"rn" = (
-/obj/disposalpipe/junction/left/west,
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"rs" = (
+"rm" = (
+/obj/disposalpipe/segment,
 /turf/simulated/floor/purplewhite{
-	dir = 5
+	dir = 1
 	},
 /area/space)
-"rB" = (
-/obj/machinery/disposal,
+"rA" = (
+/obj/decoration/ntcrate,
+/turf/simulated/floor/purple,
+/area/space)
+"rG" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/obj/barricade,
 /turf/unsimulated/floor/black/grime,
 /area/space)
 "rQ" = (
@@ -412,6 +662,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/red/fancy/narrow/west,
+/area/space)
+"rS" = (
+/obj/stool/bed/moveable/hospital,
+/obj/random_item_spawner/medicine,
+/turf/simulated/floor/white/grime,
 /area/space)
 "rT" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
@@ -424,9 +679,27 @@
 /obj/decal/fakeobjects/apc_broken{
 	pixel_y = 30
 	},
-/turf/unsimulated/floor/grime,
+/obj/cable{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/white/grime,
 /area/space)
-"sj" = (
+"sr" = (
+/obj/disposalpipe/junction/left/east,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"sB" = (
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/plating,
+/area/space)
+"sD" = (
+/obj/disposalpipe/segment{
+	dir = 4;
+	name = "factory pipe"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"sE" = (
 /obj/cable{
 	icon_state = "0-4"
 	},
@@ -435,22 +708,16 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"sC" = (
-/obj/cable{
-	dir = null;
-	icon_state = "4-9"
-	},
-/obj/cable{
-	icon_state = "4-10"
-	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
 "sV" = (
 /obj/machinery/door/poddoor/blast{
 	icon_state = "bdoorright1";
 	dir = 4
 	},
 /turf/unsimulated/floor/plating,
+/area/space)
+"ta" = (
+/obj/table,
+/turf/unsimulated/floor/specialroom/bar,
 /area/space)
 "tg" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -461,15 +728,20 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"tk" = (
+/obj/item/storage/toilet/random,
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
 "tr" = (
 /obj/machinery/atmospherics/pipe/simple/insulated,
 /obj/machinery/meter,
 /turf/unsimulated/floor/engine,
 /area/space)
-"tE" = (
-/obj/disposaloutlet,
-/obj/disposalpipe/trunk/north,
-/turf/unsimulated/floor/plating,
+"tx" = (
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "tI" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -480,27 +752,27 @@
 	},
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
+"tO" = (
+/obj/cable{
+	icon_state = "2-9"
+	},
+/obj/cable{
+	icon_state = "2-5"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"uc" = (
+/obj/decal/cleanable/blood/splatter{
+	icon_state = "gibbl2"
+	},
+/turf/unsimulated/floor/grime,
+/area/space)
 "ue" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
 	dir = 4
 	},
 /obj/machinery/meter,
 /turf/unsimulated/floor/engine,
-/area/space)
-"ug" = (
-/obj/cable{
-	dir = null;
-	icon_state = "6-8"
-	},
-/obj/disposalpipe/segment{
-	dir = 4
-	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"uh" = (
-/turf/simulated/floor/purplewhite{
-	dir = 9
-	},
 /area/space)
 "ut" = (
 /obj/machinery/power/terminal{
@@ -511,30 +783,39 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"uG" = (
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/plating,
+"uC" = (
+/obj/cable{
+	dir = null;
+	icon_state = "4-9"
+	},
+/obj/disposalpipe/segment{
+	dir = 4;
+	name = "factory pipe"
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "uJ" = (
 /obj/cable/brown,
 /obj/machinery/atmospherics/binary/reactor_turbine,
 /turf/unsimulated/floor/engine,
 /area/space)
-"uP" = (
-/obj/stool/chair/comfy{
-	name = "ratty brown chair";
-	dir = 8
+"uK" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib1"
 	},
-/obj/disposalpipe/segment{
-	dir = 4
-	},
-/turf/unsimulated/floor/specialroom/cafeteria,
+/turf/unsimulated/floor/engine,
 /area/space)
-"uY" = (
-/obj/table/reinforced/bar/auto,
+"uQ" = (
+/obj/stool/chair/comfy{
+	name = "ratty brown chair"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"uS" = (
+/obj/decal/fakeobjects/robot/servotron,
 /turf/unsimulated/floor/specialroom/bar,
 /area/space)
-"vk" = (
+"uU" = (
 /obj/cable{
 	dir = null;
 	icon_state = "1-6"
@@ -542,22 +823,25 @@
 /obj/cable{
 	icon_state = "1-10"
 	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"vz" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
 /obj/disposalpipe/segment{
-	dir = 4
+	dir = 8;
+	icon_state = "pipe-c";
+	name = "factory pipe"
 	},
-/obj/barricade,
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"vP" = (
-/obj/machinery/disposal,
-/obj/disposalpipe/trunk/south,
-/turf/unsimulated/floor/black/grime,
+"uY" = (
+/obj/table/reinforced/bar/auto,
+/turf/unsimulated/floor/specialroom/bar,
+/area/space)
+"va" = (
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"vm" = (
+/obj/table/reinforced/auto,
+/obj/random_item_spawner/medicine,
+/turf/simulated/floor/white/grime,
 /area/space)
 "vS" = (
 /turf/unsimulated/wall/setpieces/leadwindow/gray{
@@ -573,6 +857,23 @@
 	},
 /turf/unsimulated/floor/specialroom/bar,
 /area/space)
+"wA" = (
+/turf/simulated/floor/purplewhite{
+	dir = 10
+	},
+/area/space)
+"wU" = (
+/obj/machinery/computer3/terminal/console_lower{
+	dir = 4
+	},
+/turf/simulated/floor/purple,
+/area/space)
+"wW" = (
+/obj/machinery/computer3/terminal/console_lower{
+	dir = 4
+	},
+/turf/simulated/floor/purple/checker,
+/area/space)
 "xr" = (
 /obj/machinery/atmospherics/valve{
 	dir = 8
@@ -585,15 +886,27 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"xD" = (
-/obj/disposalpipe/broken,
-/turf/unsimulated/floor/plating,
-/area/space)
-"xQ" = (
-/obj/machinery/conveyor_switch{
-	id = "Janus_disposals"
+"xy" = (
+/obj/decal/fakeobjects/skeleton{
+	desc = "50% of a rotten corpse.";
+	dir = 8;
+	icon = 'icons/misc/hstation.dmi';
+	icon_state = "body5";
+	name = "pair of legs";
+	pixel_x = 14
 	},
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/grime,
+/area/space)
+"xX" = (
+/turf/unsimulated/wall/void,
+/area/space)
+"yj" = (
+/mob/living/critter/aberration,
+/turf/simulated/floor/purplewhite,
+/area/space)
+"ym" = (
+/obj/table/reinforced/auto,
+/turf/simulated/floor/white/grime,
 /area/space)
 "ys" = (
 /obj/stool/chair/comfy{
@@ -601,12 +914,13 @@
 	},
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
-"yA" = (
-/obj/table/wood/auto,
-/obj/disposalpipe/segment{
-	dir = 4
-	},
-/turf/unsimulated/floor/specialroom/cafeteria,
+"yu" = (
+/mob/living/critter/maneater,
+/turf/unsimulated/floor/blackwhite/whitegrime,
+/area/space)
+"yB" = (
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "yL" = (
 /obj/stool/bed,
@@ -620,6 +934,12 @@
 	dir = 9
 	},
 /area/space)
+"zm" = (
+/obj/cable{
+	icon_state = "1-10"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "zn" = (
 /obj/decal/fakeobjects/sink{
 	dir = 1
@@ -629,17 +949,31 @@
 	},
 /turf/unsimulated/floor/specialroom/bar,
 /area/space)
-"Av" = (
-/obj/machinery/door/poddoor/blast{
-	icon_state = "bdoorleft1";
-	dir = 8
+"Aj" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
 	},
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Aw" = (
+/obj/cable{
+	icon_state = "2-4"
+	},
+/obj/cable{
+	icon_state = "2-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4;
+	name = "factory pipe"
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "AI" = (
-/turf/simulated/floor/purplewhite{
-	dir = 4
-	},
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
+"AQ" = (
+/turf/unsimulated/floor/void,
 /area/space)
 "Bc" = (
 /obj/table/reinforced/auto,
@@ -652,6 +986,24 @@
 	icon_state = "4-10"
 	},
 /turf/unsimulated/floor/engine,
+/area/space)
+"Bi" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
+"Bq" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/broken{
+	dir = 4
+	},
+/obj/disposalpipe/broken{
+	dir = 8
+	},
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "Br" = (
 /obj/cable{
@@ -674,36 +1026,43 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
+"Cz" = (
+/obj/disposalpipe/broken,
+/turf/unsimulated/floor/plating,
+/area/space)
+"CE" = (
+/obj/disposalpipe/broken{
+	dir = 1
+	},
+/obj/disposalpipe/broken{
+	dir = 4
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
 "CP" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
 	dir = 5
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"Dk" = (
-/obj/cable{
-	icon_state = "2-9"
+"Dl" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibhead"
 	},
-/obj/cable{
-	icon_state = "2-5"
+/obj/decal/cleanable/blood/splatter{
+	icon_state = "floor2"
 	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"Dn" = (
-/obj/cable{
-	icon_state = "1-4"
-	},
-/obj/cable{
-	icon_state = "2-4"
-	},
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "Ds" = (
 /obj/machinery/field_generator{
 	anchored = 1;
 	name = "Containment Field Generator"
 	},
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"Dv" = (
+/turf/simulated/floor/white/grime,
 /area/space)
 "Dz" = (
 /obj/cable{
@@ -716,15 +1075,20 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
+"DF" = (
+/obj/item/skull,
+/turf/unsimulated/floor/grime,
+/area/space)
 "DH" = (
 /obj/machinery/atmospherics/pipe/simple/insulated,
 /turf/unsimulated/floor/engine,
 /area/space)
-"DP" = (
-/obj/machinery/conveyor/SN{
-	id = "Janus_disposals"
+"DN" = (
+/obj/table/wood/auto,
+/obj/disposalpipe/segment{
+	dir = 4
 	},
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
 "DX" = (
 /obj/cable{
@@ -735,10 +1099,18 @@
 	},
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
-"Ei" = (
-/obj/disposalpipe/trunk/west,
-/obj/machinery/disposal,
-/turf/unsimulated/floor/black/grime,
+"Ej" = (
+/obj/decal/fakeobjects{
+	anchored = 1;
+	density = 1;
+	desc = "Filing cabinets. The locking mechanism is jammed.";
+	dir = 4;
+	icon = 'icons/obj/computer.dmi';
+	icon_state = "messyfilesb";
+	name = "facility records";
+	tag = "icon-messyfilesb (EAST)"
+	},
+/turf/simulated/floor/purple,
 /area/space)
 "Em" = (
 /obj/cable{
@@ -753,6 +1125,46 @@
 /obj/submachine/foodprocessor,
 /turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
+"Ew" = (
+/obj/machinery/traymachine/morgue{
+	dir = 8
+	},
+/turf/simulated/floor/white/grime,
+/area/space)
+"EE" = (
+/mob/living/critter/mechmonstrosity/medical,
+/turf/simulated/floor/white/grime,
+/area/space)
+"EL" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
+	},
+/obj/cable{
+	icon_state = "5-8"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"EP" = (
+/obj/table/wood/auto,
+/obj/item/reagent_containers/food/snacks/burger/moldy,
+/turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"ET" = (
+/obj/cable{
+	icon_state = "1-4"
+	},
+/obj/cable{
+	icon_state = "1-8"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Fa" = (
+/obj/disposalpipe/broken{
+	dir = 1
+	},
+/turf/simulated/floor/purplewhite,
+/area/space)
 "Fe" = (
 /obj/machinery/door/poddoor/blast{
 	icon_state = "bdoorright1";
@@ -763,31 +1175,37 @@
 "Fw" = (
 /turf/unsimulated/floor/plating,
 /area/space)
-"FE" = (
-/obj/stool/chair/comfy{
-	dir = 4;
-	name = "ratty brown chair"
+"FB" = (
+/obj/overlay{
+	density = 1;
+	dir = 1;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "airlock_closed";
+	name = "broken airlock"
 	},
-/obj/disposalpipe/segment{
-	dir = 4
+/obj/cable{
+	icon_state = "1-2"
 	},
-/turf/unsimulated/floor/specialroom/cafeteria,
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"FF" = (
+/obj/machinery/disposal,
+/obj/disposalpipe/trunk/east,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "FK" = (
 /turf/unsimulated/outdoors/grass,
 /area/space)
-"FY" = (
-/obj/cable{
-	dir = null;
-	icon_state = "6-8"
+"FU" = (
+/obj/machinery/door/airlock/pyro/medical{
+	name = "Morgue";
+	req_access_txt = "5"
 	},
-/obj/cable{
-	icon_state = "5-8"
-	},
-/turf/unsimulated/floor/black/grime,
+/turf/simulated/floor/white/grime,
 /area/space)
-"Gp" = (
-/obj/machinery/conveyor/NS{
+"Gf" = (
+/obj/machinery/conveyor/NW{
 	id = "Janus_disposals"
 	},
 /turf/unsimulated/floor/plating,
@@ -811,6 +1229,12 @@
 	dir = 9
 	},
 /area/space)
+"GD" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/purple,
+/area/space)
 "GI" = (
 /obj/stool/bed,
 /turf/simulated/floor/carpet/red/fancy/edge{
@@ -824,27 +1248,20 @@
 	},
 /turf/unsimulated/floor/grime,
 /area/space)
-"GU" = (
-/obj/cable{
-	dir = null;
-	icon_state = "6-8"
-	},
-/obj/barricade,
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"GX" = (
-/obj/disposalpipe/broken{
-	dir = 1
-	},
-/obj/disposalpipe/broken{
-	dir = 4
-	},
-/turf/unsimulated/floor/plating,
-/area/space)
 "Hd" = (
 /turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 1
 	},
+/area/space)
+"Hw" = (
+/obj/artifact_spawner,
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"HF" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibmid3"
+	},
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "HT" = (
 /obj/cable/brown{
@@ -853,10 +1270,10 @@
 /turf/unsimulated/floor/engine,
 /area/space)
 "Ib" = (
-/obj/cable{
-	icon_state = "4-8"
+/obj/machinery/computer/operating{
+	id = "OR1"
 	},
-/turf/unsimulated/floor/pryable,
+/turf/simulated/floor/white/grime,
 /area/space)
 "Ie" = (
 /obj/machinery/door/poddoor/blast{
@@ -865,26 +1282,16 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"Ii" = (
-/obj/disposalpipe/broken{
+"Ik" = (
+/obj/machinery/light/worn{
+	brightness = 2;
 	dir = 1
 	},
-/obj/disposalpipe/broken{
-	dir = 2
-	},
-/obj/cable{
-	icon_state = "1-4"
-	},
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/grime,
 /area/space)
-"Ix" = (
-/obj/cable{
-	icon_state = "1-4"
-	},
-/obj/cable{
-	icon_state = "1-8"
-	},
-/turf/unsimulated/floor/black/grime,
+"Ip" = (
+/mob/living/critter/brullbar,
+/turf/simulated/floor/white/grime,
 /area/space)
 "IG" = (
 /obj/machinery/atmospherics/pipe/simple/insulated,
@@ -892,11 +1299,15 @@
 	dir = 4
 	},
 /area/space)
-"IM" = (
-/obj/disposalpipe/broken{
-	dir = 1
+"IV" = (
+/obj/cable{
+	icon_state = "1-4"
 	},
-/turf/simulated/floor/purplewhite,
+/turf/simulated/floor/white/grime,
+/area/space)
+"IW" = (
+/obj/random_item_spawner/junk,
+/turf/unsimulated/floor/plating,
 /area/space)
 "Jk" = (
 /obj/machinery/atmospherics/pipe/manifold{
@@ -916,19 +1327,35 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"JO" = (
+/obj/stool/chair/comfy{
+	dir = 4;
+	name = "ratty brown chair"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"JY" = (
+/obj/random_item_spawner/organs/bloody/one_to_three,
+/turf/unsimulated/floor/grime,
+/area/space)
+"Kj" = (
+/obj/machinery/conveyor_switch{
+	id = "Janus_disposals"
+	},
+/turf/simulated/floor/specialroom/arcade,
+/area/space)
 "Km" = (
 /obj/cable{
 	icon_state = "2-4"
 	},
-/obj/cable{
-	icon_state = "2-8"
-	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"Kp" = (
-/obj/disposalpipe/segment,
+"Kn" = (
 /obj/cable{
-	icon_state = "1-8"
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
@@ -955,7 +1382,73 @@
 /obj/machinery/atmospherics/binary/nuclear_reactor,
 /turf/unsimulated/floor/engine,
 /area/space)
-"KY" = (
+"KN" = (
+/obj/machinery/chem_dispenser/chemical,
+/turf/unsimulated/floor/specialroom/bar,
+/area/space)
+"KV" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/white/grime,
+/area/space)
+"KX" = (
+/turf/simulated/floor/purplewhite{
+	dir = 1
+	},
+/area/space)
+"Ll" = (
+/obj/machinery/atmospherics/pipe/simple/insulated{
+	dir = 4
+	},
+/turf/unsimulated/floor/engine,
+/area/space)
+"Lo" = (
+/obj/disposalpipe/trunk/west,
+/obj/machinery/disposal,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Lq" = (
+/obj/machinery/atmospherics/pipe/simple/insulated{
+	dir = 6
+	},
+/turf/unsimulated/floor/engine,
+/area/space)
+"LB" = (
+/obj/overlay{
+	density = 1;
+	dir = 4;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "airlock_closed";
+	name = "broken airlock"
+	},
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"LJ" = (
+/obj/machinery/atmospherics/valve,
+/turf/unsimulated/floor/engine,
+/area/space)
+"LY" = (
+/obj/cable{
+	icon_state = "2-9"
+	},
+/obj/cable{
+	icon_state = "2-5"
+	},
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Ma" = (
+/obj/table/wood/auto,
+/turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"Md" = (
 /obj/cable{
 	dir = null;
 	icon_state = "1-6"
@@ -966,47 +1459,30 @@
 /obj/disposalpipe/segment,
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"Ll" = (
-/obj/machinery/atmospherics/pipe/simple/insulated{
-	dir = 4
+"Mo" = (
+/obj/machinery/chem_dispenser/soda,
+/turf/unsimulated/floor/specialroom/bar,
+/area/space)
+"Mp" = (
+/obj/random_item_spawner/organs/bloody,
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"Mv" = (
+/obj/cable{
+	icon_state = "1-2"
 	},
-/turf/unsimulated/floor/engine,
+/obj/barricade,
+/turf/unsimulated/floor/black/grime,
 /area/space)
-"Lq" = (
-/obj/machinery/atmospherics/pipe/simple/insulated{
-	dir = 6
-	},
-/turf/unsimulated/floor/engine,
-/area/space)
-"LB" = (
-/turf/simulated/floor/purple/checker,
-/area/space)
-"LH" = (
+"My" = (
 /obj/cable{
 	dir = null;
 	icon_state = "1-6"
 	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"LJ" = (
-/obj/machinery/atmospherics/valve,
-/turf/unsimulated/floor/engine,
-/area/space)
-"LV" = (
-/obj/machinery/conveyor/NW{
-	id = "Janus_disposals"
-	},
-/turf/unsimulated/floor/plating,
-/area/space)
-"Ma" = (
-/obj/table/wood/auto,
-/turf/unsimulated/floor/specialroom/cafeteria,
-/area/space)
-"Mp" = (
 /obj/cable{
-	icon_state = "2-9"
+	icon_state = "1-10"
 	},
-/obj/disposalpipe/segment,
+/obj/barricade,
 /turf/unsimulated/floor/black/grime,
 /area/space)
 "MD" = (
@@ -1019,11 +1495,31 @@
 "MF" = (
 /turf/unsimulated/floor/engine,
 /area/space)
+"MN" = (
+/obj/machinery/deep_fryer,
+/turf/unsimulated/floor/blackwhite/whitegrime,
+/area/space)
+"MV" = (
+/obj/machinery/door/unpowered/wood/stall{
+	dir = 4;
+	lock_dir = 8
+	},
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
 "Na" = (
 /obj/machinery/door/poddoor/blast{
 	icon_state = "bdoorright1"
 	},
 /turf/unsimulated/floor/plating,
+/area/space)
+"Nj" = (
+/obj/decal/fakeobjects/apc_broken{
+	pixel_x = -25
+	},
+/obj/cable{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/specialroom/arcade,
 /area/space)
 "Nm" = (
 /obj/stool/bed,
@@ -1031,11 +1527,21 @@
 	dir = 10
 	},
 /area/space)
+"Nn" = (
+/turf/simulated/floor/purplewhite,
+/area/space)
+"Np" = (
+/obj/decal/fakeobjects/skeleton{
+	desc = "The remains of the captain of this, uh, part of station. Not sure if all of the station parts are from the same place.";
+	icon = 'icons/misc/hstation.dmi';
+	icon_state = "body7"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
 "Nq" = (
 /obj/cable{
-	icon_state = "1-2"
+	icon_state = "2-9"
 	},
-/obj/disposalpipe/segment,
 /turf/unsimulated/floor/black/grime,
 /area/space)
 "Nr" = (
@@ -1051,23 +1557,30 @@
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
+"NL" = (
+/obj/decal/fakeobjects/teleport_pad,
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "NM" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
 	dir = 9
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"Ov" = (
-/obj/cable{
-	dir = null;
-	icon_state = "6-8"
+"NS" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib3"
 	},
-/obj/cable{
-	icon_state = "5-8"
+/turf/unsimulated/floor/engine,
+/area/space)
+"Oa" = (
+/obj/decal/cleanable/blood/splatter{
+	icon_state = "floor5"
 	},
-/obj/disposalpipe/segment{
-	dir = 4
-	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"Oq" = (
+/obj/barricade,
 /turf/unsimulated/floor/black/grime,
 /area/space)
 "Ow" = (
@@ -1082,13 +1595,6 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"Ox" = (
-/obj/disposalpipe/segment,
-/obj/cable{
-	icon_state = "1-2"
-	},
-/turf/unsimulated/floor/plating,
-/area/space)
 "Oz" = (
 /obj/decal/fakeobjects/tallsmes,
 /obj/cable{
@@ -1102,6 +1608,14 @@
 /turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 1
 	},
+/area/space)
+"OH" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
+	},
+/obj/disposalpipe/junction/left/south,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "OU" = (
 /obj/item/instrument/large/jukebox,
@@ -1131,15 +1645,31 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/space)
+"PA" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibmid3"
+	},
+/turf/unsimulated/floor/engine,
+/area/space)
 "PH" = (
 /turf/unsimulated/wall/setpieces/leadwindow/gray,
 /area/space)
-"Qc" = (
-/obj/cable{
-	icon_state = "1-2"
+"PS" = (
+/obj/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
 	},
-/obj/barricade,
 /turf/unsimulated/floor/black/grime,
+/area/space)
+"Qc" = (
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"Ql" = (
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	can_rupture = 0;
+	dir = 9
+	},
+/turf/simulated/floor/white/grime,
 /area/space)
 "Qn" = (
 /obj/machinery/door/unpowered/wood{
@@ -1153,16 +1683,19 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"Qy" = (
-/obj/machinery/conveyor/EW{
-	id = "Janus_disposals"
-	},
-/turf/unsimulated/floor/plating,
+"Qw" = (
+/obj/decal/cleanable/blood/splatter,
+/turf/unsimulated/floor/plating/random,
 /area/space)
-"QD" = (
-/obj/disposalpipe/trunk/west,
-/obj/machinery/disposal,
-/turf/unsimulated/floor/blackwhite/whitegrime,
+"Qz" = (
+/obj/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/specialroom/arcade,
+/area/space)
+"QA" = (
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "QE" = (
 /obj/table/auto,
@@ -1172,11 +1705,28 @@
 	},
 /turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
+"QI" = (
+/obj/tree,
+/turf/unsimulated/outdoors/grass,
+/area/space)
+"QN" = (
+/obj/disposalpipe/segment,
+/obj/cable{
+	icon_state = "1-8"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
 "RA" = (
 /obj/machinery/atmospherics/pipe/manifold{
 	dir = 4
 	},
 /turf/unsimulated/floor/engine,
+/area/space)
+"RG" = (
+/obj/machinery/door/airlock/pyro/medical{
+	name = "Cryotherapy Room."
+	},
+/turf/simulated/floor/white/grime,
 /area/space)
 "RT" = (
 /obj/table/reinforced/auto,
@@ -1184,9 +1734,36 @@
 	dir = 1
 	},
 /area/space)
+"Sb" = (
+/obj/machinery/chem_dispenser/alcohol,
+/turf/unsimulated/floor/specialroom/bar,
+/area/space)
+"Sc" = (
+/obj/machinery/sleeper/compact{
+	dir = 4
+	},
+/turf/simulated/floor/white/grime,
+/area/space)
+"Sd" = (
+/obj/table/wood/auto,
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
 "Sh" = (
 /obj/stool/bar,
 /turf/unsimulated/floor/specialroom/bar,
+/area/space)
+"Sy" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4;
+	name = "factory pipe"
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "SD" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -1197,15 +1774,10 @@
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"SM" = (
-/obj/cable{
-	icon_state = "2-9"
+"SU" = (
+/turf/simulated/floor/purplewhite{
+	dir = 4
 	},
-/obj/cable{
-	icon_state = "2-5"
-	},
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/black/grime,
 /area/space)
 "Tc" = (
 /obj/machinery/atmospherics/valve{
@@ -1220,15 +1792,20 @@
 /turf/unsimulated/floor/engine,
 /area/space)
 "Td" = (
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/specialroom/cafeteria,
-/area/space)
-"Tl" = (
-/obj/disposalpipe/segment{
-	dir = 1;
-	icon_state = "pipe-c"
+/obj/cable{
+	dir = null;
+	icon_state = "4-9"
+	},
+/obj/cable{
+	icon_state = "4-10"
 	},
 /turf/unsimulated/floor/black/grime,
+/area/space)
+"Tn" = (
+/obj/machinery/door/airlock/pyro/medical{
+	name = "Long Term Ward."
+	},
+/turf/simulated/floor/white/grime,
 /area/space)
 "Tt" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -1238,6 +1815,13 @@
 /area/space)
 "Tv" = (
 /turf/unsimulated/wall/auto/lead/gray,
+/area/space)
+"TE" = (
+/obj/cable{
+	dir = null;
+	icon_state = "4-9"
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "TG" = (
 /obj/submachine/chef_oven,
@@ -1250,14 +1834,9 @@
 /obj/machinery/portable_atmospherics/canister/empty,
 /turf/unsimulated/floor/engine,
 /area/space)
-"TS" = (
-/turf/simulated/floor/purplewhite{
-	dir = 10
-	},
-/area/space)
-"Ub" = (
-/obj/barricade,
-/turf/unsimulated/floor/black/grime,
+"Uc" = (
+/obj/decal/fakeobjects/skeleton/decomposed_corpse,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "Ui" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -1280,11 +1859,19 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"UJ" = (
-/obj/cable{
-	icon_state = "4-8"
+"UG" = (
+/obj/table/reinforced/auto,
+/obj/random_item_spawner/med_tool,
+/turf/simulated/floor/white/grime,
+/area/space)
+"UI" = (
+/obj/machinery/conveyor/EN{
+	id = "Janus_disposals"
 	},
-/turf/simulated/floor/purple,
+/turf/unsimulated/floor/plating,
+/area/space)
+"UM" = (
+/turf/unsimulated/floor/plating/scorched,
 /area/space)
 "US" = (
 /obj/machinery/door/poddoor/blast{
@@ -1292,27 +1879,32 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"Vc" = (
-/obj/cable{
-	dir = null;
-	icon_state = "4-9"
+"UV" = (
+/obj/decal/fakeobjects/apc_broken{
+	pixel_x = -25
 	},
-/turf/unsimulated/floor/black/grime,
+/obj/cable{
+	dir = null
+	},
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
+"Va" = (
+/obj/submachine/chef_sink/chem_sink{
+	pixel_y = 5
+	},
+/turf/simulated/floor/white/grime,
+/area/space)
+"Vw" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibdown1"
+	},
+/turf/unsimulated/floor/engine,
 /area/space)
 "VD" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
 	dir = 6
 	},
 /turf/unsimulated/floor/engine,
-/area/space)
-"VI" = (
-/obj/cable{
-	icon_state = "1-8"
-	},
-/obj/cable{
-	icon_state = "2-8"
-	},
-/turf/unsimulated/floor/black/grime,
 /area/space)
 "VW" = (
 /obj/machinery/door/poddoor/blast{
@@ -1321,10 +1913,20 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"VX" = (
-/turf/simulated/floor/purplewhite{
+"Wc" = (
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
 	dir = 8
 	},
+/turf/simulated/floor/white/grime,
+/area/space)
+"We" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "Wq" = (
 /obj/table/reinforced/auto,
@@ -1337,11 +1939,40 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/space)
+"Wu" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/decal/fakeobjects/apc_broken{
+	pixel_x = 25
+	},
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
+"Ww" = (
+/obj/cable{
+	icon_state = "2-5"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "Wz" = (
 /obj/decal/fakeobjects/sink{
 	dir = 4
 	},
 /turf/unsimulated/floor/blackwhite/whitegrime,
+/area/space)
+"WK" = (
+/obj/disposalpipe/junction/left/south,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Xg" = (
+/obj/cable{
+	icon_state = "1-8"
+	},
+/obj/cable{
+	icon_state = "2-8"
+	},
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "Xi" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -1354,22 +1985,45 @@
 	dir = 8
 	},
 /area/space)
+"Xn" = (
+/obj/machinery/atmospherics/valve,
+/turf/simulated/floor/white/grime,
+/area/space)
+"Xt" = (
+/obj/machinery/bathtub{
+	anchored = 1;
+	dir = 4
+	},
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
+"Xw" = (
+/obj/cable{
+	dir = null;
+	icon_state = "1-6"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "Xx" = (
 /obj/machinery/atmospherics/unary/cold_sink/freezer{
 	dir = 1
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"XK" = (
-/obj/decal/fakeobjects/apc_broken{
-	pixel_x = -25
+"XF" = (
+/obj/machinery/door/airlock/pyro/medical{
+	dir = 4;
+	name = "Operating Theatre"
 	},
-/obj/cable{
-	icon_state = "0-2"
-	},
-/turf/unsimulated/floor/plating,
+/turf/simulated/floor/white/grime,
 /area/space)
-"XN" = (
+"XO" = (
+/turf/unsimulated/floor/grime,
+/area/space)
+"Yl" = (
+/obj/stool/bed/moveable/hospital,
+/turf/simulated/floor/white/grime,
+/area/space)
+"Yn" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_y = 30
 	},
@@ -1377,9 +2031,6 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/purple,
-/area/space)
-"XO" = (
-/turf/unsimulated/floor/grime,
 /area/space)
 "Yo" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -1392,13 +2043,7 @@
 	dir = 4
 	},
 /area/space)
-"Yz" = (
-/obj/cable{
-	icon_state = "1-10"
-	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"YG" = (
+"YD" = (
 /obj/cable{
 	dir = null;
 	icon_state = "6-8"
@@ -1406,13 +2051,11 @@
 /obj/cable{
 	icon_state = "5-8"
 	},
-/turf/unsimulated/floor/plating,
-/area/space)
-"YH" = (
-/obj/machinery/conveyor/EN{
-	id = "Janus_disposals"
+/obj/disposalpipe/segment{
+	dir = 4;
+	name = "factory pipe"
 	},
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "YJ" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
@@ -1420,15 +2063,41 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"YL" = (
+/obj/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/turf/unsimulated/floor/blackwhite/whitegrime,
+/area/space)
+"YT" = (
+/turf/simulated/floor/specialroom/arcade,
+/area/space)
 "YV" = (
 /obj/cable/brown{
 	icon_state = "1-2"
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"Zq" = (
+"Zb" = (
+/obj/machinery/conveyor/EW{
+	id = "Janus_disposals"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"Zy" = (
+/obj/decal/fakeobjects/bookcase,
+/turf/simulated/floor/carpet/red/fancy/edge{
+	dir = 1
+	},
+/area/space)
+"ZA" = (
 /obj/cable{
-	icon_state = "4-8"
+	dir = null;
+	icon_state = "6-8"
+	},
+/obj/cable{
+	icon_state = "5-8"
 	},
 /obj/disposalpipe/segment{
 	dir = 4
@@ -1440,6 +2109,22 @@
 	icon_state = "1-2"
 	},
 /turf/unsimulated/floor/black/grime,
+/area/space)
+"ZU" = (
+/obj/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"ZY" = (
+/obj/decal/fakeobjects/skeleton{
+	desc = "Apparently, there is a limit to the electrical protection offered by environment suits.";
+	icon = 'icons/misc/hstation.dmi';
+	icon_state = "burntnerd";
+	name = "charred corpse"
+	},
+/turf/unsimulated/floor/engine,
 /area/space)
 
 (1,1,1) = {"
@@ -1485,6 +2170,36 @@ FK
 FK
 FK
 FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+mF
 FK
 FK
 FK
@@ -1502,47 +2217,17 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+mF
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (2,1,1) = {"
 FK
@@ -1587,6 +2272,40 @@ FK
 FK
 FK
 FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+mF
+FK
+FK
+FK
+QI
 FK
 FK
 FK
@@ -1600,51 +2319,17 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+mF
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (3,1,1) = {"
 FK
@@ -1689,6 +2374,36 @@ FK
 FK
 FK
 FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+mF
 FK
 FK
 FK
@@ -1704,49 +2419,19 @@ FK
 FK
 FK
 FK
+QI
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+mF
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (4,1,1) = {"
 FK
@@ -1791,6 +2476,36 @@ FK
 FK
 FK
 FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+mF
 FK
 FK
 FK
@@ -1802,53 +2517,23 @@ FK
 FK
 FK
 FK
+QI
 FK
 FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+mF
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (5,1,1) = {"
 FK
@@ -1893,27 +2578,27 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Tv
 Tv
@@ -1940,17 +2625,17 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+mF
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (6,1,1) = {"
 FK
@@ -1995,27 +2680,27 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 TP
 TP
@@ -2042,17 +2727,17 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+mF
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (7,1,1) = {"
 FK
@@ -2097,27 +2782,27 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 vS
 Ow
 Ow
@@ -2144,17 +2829,17 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+mF
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (8,1,1) = {"
 FK
@@ -2199,27 +2884,27 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 vS
 xr
 je
@@ -2246,17 +2931,17 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+mF
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (9,1,1) = {"
 FK
@@ -2301,27 +2986,27 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 om
 bP
@@ -2345,20 +3030,20 @@ FK
 FK
 FK
 FK
+QI
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+mF
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (10,1,1) = {"
 FK
@@ -2403,23 +3088,23 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Tv
 Tv
@@ -2450,17 +3135,17 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+mF
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (11,1,1) = {"
 FK
@@ -2505,15 +3190,15 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Tv
 Tv
@@ -2524,7 +3209,7 @@ Tv
 Tv
 Tv
 ri
-rB
+FF
 ri
 Fw
 HT
@@ -2542,7 +3227,7 @@ MF
 MF
 Fw
 ri
-rB
+FF
 ri
 Tv
 Tv
@@ -2553,16 +3238,16 @@ Tv
 Tv
 Tv
 Tv
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (12,1,1) = {"
 FK
@@ -2607,15 +3292,15 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Fw
 Fw
@@ -2625,8 +3310,8 @@ Fw
 Fw
 Fw
 Fw
-LH
-ri
+Xw
+sD
 ri
 Fw
 MF
@@ -2643,28 +3328,28 @@ MF
 MF
 MF
 Fw
-LH
 ri
-cP
+ml
+Ww
+Bi
+UV
+AI
+ez
 Fw
-Fw
-Fw
-Fw
+Xt
 Tv
-Fw
-Fw
-Fw
+Xt
 Tv
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (13,1,1) = {"
 FK
@@ -2709,15 +3394,15 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Fw
 Fw
@@ -2728,7 +3413,7 @@ Fw
 Fw
 Tv
 ri
-Vc
+uC
 ri
 Fw
 Bf
@@ -2746,27 +3431,27 @@ MF
 MF
 Fw
 ri
-sC
+kp
 ri
 Tv
-Fw
-Fw
-Fw
 Tv
-Fw
-Fw
-Fw
 Tv
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AI
+Tv
+MV
+Tv
+MV
+Tv
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (14,1,1) = {"
 FK
@@ -2804,22 +3489,22 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Fw
 Fw
@@ -2830,7 +3515,7 @@ Fw
 Fw
 Tv
 ri
-Br
+Sy
 ri
 Tv
 rh
@@ -2848,27 +3533,27 @@ MF
 MF
 Tv
 ri
-Br
+We
 ri
 Tv
-Fw
-Fw
-Fw
+tk
+cV
+AI
 Tv
-Fw
-Fw
-Fw
+AI
+AI
+AI
 Tv
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (15,1,1) = {"
 FK
@@ -2906,22 +3591,22 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Tv
 Tv
@@ -2932,7 +3617,7 @@ Tv
 Tv
 Tv
 ri
-Br
+Sy
 ri
 Tv
 rh
@@ -2949,28 +3634,28 @@ LJ
 Tt
 MF
 Tv
-ri
-Br
-ri
+Oq
+We
+Oq
 Tv
-Fw
-Fw
-Fw
 Tv
-Fw
-Fw
-Fw
 Tv
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AI
+Tv
+AI
+AI
+AI
+Tv
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (16,1,1) = {"
 FK
@@ -3008,22 +3693,22 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Fw
 Fw
@@ -3034,7 +3719,7 @@ Fw
 Fw
 Tv
 ri
-Br
+Sy
 ri
 vS
 HT
@@ -3052,27 +3737,27 @@ MF
 MF
 vS
 ri
-Br
+rG
 ri
 Tv
-Fw
-Fw
-Fw
+tk
+cV
+AI
 Tv
-Fw
-Fw
-Fw
+AI
+AI
+AI
 Tv
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (17,1,1) = {"
 FK
@@ -3110,22 +3795,22 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Fw
 Fw
@@ -3136,7 +3821,7 @@ Fw
 Fw
 Tv
 ri
-Km
+Aw
 ZH
 gy
 pV
@@ -3153,28 +3838,28 @@ MF
 MF
 MF
 vS
-ri
-Br
-ri
+Oq
+We
+Oq
 Tv
-Fw
-Fw
-Fw
 Tv
-Fw
-Fw
-Fw
 Tv
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AI
+Tv
+AI
+AI
+AI
+Tv
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (18,1,1) = {"
 FK
@@ -3212,22 +3897,22 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Fw
 Fw
@@ -3238,7 +3923,7 @@ Fw
 Fw
 Tv
 ri
-Br
+sD
 ri
 Tv
 tg
@@ -3256,27 +3941,27 @@ MF
 MF
 Tv
 ri
-Br
+We
 ri
 Tv
-Fw
-Fw
-Fw
+tk
+cV
+AI
 Tv
-Fw
-Fw
-Fw
+Wu
+Bi
+aD
 Tv
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (19,1,1) = {"
 FK
@@ -3314,52 +3999,16 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-Tv
-Tv
-Fw
-Tv
-Tv
-Tv
-Tv
-Tv
-Tv
-Tv
-ri
-Br
-ri
-Tv
-Tv
-Tv
-Tv
-Tv
-Tv
-Tv
-Tv
-Tv
-Tv
-Tv
-Tv
-Tv
-Tv
-Tv
-ri
-Br
-ri
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Tv
 Tv
@@ -3370,15 +4019,51 @@ Tv
 Fw
 Tv
 Tv
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+Tv
+Tv
+Tv
+Tv
+Tv
+Oq
+Sy
+ri
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+ri
+We
+ri
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+nC
+Tv
+Tv
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (20,1,1) = {"
 FK
@@ -3416,33 +4101,33 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+AQ
+AQ
+AQ
 ri
-ri
-GU
-ri
-Ub
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 ri
 ri
 ri
-Ub
+Aj
 ri
+Oq
 ri
-FY
+Oq
+ri
+Oq
+ri
+Oq
+YD
 ri
 ri
 ri
@@ -3459,28 +4144,28 @@ ri
 ri
 ri
 ri
-ri
-FY
-ri
-ri
+PS
+dV
 ri
 ri
 ri
 ri
 ri
 ri
-eN
+ri
+ri
+eB
 ri
 Tv
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (21,1,1) = {"
 FK
@@ -3518,71 +4203,71 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+AQ
+AQ
+ri
+NL
+ri
+AQ
+AQ
+AQ
+AQ
+AQ
+ri
+AQ
+AQ
+AQ
 ri
 ri
-ri
-Dk
-Qc
+Oq
+Nq
+Mv
+Mv
 ZH
-Qc
+Mv
 ZH
-ZH
-ZH
-vk
-ri
-Dk
-ZH
-ZH
-ZH
-ZH
-ZH
-nV
-ZH
-VI
-ZH
-nV
-ZH
-ZH
-ZH
-ZH
-ZH
-vk
-ri
-Dk
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-vk
-ri
-rB
+Oq
+My
+qF
+LY
+fK
+fK
+fK
+fK
+fK
+FB
+fK
+Xg
+fK
+FB
+fK
+fK
+fK
+fK
+fK
+uU
+sr
+LY
+fK
+fK
+fK
+fK
+fK
+fK
+kt
+yB
+cc
 Tv
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (22,1,1) = {"
 FK
@@ -3620,33 +4305,33 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+AQ
+AQ
+AQ
+ri
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+ri
+AQ
 ri
 ri
-eM
+Oq
 ri
+Oq
 ri
+Oq
 ri
-Ub
+Oq
 ri
-Ub
-ri
-ri
-sC
+Oq
+Td
 ri
 ri
 ri
@@ -3664,7 +4349,7 @@ ri
 ri
 ri
 ri
-sC
+gK
 ri
 ri
 ri
@@ -3673,18 +4358,18 @@ ri
 ri
 ri
 ri
-Vc
+ri
 ri
 Tv
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 "}
 (23,1,1) = {"
 FK
@@ -3722,20 +4407,20 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Tv
-PH
-PH
+Tv
+Tv
 Tv
 Tv
 Na
@@ -3747,7 +4432,7 @@ PH
 PH
 Tv
 Tv
-ri
+Oq
 Br
 ri
 Tv
@@ -3766,27 +4451,27 @@ PH
 Tv
 Tv
 ri
-Br
+We
 ri
 Tv
+UM
+PH
+PH
+Tv
+Tv
+Ie
+xw
+Fe
+Tv
 Tv
 PH
 PH
 Tv
 Tv
-Fw
-Fw
-Fw
-Tv
-Tv
-PH
-PH
-Tv
-Tv
-FK
-FK
-FK
-FK
+AQ
+AQ
+AQ
+AQ
 "}
 (24,1,1) = {"
 FK
@@ -3824,24 +4509,24 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 by
 Wz
-at
+YL
 Kz
-Td
-Td
-jo
+va
+va
+pG
 Bt
 Bt
 Bt
@@ -3853,42 +4538,42 @@ ri
 Br
 ri
 Tv
-XO
-XO
-px
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+cP
 XO
 px
+XO
+XO
+XO
+JY
+XO
+XO
+XO
+XO
+Qc
+Hw
 Tv
 ri
-Br
+We
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+Dv
+Dv
+Dv
+Dv
 Tv
-FK
-FK
-FK
-FK
+Tv
+Dv
+Dv
+Tv
+jt
+pq
+Xn
+iE
+vS
+AQ
+AQ
+AQ
+AQ
 "}
 (25,1,1) = {"
 FK
@@ -3926,71 +4611,71 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 by
 oj
-mO
+pa
 Tv
 Bt
 Bt
-jX
+tx
 Bt
 Bt
 OY
-OY
 Bt
-Ma
+Bt
+jT
 Tv
 ri
 Br
 ri
 vS
+dU
+Qc
+Qc
+dB
+Qc
+Qc
+Np
+Qc
+hD
 XO
-XO
-XO
-XO
-Fw
-Fw
-Fw
-Fw
-Fw
-XO
-XO
-XO
-XO
+gE
+oV
+Qc
 vS
 ri
-Br
+We
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-Tv
-FK
-FK
-FK
-FK
+Dv
+Dv
+Dv
+EE
+UG
+vS
+Dv
+Dv
+vS
+Dv
+Wc
+Dv
+Dv
+vS
+AQ
+AQ
+AQ
+AQ
 "}
 (26,1,1) = {"
 FK
@@ -4028,71 +4713,71 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 TG
 oj
-QD
+kL
 Tv
 Bt
 OY
-FE
+aQ
 Bt
 ys
 Ma
-Ma
 dQ
+Bt
 bn
 Tv
 ri
 Br
 ri
 vS
+Qc
+dE
 XO
+Qc
+jD
+Mp
+Qc
+jD
+Qc
+Qc
 XO
-XO
-Fw
-Fw
-Fw
-Fw
-Fw
-Fw
-Fw
-XO
-XO
+Oa
 XO
 vS
 ri
-Br
+We
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+Dv
+Dv
+ed
+Dv
+ym
+vS
+Dv
+Dv
 Tv
-FK
-FK
-FK
-FK
+jt
+Ql
+Dv
+Dv
+vS
+AQ
+AQ
+AQ
+AQ
 "}
 (27,1,1) = {"
 FK
@@ -4130,71 +4815,71 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 Tv
 Pg
-oj
+Qc
 Kr
 Tv
 ys
 Ma
-yA
+Sd
 dQ
 ys
-Ma
-Ma
+EP
 dQ
+Qc
 OY
 Tv
 ri
 Br
 ri
 Tv
+ou
 XO
-XO
-Fw
+jU
 Ds
-Fw
-Fw
-Fw
-Fw
-Fw
+Qc
+Qc
+Qc
+HF
+Qc
 Ds
-Fw
+Qc
 XO
-XO
+of
 Tv
 ri
-Br
+We
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-Tv
-FK
-FK
-FK
-FK
+Dv
+Ib
+dy
+Dv
+ym
+vS
+Dv
+Dv
+RG
+Dv
+Dv
+Dv
+Dv
+vS
+AQ
+AQ
+AQ
+AQ
 "}
 (28,1,1) = {"
 FK
@@ -4232,71 +4917,71 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
-FK
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
 Tv
 ej
-oj
-Kr
+yu
+MN
 Tv
 ys
 Ma
-yA
+DN
 dQ
 ys
 Ma
-Ma
 dQ
+Bt
 Ma
 Tv
 Tv
 Nr
 Tv
 Tv
-XO
-Fw
-Fw
-Fw
-Fw
+Ik
+Qc
+Qc
+Qc
+Qc
 MF
+cP
 MF
-MF
-Fw
-Fw
-Fw
-Fw
+Qc
+Dl
+Qc
+Qc
 XO
 Tv
 Tv
-Nr
+LB
 Tv
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+Dv
+Dv
+Dv
+Dv
+UG
+vS
+Dv
+Dv
 Tv
-FK
-FK
-FK
-FK
+Tv
+Tv
+Tv
+Tv
+Tv
+AQ
+AQ
+AQ
+AQ
 "}
 (29,1,1) = {"
 FK
@@ -4349,56 +5034,56 @@ QE
 oj
 En
 Tv
-Bt
+Qc
 bn
-uP
+iV
 Bt
-Bt
+Qc
 bn
-bn
+Qc
 Bt
 bn
 Tv
 ri
 Fw
 ri
-bc
-XO
-Fw
-Fw
-Fw
+lP
+Qc
+eU
+Qc
+HF
+rg
+PA
 MF
+rg
 MF
-MF
-MF
-MF
-Fw
-Fw
-Fw
+Qc
+Qc
+Qc
 XO
 Gz
 ri
-Br
+We
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+Dv
+Dv
+Dv
+Dv
+vm
+vS
+Dv
+Dv
 Tv
-FK
-FK
-FK
-FK
+hR
+hR
+hR
+hR
+Tv
+AQ
+AQ
+AQ
+AQ
 "}
 (30,1,1) = {"
 FK
@@ -4456,51 +5141,51 @@ Gu
 DX
 Bt
 Bt
+Qc
+Qc
 Bt
-Bt
-Bt
-Bt
+Qc
 Tv
 SD
-Ix
+ET
 ri
 VW
 XO
-Fw
-Fw
-Fw
-MF
+Qc
+Qc
+Qc
+NS
 MF
 oi
+rg
 MF
-MF
-Fw
-Fw
-Fw
+Qc
+Vw
+Qc
 XO
 US
 ri
-Br
+ml
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+Dv
+Dv
+Dv
+Dv
+UG
+vS
+Dv
+Dv
+FU
+Dv
+Dv
+Dv
+Ip
 Tv
-FK
-FK
-FK
-FK
+mF
+mF
+mF
+mF
 "}
 (31,1,1) = {"
 FK
@@ -4549,7 +5234,7 @@ FK
 FK
 FK
 Tv
-qg
+ta
 qg
 qg
 uY
@@ -4557,8 +5242,8 @@ Sh
 qg
 vZ
 OU
-Bt
-OY
+Qc
+JO
 OY
 Bt
 OY
@@ -4568,36 +5253,36 @@ Br
 ri
 BD
 XO
-Fw
-Fw
-Fw
+Mp
+Qc
+Qc
+rg
 MF
 MF
 MF
-MF
-MF
-Fw
-Fw
-Fw
+PA
+Qc
+Qc
+Qc
 XO
 sV
 ri
-Br
+We
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+XF
+Tv
+PH
+PH
+PH
+Tv
+Dv
+Dv
+Tv
+Ew
+Ew
+Ew
+Ew
 Tv
 FK
 FK
@@ -4651,7 +5336,7 @@ FK
 FK
 FK
 Tv
-qg
+ta
 qg
 qg
 uY
@@ -4659,9 +5344,9 @@ Sh
 qg
 vZ
 qg
-ys
-Ma
-Ma
+uQ
+mg
+jT
 dQ
 Ma
 Tv
@@ -4670,40 +5355,40 @@ Br
 Tv
 Tv
 GS
-Fw
-Fw
-Fw
-Fw
+Qc
+ZY
+Qc
+Qc
+PA
+uK
 MF
-MF
-MF
-Fw
-Fw
-Fw
-Fw
+Qc
+Mp
+Qw
+Qc
 XO
 Tv
 Tv
-Nr
+LB
 Tv
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Tv
+Tv
+Tv
+Tv
+Tv
 Tv
 FK
 FK
-FK
+QI
 FK
 "}
 (33,1,1) = {"
@@ -4753,14 +5438,14 @@ FK
 FK
 FK
 Tv
-qg
+KN
 qg
 qg
 uY
 Sh
 qg
-vZ
-qg
+Bq
+Qc
 ys
 Ma
 Ma
@@ -4771,38 +5456,38 @@ ri
 Br
 ri
 Tv
+dB
 XO
-XO
-Fw
+Qc
 Ds
-Fw
-Fw
-Fw
-Fw
-Fw
+jD
+Qc
+Qc
+Qc
+Qc
 Ds
-Fw
-XO
+jU
+eT
 XO
 Tv
 ri
-Br
+We
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
 Tv
+Yl
+Yl
+Yl
+Yl
+vS
 FK
 FK
 FK
@@ -4855,16 +5540,16 @@ FK
 FK
 FK
 Tv
-qg
+Sb
 qg
 qg
 uY
-Sh
-qg
+kw
+Qc
 vZ
 qg
 ys
-Ma
+jT
 Ma
 dQ
 OY
@@ -4873,38 +5558,38 @@ ri
 Br
 ri
 vS
+JY
+dU
 XO
-XO
-XO
-Fw
-Fw
-Fw
-Fw
-Fw
-Fw
-Fw
-XO
-XO
-XO
+Mp
+Qc
+Qw
+hD
+Qc
+Qc
+Qc
+xy
+uc
+Qc
 vS
 ri
-Br
+We
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-Tv
+Dv
+Sc
+Sc
+Sc
+Sc
+Sc
+Dv
+Dv
+Tn
+Dv
+Dv
+Dv
+Dv
+vS
 FK
 FK
 FK
@@ -4957,7 +5642,7 @@ FK
 FK
 FK
 Tv
-qg
+Mo
 qg
 qg
 uY
@@ -4965,7 +5650,7 @@ Sh
 qg
 vZ
 qg
-Bt
+Qc
 bn
 bn
 Bt
@@ -4976,37 +5661,37 @@ Br
 ri
 vS
 XO
+jD
+ou
 XO
+Qc
+Qc
+Qc
+Qc
+eU
 XO
-XO
-Fw
-Fw
-Fw
-Fw
-Fw
-XO
-XO
-XO
+Qc
+Qc
 XO
 vS
 ri
-Br
+We
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
 Tv
+Va
+Dv
+Dv
+Dv
+vS
 FK
 FK
 FK
@@ -5061,7 +5746,7 @@ FK
 Tv
 zn
 qg
-qg
+uS
 uY
 Sh
 qg
@@ -5077,38 +5762,38 @@ ri
 Br
 ri
 Tv
+Qc
+dB
 XO
 XO
 XO
-XO
-XO
-XO
+of
 XO
 px
 XO
 XO
 XO
-XO
+DF
 XO
 Tv
 ri
-Br
+We
 ri
 Tv
 rU
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-Tv
+KV
+KV
+KV
+KV
+KV
+IV
+Dv
+vS
+Yl
+Yl
+Yl
+rS
+vS
 FK
 FK
 FK
@@ -5167,7 +5852,7 @@ PH
 Tv
 Tv
 Fw
-oO
+Kn
 Fw
 Tv
 Tv
@@ -5194,7 +5879,7 @@ PH
 Tv
 Tv
 ri
-Br
+We
 ri
 Tv
 Tv
@@ -5203,7 +5888,7 @@ PH
 Tv
 Tv
 Fw
-Fw
+nC
 Fw
 Tv
 Tv
@@ -5214,7 +5899,7 @@ Tv
 FK
 FK
 FK
-FK
+QI
 "}
 (38,1,1) = {"
 FK
@@ -5269,7 +5954,7 @@ FK
 FK
 Tv
 ri
-ug
+fM
 ri
 ri
 ri
@@ -5278,8 +5963,8 @@ ri
 ri
 ri
 ri
-YG
-Fw
+EL
+Qc
 ri
 ri
 ri
@@ -5296,7 +5981,7 @@ ri
 ri
 ri
 ri
-FY
+ZA
 ri
 ri
 ri
@@ -5305,7 +5990,7 @@ ri
 ri
 ri
 ri
-eN
+eB
 ri
 Tv
 FK
@@ -5363,25 +6048,25 @@ FK
 FK
 FK
 FK
-FK
+QI
 FK
 FK
 FK
 FK
 FK
 Tv
-vP
-qL
-SM
-Nq
-Nq
-Nq
-Nq
-Nq
-Nq
-KY
-GX
-Dk
+hb
+WK
+LY
+fK
+fK
+fK
+fK
+fK
+fK
+Md
+CE
+tO
 ZH
 ZH
 ZH
@@ -5389,7 +6074,7 @@ ZH
 ZH
 nV
 ZH
-Dn
+Km
 ZH
 nV
 ZH
@@ -5397,18 +6082,18 @@ ZH
 ZH
 ZH
 ZH
-vk
-pP
-SM
-Nq
-Nq
-Nq
-Nq
-Nq
-Nq
-KY
-ls
-oG
+ol
+sr
+LY
+fK
+fK
+fK
+fK
+fK
+fK
+Md
+yB
+cc
 Tv
 FK
 FK
@@ -5469,11 +6154,11 @@ FK
 FK
 FK
 FK
-FK
+QI
 FK
 Tv
 ri
-kU
+gY
 ri
 ri
 ri
@@ -5481,8 +6166,8 @@ ri
 ri
 ri
 ri
-Fw
-lV
+Qc
+gK
 ri
 ri
 ri
@@ -5500,7 +6185,7 @@ ri
 ri
 ri
 ri
-lV
+gK
 ri
 ri
 ri
@@ -5509,13 +6194,13 @@ ri
 ri
 ri
 ri
-Vc
+TE
 ri
 Tv
 FK
 FK
 FK
-FK
+QI
 FK
 FK
 FK
@@ -5584,7 +6269,7 @@ Tv
 Tv
 Tv
 ri
-Zq
+We
 ri
 Tv
 Tv
@@ -5592,6 +6277,7 @@ Tv
 Tv
 Tv
 Tv
+Qc
 Tv
 Tv
 Tv
@@ -5600,9 +6286,8 @@ Tv
 Tv
 Tv
 Tv
-Tv
-Ub
-Zq
+Oq
+We
 ri
 Tv
 Tv
@@ -5669,7 +6354,7 @@ FK
 FK
 FK
 FK
-FK
+QI
 FK
 FK
 FK
@@ -5686,34 +6371,34 @@ Xi
 Nm
 Tv
 ri
-Zq
+We
 ri
 Tv
-hR
-hR
-hR
-hR
-hR
-hR
-Fw
-hR
-hR
-hR
-hR
-hR
-hR
+iz
+iz
+iz
+wU
+hn
+Qc
+hn
+wU
+wU
+iz
+iz
+iz
+iz
 Tv
-Ub
-vz
+Oq
+rG
 ri
 Tv
-Fw
-Fw
-Fw
-Fw
-Fw
-XK
-mA
+YT
+YT
+YT
+YT
+YT
+Nj
+Qz
 Tv
 FK
 FK
@@ -5723,7 +6408,7 @@ FK
 FK
 FK
 FK
-FK
+QI
 FK
 "}
 (43,1,1) = {"
@@ -5776,7 +6461,7 @@ FK
 FK
 FK
 FK
-FK
+QI
 FK
 Tv
 Em
@@ -5788,34 +6473,34 @@ gB
 fU
 Tv
 ri
-Zq
+We
 ri
 vS
-hR
-uh
-VX
-VX
-VX
-VX
-VX
-VX
-Fw
-VX
-VX
-TS
-hR
+iz
+jI
+ng
+ng
+Qc
+ng
+ng
+ng
+Qc
+ng
+ng
+wA
+iz
 vS
 ri
-vz
-Ub
+rG
+Oq
 Tv
-Fw
-Fw
-Fw
-Fw
-Fw
-Fw
-Fw
+YT
+YT
+YT
+YT
+YT
+YT
+YT
 Tv
 FK
 FK
@@ -5890,34 +6575,34 @@ gz
 yL
 Tv
 ri
-Zq
+We
 ri
 vS
-hR
-Fw
-LB
-LB
-LB
-Fw
-Fw
-LB
-LB
-LB
-LB
-fv
-hR
+iz
+Qc
+kq
+kq
+kq
+Qc
+Qc
+kq
+kq
+ct
+kq
+Nn
+iz
 vS
 ri
-Zq
-Ub
+We
+Oq
 Tv
-Fw
-Fw
-Fw
-Fw
-Fw
-Fw
-Fw
+YT
+YT
+YT
+YT
+YT
+YT
+Kj
 Tv
 FK
 FK
@@ -5925,7 +6610,7 @@ FK
 FK
 FK
 FK
-FK
+QI
 FK
 FK
 FK
@@ -5983,7 +6668,7 @@ FK
 FK
 FK
 Tv
-Hd
+Zy
 gz
 Wq
 Tv
@@ -5992,25 +6677,25 @@ gz
 Wq
 Tv
 ri
-Zq
+We
 ri
 Tv
-hR
-qv
-LB
-LB
-Fw
-LB
-Fw
-Fw
-LB
-LB
-LB
-fv
-hR
+iz
+KX
+kq
+wW
+cb
+wW
+Qc
+Qc
+wW
+wW
+kq
+Nn
+iz
 Tv
 ri
-Zq
+We
 ri
 Tv
 Tv
@@ -6080,7 +6765,7 @@ FK
 FK
 FK
 FK
-FK
+QI
 FK
 FK
 FK
@@ -6094,43 +6779,43 @@ gz
 yL
 Tv
 ri
-Zq
+We
 ri
 Tv
-hR
-qv
-LB
-Fw
-LB
-LB
-Fw
-LB
-Fw
-Fw
-LB
-fv
-hR
+iz
+KX
+kq
+Qc
+kq
+ct
+Qc
+kq
+Qc
+Qc
+kq
+Nn
+iz
 Tv
 ri
-Zq
+We
 ri
 Tv
-gm
+eS
 Fw
-DP
-DP
-dW
-DP
-YH
+dJ
+dJ
+kI
+dJ
+UI
 Tv
 FK
+QI
 FK
 FK
 FK
 FK
 FK
-FK
-FK
+QI
 FK
 FK
 "}
@@ -6191,39 +6876,39 @@ RT
 kc
 fU
 Tv
-Hd
+Zy
 dl
 fU
 Tv
 ri
-Ov
+ZA
 ri
 rj
-hR
-qv
-LB
-LB
-LB
+iz
+KX
+kq
+kq
+kq
+Qc
+Qc
+kq
+kq
+Qc
+kq
+Nn
+iz
 Fw
-Fw
-LB
-LB
-Fw
-LB
-fv
-hR
-Fw
-pP
-bf
-Tl
+PS
+OH
+ZU
 Tv
-sj
+sE
+Fw
+IW
 Fw
 Fw
 Fw
-Fw
-xQ
-Qy
+Zb
 Tv
 FK
 FK
@@ -6297,40 +6982,40 @@ Jn
 Bc
 mo
 ZH
-Yz
-mc
-Mp
+zm
+bM
+oE
 Dz
-Ii
+eg
+rm
 gD
-pE
-pE
-pE
-uG
-uG
-uG
-pE
-pE
-uG
-IM
-hR
-xD
-rn
+gD
+gD
+QA
+QA
+QA
+gD
+gD
+QA
+Fa
+iz
+Cz
+ir
 ri
-aR
-Ox
-Kp
-uG
-uG
-uG
-tE
-Gp
-LV
+dm
+ok
+QN
+sB
+sB
+sB
+lr
+ga
+Gf
 Tv
 FK
 FK
 FK
-FK
+QI
 FK
 FK
 FK
@@ -6384,11 +7069,11 @@ FK
 FK
 FK
 FK
+QI
 FK
 FK
 FK
-FK
-FK
+QI
 FK
 Tv
 Tv
@@ -6400,25 +7085,25 @@ Tv
 Tv
 Tv
 ri
-Ei
+Lo
 ri
-Av
-UJ
-qv
-LB
-LB
+cR
+GD
+KX
+kq
+kq
+Qc
+Qc
+Qc
+Uc
+kq
+kq
+kq
+Nn
+iz
 Fw
-Fw
-Fw
-Fw
-LB
-LB
-LB
-fv
-hR
-Fw
-gi
-oG
+qF
+cc
 ri
 Tv
 Tv
@@ -6505,19 +7190,19 @@ Tv
 Tv
 Tv
 Tv
-UJ
-qv
-LB
-LB
-Fw
-LB
-Fw
-Fw
-Fw
-LB
-LB
-Fw
-hR
+GD
+KX
+kq
+kq
+Qc
+kq
+Qc
+Qc
+Qc
+kq
+kq
+Qc
+iz
 Tv
 Tv
 Tv
@@ -6607,19 +7292,19 @@ FK
 FK
 FK
 Tv
-UJ
-qv
-gW
-Fw
-Fw
-LB
-Fw
-LB
-Fw
-LB
-gW
-fv
-hR
+GD
+KX
+Qc
+Qc
+Qc
+kq
+Qc
+kq
+Qc
+kq
+Qc
+yj
+iz
 Tv
 FK
 FK
@@ -6628,12 +7313,12 @@ FK
 FK
 FK
 FK
+QI
 FK
 FK
 FK
 FK
-FK
-FK
+QI
 FK
 FK
 FK
@@ -6700,28 +7385,28 @@ FK
 FK
 FK
 FK
+QI
 FK
 FK
 FK
 FK
-FK
-FK
+QI
 FK
 FK
 vS
-Ib
-Fw
-LB
-Fw
-LB
-Fw
-LB
-LB
-Fw
-Fw
-LB
-gW
-hR
+fz
+Qc
+kq
+Qc
+kq
+Qc
+kq
+kq
+Qc
+Qc
+kq
+Qc
+iz
 vS
 FK
 FK
@@ -6811,22 +7496,23 @@ FK
 FK
 FK
 vS
-Ib
-rs
-AI
-Fw
-Fw
-AI
-Fw
-gW
-Fw
-AI
-gW
-Fw
-gW
+fz
+nR
+SU
+Qc
+Qc
+SU
+Qc
+Qc
+Qc
+SU
+Qc
+Qc
+Qc
 vS
 FK
 FK
+QI
 FK
 FK
 FK
@@ -6834,8 +7520,7 @@ FK
 FK
 FK
 FK
-FK
-FK
+QI
 FK
 FK
 FK
@@ -6913,19 +7598,19 @@ FK
 FK
 FK
 Tv
-XN
-Fw
-hR
-hR
-hR
-Fw
-Fw
-hR
-hR
-Fw
-hR
-gW
-Fw
+Yn
+Qc
+Ej
+Ej
+Ej
+Qc
+Qc
+iz
+rA
+Qc
+rA
+Qc
+Qc
 Tv
 FK
 FK
@@ -7005,7 +7690,7 @@ FK
 FK
 FK
 FK
-FK
+QI
 FK
 FK
 FK
@@ -7035,7 +7720,7 @@ FK
 FK
 FK
 FK
-FK
+QI
 FK
 FK
 FK
@@ -7141,7 +7826,7 @@ FK
 FK
 FK
 FK
-FK
+QI
 FK
 FK
 FK
@@ -7213,6 +7898,10 @@ FK
 FK
 FK
 FK
+QI
+FK
+FK
+QI
 FK
 FK
 FK
@@ -7231,11 +7920,7 @@ FK
 FK
 FK
 FK
-FK
-FK
-FK
-FK
-FK
+QI
 FK
 FK
 FK
@@ -7545,7 +8230,7 @@ FK
 FK
 FK
 FK
-FK
+QI
 FK
 FK
 FK
