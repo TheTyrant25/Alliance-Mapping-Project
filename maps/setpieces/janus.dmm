@@ -1,4 +1,36 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"at" = (
+/obj/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/turf/unsimulated/floor/blackwhite/whitegrime,
+/area/space)
+"aR" = (
+/obj/cable{
+	icon_state = "2-9"
+	},
+/obj/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"bc" = (
+/obj/machinery/door/poddoor/blast{
+	icon_state = "bdoorright1";
+	dir = 8
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"bf" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
+	},
+/obj/disposalpipe/junction/left/south,
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "bn" = (
 /obj/stool/chair/comfy{
 	name = "ratty brown chair";
@@ -22,9 +54,19 @@
 /obj/machinery/atmospherics/mixer,
 /turf/unsimulated/floor/engine,
 /area/space)
+"cP" = (
+/obj/cable{
+	icon_state = "2-5"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "dl" = (
 /obj/stool/chair/office/blue{
 	dir = 4
+	},
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
 	},
 /turf/simulated/floor/carpet/red/fancy/narrow/east,
 /area/space)
@@ -34,6 +76,13 @@
 	dir = 1
 	},
 /turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"dW" = (
+/obj/machinery/conveyor/SN{
+	id = "Janus_disposals"
+	},
+/obj/machinery/crusher,
+/turf/unsimulated/floor/plating,
 /area/space)
 "dZ" = (
 /obj/machinery/atmospherics/pipe/vent{
@@ -52,14 +101,44 @@
 /obj/machinery/glass_recycler,
 /turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
+"eM" = (
+/obj/cable{
+	icon_state = "4-10"
+	},
+/obj/barricade,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"eN" = (
+/obj/cable{
+	icon_state = "5-8"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"fv" = (
+/turf/simulated/floor/purplewhite,
+/area/space)
 "fN" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_x = 25
+	},
+/obj/cable{
+	icon_state = "0-8"
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
 "fU" = (
 /turf/simulated/floor/carpet/red/fancy/edge,
+/area/space)
+"gi" = (
+/obj/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"gm" = (
+/obj/machinery/traymachine/locking/crematorium,
+/turf/unsimulated/floor/plating,
 /area/space)
 "gp" = (
 /obj/machinery/atmospherics/pipe/manifold,
@@ -80,13 +159,16 @@
 /turf/simulated/floor/carpet/red/fancy/narrow/eastwest,
 /area/space)
 "gB" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/carpet/red/fancy/narrow/west,
 /area/space)
 "gD" = (
-/obj/cable{
-	icon_state = "1-2"
+/obj/disposalpipe/segment,
+/turf/simulated/floor/purplewhite{
+	dir = 1
 	},
-/turf/unsimulated/floor/grime,
 /area/space)
 "gG" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
@@ -95,13 +177,15 @@
 /obj/machinery/meter,
 /turf/unsimulated/floor/engine,
 /area/space)
+"gW" = (
+/turf/unsimulated/floor/pryable,
+/area/space)
 "hu" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold,
 /turf/unsimulated/floor/engine,
 /area/space)
 "hR" = (
-/obj/placeholder,
-/turf/unsimulated/floor/black/grime,
+/turf/simulated/floor/purple,
 /area/space)
 "iZ" = (
 /obj/cable{
@@ -119,11 +203,30 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"jo" = (
+/obj/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"jX" = (
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
 "kc" = (
 /obj/cable{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/red/fancy/narrow/east,
+/area/space)
+"kU" = (
+/obj/cable{
+	icon_state = "4-10"
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "li" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
@@ -132,10 +235,46 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/space)
+"ls" = (
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"lV" = (
+/obj/cable{
+	dir = null;
+	icon_state = "4-9"
+	},
+/obj/cable{
+	icon_state = "4-10"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"mc" = (
+/obj/disposalpipe/junction/middle/south,
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "mo" = (
+/obj/cable{
+	icon_state = "2-9"
+	},
 /turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 6
 	},
+/area/space)
+"mA" = (
+/obj/cable{
+	icon_state = "1-8"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"mO" = (
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
 "nC" = (
 /obj/cable{
@@ -187,9 +326,34 @@
 	dir = 8
 	},
 /area/space)
+"oG" = (
+/obj/machinery/disposal,
+/obj/disposalpipe/trunk/north,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"oO" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
 "px" = (
 /obj/artifact_spawner,
 /turf/unsimulated/floor/grime,
+/area/space)
+"pE" = (
+/obj/disposalpipe/segment,
+/turf/simulated/floor/purple/checker,
+/area/space)
+"pP" = (
+/obj/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "pV" = (
 /obj/cable{
@@ -203,6 +367,15 @@
 /area/space)
 "qg" = (
 /turf/unsimulated/floor/specialroom/bar,
+/area/space)
+"qv" = (
+/turf/simulated/floor/purplewhite{
+	dir = 1
+	},
+/area/space)
+"qL" = (
+/obj/disposalpipe/junction/left/south,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "rh" = (
 /obj/cable/brown{
@@ -220,6 +393,19 @@
 	id = "Janus1"
 	},
 /turf/unsimulated/floor/plating,
+/area/space)
+"rn" = (
+/obj/disposalpipe/junction/left/west,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"rs" = (
+/turf/simulated/floor/purplewhite{
+	dir = 5
+	},
+/area/space)
+"rB" = (
+/obj/machinery/disposal,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "rQ" = (
 /obj/stool/chair/office/blue{
@@ -239,6 +425,25 @@
 	pixel_y = 30
 	},
 /turf/unsimulated/floor/grime,
+/area/space)
+"sj" = (
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/decal/fakeobjects/apc_broken{
+	pixel_y = 30
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"sC" = (
+/obj/cable{
+	dir = null;
+	icon_state = "4-9"
+	},
+/obj/cable{
+	icon_state = "4-10"
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "sV" = (
 /obj/machinery/door/poddoor/blast{
@@ -261,6 +466,11 @@
 /obj/machinery/meter,
 /turf/unsimulated/floor/engine,
 /area/space)
+"tE" = (
+/obj/disposaloutlet,
+/obj/disposalpipe/trunk/north,
+/turf/unsimulated/floor/plating,
+/area/space)
 "tI" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_y = 30
@@ -277,6 +487,21 @@
 /obj/machinery/meter,
 /turf/unsimulated/floor/engine,
 /area/space)
+"ug" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"uh" = (
+/turf/simulated/floor/purplewhite{
+	dir = 9
+	},
+/area/space)
 "ut" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -286,14 +511,53 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"uG" = (
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/plating,
+/area/space)
 "uJ" = (
 /obj/cable/brown,
 /obj/machinery/atmospherics/binary/reactor_turbine,
 /turf/unsimulated/floor/engine,
 /area/space)
+"uP" = (
+/obj/stool/chair/comfy{
+	name = "ratty brown chair";
+	dir = 8
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
 "uY" = (
 /obj/table/reinforced/bar/auto,
 /turf/unsimulated/floor/specialroom/bar,
+/area/space)
+"vk" = (
+/obj/cable{
+	dir = null;
+	icon_state = "1-6"
+	},
+/obj/cable{
+	icon_state = "1-10"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"vz" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/obj/barricade,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"vP" = (
+/obj/machinery/disposal,
+/obj/disposalpipe/trunk/south,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "vS" = (
 /turf/unsimulated/wall/setpieces/leadwindow/gray{
@@ -303,6 +567,9 @@
 "vZ" = (
 /obj/cable{
 	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
 	},
 /turf/unsimulated/floor/specialroom/bar,
 /area/space)
@@ -318,9 +585,26 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
+"xD" = (
+/obj/disposalpipe/broken,
+/turf/unsimulated/floor/plating,
+/area/space)
+"xQ" = (
+/obj/machinery/conveyor_switch{
+	id = "Janus_disposals"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
 "ys" = (
 /obj/stool/chair/comfy{
 	name = "ratty brown chair"
+	},
+/turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"yA" = (
+/obj/table/wood/auto,
+/obj/disposalpipe/segment{
+	dir = 4
 	},
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
@@ -345,8 +629,17 @@
 	},
 /turf/unsimulated/floor/specialroom/bar,
 /area/space)
+"Av" = (
+/obj/machinery/door/poddoor/blast{
+	icon_state = "bdoorleft1";
+	dir = 8
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
 "AI" = (
-/turf/simulated/floor/carpet/red/fancy/narrow/eastwest,
+/turf/simulated/floor/purplewhite{
+	dir = 4
+	},
 /area/space)
 "Bc" = (
 /obj/table/reinforced/auto,
@@ -387,6 +680,24 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"Dk" = (
+/obj/cable{
+	icon_state = "2-9"
+	},
+/obj/cable{
+	icon_state = "2-5"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Dn" = (
+/obj/cable{
+	icon_state = "1-4"
+	},
+/obj/cable{
+	icon_state = "2-4"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "Ds" = (
 /obj/machinery/field_generator{
 	anchored = 1;
@@ -398,17 +709,36 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
+/obj/disposalpipe/segment,
+/obj/machinery/door/poddoor/blast{
+	dir = 8;
+	id = "Janus1"
+	},
 /turf/unsimulated/floor/plating,
 /area/space)
 "DH" = (
 /obj/machinery/atmospherics/pipe/simple/insulated,
 /turf/unsimulated/floor/engine,
 /area/space)
+"DP" = (
+/obj/machinery/conveyor/SN{
+	id = "Janus_disposals"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
 "DX" = (
 /obj/cable{
 	icon_state = "1-4"
 	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
 /turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"Ei" = (
+/obj/disposalpipe/trunk/west,
+/obj/machinery/disposal,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "Em" = (
 /obj/cable{
@@ -433,8 +763,34 @@
 "Fw" = (
 /turf/unsimulated/floor/plating,
 /area/space)
+"FE" = (
+/obj/stool/chair/comfy{
+	dir = 4;
+	name = "ratty brown chair"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
 "FK" = (
 /turf/unsimulated/outdoors/grass,
+/area/space)
+"FY" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
+	},
+/obj/cable{
+	icon_state = "5-8"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Gp" = (
+/obj/machinery/conveyor/NS{
+	id = "Janus_disposals"
+	},
+/turf/unsimulated/floor/plating,
 /area/space)
 "Gu" = (
 /obj/cable{
@@ -468,6 +824,23 @@
 	},
 /turf/unsimulated/floor/grime,
 /area/space)
+"GU" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
+	},
+/obj/barricade,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"GX" = (
+/obj/disposalpipe/broken{
+	dir = 1
+	},
+/obj/disposalpipe/broken{
+	dir = 4
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
 "Hd" = (
 /turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 1
@@ -479,6 +852,12 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"Ib" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/turf/unsimulated/floor/pryable,
+/area/space)
 "Ie" = (
 /obj/machinery/door/poddoor/blast{
 	icon_state = "bdoorleft1";
@@ -486,11 +865,38 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
+"Ii" = (
+/obj/disposalpipe/broken{
+	dir = 1
+	},
+/obj/disposalpipe/broken{
+	dir = 2
+	},
+/obj/cable{
+	icon_state = "1-4"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"Ix" = (
+/obj/cable{
+	icon_state = "1-4"
+	},
+/obj/cable{
+	icon_state = "1-8"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "IG" = (
 /obj/machinery/atmospherics/pipe/simple/insulated,
 /turf/unsimulated/wall/setpieces/leadwindow/gray{
 	dir = 4
 	},
+/area/space)
+"IM" = (
+/obj/disposalpipe/broken{
+	dir = 1
+	},
+/turf/simulated/floor/purplewhite,
 /area/space)
 "Jk" = (
 /obj/machinery/atmospherics/pipe/manifold{
@@ -514,7 +920,17 @@
 /obj/cable{
 	icon_state = "2-4"
 	},
+/obj/cable{
+	icon_state = "2-8"
+	},
 /turf/unsimulated/floor/black/grime,
+/area/space)
+"Kp" = (
+/obj/disposalpipe/segment,
+/obj/cable{
+	icon_state = "1-8"
+	},
+/turf/unsimulated/floor/plating,
 /area/space)
 "Kr" = (
 /obj/reagent_dispensers/beerkeg,
@@ -529,6 +945,7 @@
 	dir = 1;
 	name = "Kitchen"
 	},
+/obj/disposalpipe/segment,
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
 "KH" = (
@@ -537,6 +954,17 @@
 	},
 /obj/machinery/atmospherics/binary/nuclear_reactor,
 /turf/unsimulated/floor/engine,
+/area/space)
+"KY" = (
+/obj/cable{
+	dir = null;
+	icon_state = "1-6"
+	},
+/obj/cable{
+	icon_state = "1-10"
+	},
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "Ll" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
@@ -551,12 +979,12 @@
 /turf/unsimulated/floor/engine,
 /area/space)
 "LB" = (
-/obj/overlay{
-	density = 1;
-	dir = 4;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "airlock_closed";
-	name = "broken airlock"
+/turf/simulated/floor/purple/checker,
+/area/space)
+"LH" = (
+/obj/cable{
+	dir = null;
+	icon_state = "1-6"
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
@@ -564,9 +992,22 @@
 /obj/machinery/atmospherics/valve,
 /turf/unsimulated/floor/engine,
 /area/space)
+"LV" = (
+/obj/machinery/conveyor/NW{
+	id = "Janus_disposals"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
 "Ma" = (
 /obj/table/wood/auto,
 /turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"Mp" = (
+/obj/cable{
+	icon_state = "2-9"
+	},
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "MD" = (
 /obj/machinery/atmospherics/pipe/manifold{
@@ -590,6 +1031,13 @@
 	dir = 10
 	},
 /area/space)
+"Nq" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "Nr" = (
 /obj/overlay{
 	density = 1;
@@ -609,6 +1057,19 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"Ov" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
+	},
+/obj/cable{
+	icon_state = "5-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "Ow" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4;
@@ -620,6 +1081,13 @@
 	target_pressure = 1000
 	},
 /turf/unsimulated/floor/engine,
+/area/space)
+"Ox" = (
+/obj/disposalpipe/segment,
+/obj/cable{
+	icon_state = "1-2"
+	},
+/turf/unsimulated/floor/plating,
 /area/space)
 "Oz" = (
 /obj/decal/fakeobjects/tallsmes,
@@ -666,6 +1134,13 @@
 "PH" = (
 /turf/unsimulated/wall/setpieces/leadwindow/gray,
 /area/space)
+"Qc" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/barricade,
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "Qn" = (
 /obj/machinery/door/unpowered/wood{
 	dir = 4
@@ -677,6 +1152,17 @@
 	icon_state = "bdoorleft1"
 	},
 /turf/unsimulated/floor/plating,
+/area/space)
+"Qy" = (
+/obj/machinery/conveyor/EW{
+	id = "Janus_disposals"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"QD" = (
+/obj/disposalpipe/trunk/west,
+/obj/machinery/disposal,
+/turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
 "QE" = (
 /obj/table/auto,
@@ -706,6 +1192,19 @@
 /obj/decal/fakeobjects/apc_broken{
 	pixel_y = 30
 	},
+/obj/cable{
+	icon_state = "0-2"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"SM" = (
+/obj/cable{
+	icon_state = "2-9"
+	},
+/obj/cable{
+	icon_state = "2-5"
+	},
+/obj/disposalpipe/segment,
 /turf/unsimulated/floor/black/grime,
 /area/space)
 "Tc" = (
@@ -719,6 +1218,17 @@
 	icon_state = "2-9"
 	},
 /turf/unsimulated/floor/engine,
+/area/space)
+"Td" = (
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"Tl" = (
+/obj/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "Tt" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -740,9 +1250,21 @@
 /obj/machinery/portable_atmospherics/canister/empty,
 /turf/unsimulated/floor/engine,
 /area/space)
+"TS" = (
+/turf/simulated/floor/purplewhite{
+	dir = 10
+	},
+/area/space)
+"Ub" = (
+/obj/barricade,
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "Ui" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_x = -25
+	},
+/obj/cable{
+	icon_state = "0-4"
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
@@ -758,11 +1280,24 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"UJ" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/purple,
+/area/space)
 "US" = (
 /obj/machinery/door/poddoor/blast{
 	dir = 4
 	},
 /turf/unsimulated/floor/plating,
+/area/space)
+"Vc" = (
+/obj/cable{
+	dir = null;
+	icon_state = "4-9"
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "VD" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
@@ -770,12 +1305,26 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"VI" = (
+/obj/cable{
+	icon_state = "1-8"
+	},
+/obj/cable{
+	icon_state = "2-8"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "VW" = (
 /obj/machinery/door/poddoor/blast{
 	dir = 8;
-	id = "Janus1"
+	id = ""
 	},
 /turf/unsimulated/floor/plating,
+/area/space)
+"VX" = (
+/turf/simulated/floor/purplewhite{
+	dir = 8
+	},
 /area/space)
 "Wq" = (
 /obj/table/reinforced/auto,
@@ -798,6 +1347,9 @@
 /obj/decal/fakeobjects/apc_broken{
 	pixel_x = -25
 	},
+/obj/cable{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 8
 	},
@@ -807,6 +1359,24 @@
 	dir = 1
 	},
 /turf/unsimulated/floor/engine,
+/area/space)
+"XK" = (
+/obj/decal/fakeobjects/apc_broken{
+	pixel_x = -25
+	},
+/obj/cable{
+	icon_state = "0-2"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"XN" = (
+/obj/decal/fakeobjects/apc_broken{
+	pixel_y = 30
+	},
+/obj/cable{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/purple,
 /area/space)
 "XO" = (
 /turf/unsimulated/floor/grime,
@@ -822,6 +1392,28 @@
 	dir = 4
 	},
 /area/space)
+"Yz" = (
+/obj/cable{
+	icon_state = "1-10"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"YG" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
+	},
+/obj/cable{
+	icon_state = "5-8"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"YH" = (
+/obj/machinery/conveyor/EN{
+	id = "Janus_disposals"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
 "YJ" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
 	dir = 10
@@ -833,6 +1425,15 @@
 	icon_state = "1-2"
 	},
 /turf/unsimulated/floor/engine,
+/area/space)
+"Zq" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "ZH" = (
 /obj/cable{
@@ -1923,7 +2524,7 @@ Tv
 Tv
 Tv
 ri
-ri
+rB
 ri
 Fw
 HT
@@ -1941,7 +2542,7 @@ MF
 MF
 Fw
 ri
-ri
+rB
 ri
 Tv
 Tv
@@ -2024,7 +2625,7 @@ Fw
 Fw
 Fw
 Fw
-ri
+LH
 ri
 ri
 Fw
@@ -2042,9 +2643,9 @@ MF
 MF
 MF
 Fw
+LH
 ri
-ri
-ri
+cP
 Fw
 Fw
 Fw
@@ -2127,7 +2728,7 @@ Fw
 Fw
 Tv
 ri
-ri
+Vc
 ri
 Fw
 Bf
@@ -2145,7 +2746,7 @@ MF
 MF
 Fw
 ri
-ri
+sC
 ri
 Tv
 Fw
@@ -2229,7 +2830,7 @@ Fw
 Fw
 Tv
 ri
-ri
+Br
 ri
 Tv
 rh
@@ -2247,7 +2848,7 @@ MF
 MF
 Tv
 ri
-ri
+Br
 ri
 Tv
 Fw
@@ -2331,7 +2932,7 @@ Tv
 Tv
 Tv
 ri
-ri
+Br
 ri
 Tv
 rh
@@ -2349,7 +2950,7 @@ Tt
 MF
 Tv
 ri
-ri
+Br
 ri
 Tv
 Fw
@@ -2433,7 +3034,7 @@ Fw
 Fw
 Tv
 ri
-ri
+Br
 ri
 vS
 HT
@@ -2451,7 +3052,7 @@ MF
 MF
 vS
 ri
-ri
+Br
 ri
 Tv
 Fw
@@ -2553,7 +3154,7 @@ MF
 MF
 vS
 ri
-ri
+Br
 ri
 Tv
 Fw
@@ -2655,7 +3256,7 @@ MF
 MF
 Tv
 ri
-ri
+Br
 ri
 Tv
 Fw
@@ -2757,7 +3358,7 @@ Tv
 Tv
 Tv
 ri
-ri
+Br
 ri
 Tv
 Tv
@@ -2832,16 +3433,16 @@ FK
 FK
 ri
 ri
+GU
+ri
+Ub
 ri
 ri
 ri
+Ub
 ri
 ri
-ri
-ri
-ri
-ri
-Br
+FY
 ri
 ri
 ri
@@ -2859,6 +3460,7 @@ ri
 ri
 ri
 ri
+FY
 ri
 ri
 ri
@@ -2867,8 +3469,7 @@ ri
 ri
 ri
 ri
-ri
-ri
+eN
 ri
 Tv
 FK
@@ -2935,16 +3536,16 @@ FK
 ri
 ri
 ri
+Dk
+Qc
+ZH
+Qc
 ZH
 ZH
 ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-Br
-ZH
+vk
+ri
+Dk
 ZH
 ZH
 ZH
@@ -2952,7 +3553,7 @@ ZH
 ZH
 nV
 ZH
-ZH
+VI
 ZH
 nV
 ZH
@@ -2960,18 +3561,18 @@ ZH
 ZH
 ZH
 ZH
-ZH
+vk
 ri
+Dk
 ZH
 ZH
 ZH
 ZH
 ZH
 ZH
-ZH
-ZH
+vk
 ri
-ri
+rB
 Tv
 FK
 FK
@@ -3036,16 +3637,16 @@ FK
 FK
 ri
 ri
+eM
 ri
 ri
 ri
+Ub
+ri
+Ub
 ri
 ri
-ri
-ri
-ri
-ri
-Br
+sC
 ri
 ri
 ri
@@ -3063,6 +3664,7 @@ ri
 ri
 ri
 ri
+sC
 ri
 ri
 ri
@@ -3071,8 +3673,7 @@ ri
 ri
 ri
 ri
-ri
-ri
+Vc
 ri
 Tv
 FK
@@ -3165,7 +3766,7 @@ PH
 Tv
 Tv
 ri
-ri
+Br
 ri
 Tv
 Tv
@@ -3236,11 +3837,11 @@ FK
 Tv
 by
 Wz
-oj
+at
 Kz
-Bt
-Bt
-Bt
+Td
+Td
+jo
 Bt
 Bt
 Bt
@@ -3266,8 +3867,8 @@ XO
 XO
 px
 Tv
-hR
 ri
+Br
 ri
 Tv
 XO
@@ -3338,11 +3939,11 @@ FK
 Tv
 by
 oj
-oj
+mO
 Tv
 Bt
 Bt
-Bt
+jX
 Bt
 Bt
 OY
@@ -3368,8 +3969,8 @@ XO
 XO
 XO
 vS
-hR
 ri
+Br
 ri
 Tv
 XO
@@ -3440,11 +4041,11 @@ FK
 Tv
 TG
 oj
-oj
+QD
 Tv
 Bt
 OY
-OY
+FE
 Bt
 ys
 Ma
@@ -3470,8 +4071,8 @@ XO
 XO
 XO
 vS
-hR
 ri
+Br
 ri
 Tv
 XO
@@ -3546,7 +4147,7 @@ Kr
 Tv
 ys
 Ma
-Ma
+yA
 dQ
 ys
 Ma
@@ -3572,8 +4173,8 @@ Fw
 XO
 XO
 Tv
-hR
 ri
+Br
 ri
 Tv
 XO
@@ -3648,7 +4249,7 @@ Kr
 Tv
 ys
 Ma
-Ma
+yA
 dQ
 ys
 Ma
@@ -3675,7 +4276,7 @@ Fw
 XO
 Tv
 Tv
-LB
+Nr
 Tv
 Tv
 XO
@@ -3750,7 +4351,7 @@ En
 Tv
 Bt
 bn
-bn
+uP
 Bt
 Bt
 bn
@@ -3759,9 +4360,9 @@ Bt
 bn
 Tv
 ri
-Br
+Fw
 ri
-rj
+bc
 XO
 Fw
 Fw
@@ -3777,7 +4378,7 @@ Fw
 XO
 Gz
 ri
-ri
+Br
 ri
 Tv
 XO
@@ -3861,7 +4462,7 @@ Bt
 Bt
 Tv
 SD
-Br
+Ix
 ri
 VW
 XO
@@ -3879,7 +4480,7 @@ Fw
 XO
 US
 ri
-ri
+Br
 ri
 Tv
 XO
@@ -3981,7 +4582,7 @@ Fw
 XO
 sV
 ri
-ri
+Br
 ri
 Tv
 XO
@@ -4083,7 +4684,7 @@ Fw
 XO
 Tv
 Tv
-LB
+Nr
 Tv
 Tv
 XO
@@ -4185,7 +4786,7 @@ XO
 XO
 Tv
 ri
-ri
+Br
 ri
 Tv
 XO
@@ -4287,7 +4888,7 @@ XO
 XO
 vS
 ri
-ri
+Br
 ri
 Tv
 XO
@@ -4389,7 +4990,7 @@ XO
 XO
 vS
 ri
-ri
+Br
 ri
 Tv
 XO
@@ -4491,7 +5092,7 @@ XO
 XO
 Tv
 ri
-ri
+Br
 ri
 Tv
 rU
@@ -4566,7 +5167,7 @@ PH
 Tv
 Tv
 Fw
-nC
+oO
 Fw
 Tv
 Tv
@@ -4593,7 +5194,7 @@ PH
 Tv
 Tv
 ri
-ri
+Br
 ri
 Tv
 Tv
@@ -4668,7 +5269,7 @@ FK
 FK
 Tv
 ri
-Br
+ug
 ri
 ri
 ri
@@ -4677,8 +5278,8 @@ ri
 ri
 ri
 ri
-Br
-ri
+YG
+Fw
 ri
 ri
 ri
@@ -4695,6 +5296,7 @@ ri
 ri
 ri
 ri
+FY
 ri
 ri
 ri
@@ -4703,8 +5305,7 @@ ri
 ri
 ri
 ri
-ri
-ri
+eN
 ri
 Tv
 FK
@@ -4769,18 +5370,18 @@ FK
 FK
 FK
 Tv
-ri
-Br
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-Br
-ZH
+vP
+qL
+SM
+Nq
+Nq
+Nq
+Nq
+Nq
+Nq
+KY
+GX
+Dk
 ZH
 ZH
 ZH
@@ -4788,7 +5389,7 @@ ZH
 ZH
 nV
 ZH
-ZH
+Dn
 ZH
 nV
 ZH
@@ -4796,18 +5397,18 @@ ZH
 ZH
 ZH
 ZH
-ZH
-ri
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ZH
-ri
-ri
+vk
+pP
+SM
+Nq
+Nq
+Nq
+Nq
+Nq
+Nq
+KY
+ls
+oG
 Tv
 FK
 FK
@@ -4872,7 +5473,7 @@ FK
 FK
 Tv
 ri
-Br
+kU
 ri
 ri
 ri
@@ -4880,8 +5481,8 @@ ri
 ri
 ri
 ri
-ri
-Br
+Fw
+lV
 ri
 ri
 ri
@@ -4899,6 +5500,7 @@ ri
 ri
 ri
 ri
+lV
 ri
 ri
 ri
@@ -4907,8 +5509,7 @@ ri
 ri
 ri
 ri
-ri
-ri
+Vc
 ri
 Tv
 FK
@@ -4983,7 +5584,7 @@ Tv
 Tv
 Tv
 ri
-Br
+Zq
 ri
 Tv
 Tv
@@ -5000,9 +5601,9 @@ Tv
 Tv
 Tv
 Tv
+Ub
+Zq
 ri
-ri
-ri
 Tv
 Tv
 Tv
@@ -5010,7 +5611,7 @@ Tv
 Tv
 Tv
 Tv
-Fw
+nC
 Tv
 Tv
 FK
@@ -5085,25 +5686,25 @@ Xi
 Nm
 Tv
 ri
-Br
+Zq
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+hR
+hR
+hR
+hR
+hR
+hR
+Fw
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
-ri
-ri
+Ub
+vz
 ri
 Tv
 Fw
@@ -5111,8 +5712,8 @@ Fw
 Fw
 Fw
 Fw
-Fw
-Fw
+XK
+mA
 Tv
 FK
 FK
@@ -5187,26 +5788,26 @@ gB
 fU
 Tv
 ri
-Br
+Zq
 ri
 vS
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+hR
+uh
+VX
+VX
+VX
+VX
+VX
+VX
+Fw
+VX
+VX
+TS
+hR
 vS
 ri
-ri
-ri
+vz
+Ub
 Tv
 Fw
 Fw
@@ -5285,30 +5886,30 @@ iZ
 yL
 Tv
 OG
-AI
+gz
 yL
 Tv
 ri
-Br
+Zq
 ri
 vS
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+hR
+Fw
+LB
+LB
+LB
+Fw
+Fw
+LB
+LB
+LB
+LB
+fv
+hR
 vS
 ri
-ri
-ri
+Zq
+Ub
 Tv
 Fw
 Fw
@@ -5387,37 +5988,37 @@ gz
 Wq
 Tv
 Hd
-AI
+gz
 Wq
 Tv
 ri
-Br
+Zq
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+hR
+qv
+LB
+LB
+Fw
+LB
+Fw
+Fw
+LB
+LB
+LB
+fv
+hR
 Tv
 ri
+Zq
 ri
-ri
 Tv
 Tv
 Tv
 Tv
 Tv
 Tv
-Tv
+Fw
 Tv
 Tv
 FK
@@ -5489,38 +6090,38 @@ gz
 yL
 Tv
 OG
-AI
+gz
 yL
 Tv
 ri
-Br
+Zq
 ri
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+hR
+qv
+LB
+Fw
+LB
+LB
+Fw
+LB
+Fw
+Fw
+LB
+fv
+hR
 Tv
 ri
-ri
+Zq
 ri
 Tv
+gm
 Fw
-Fw
-Fw
-Fw
-Fw
-Fw
-Fw
+DP
+DP
+dW
+DP
+YH
 Tv
 FK
 FK
@@ -5595,34 +6196,34 @@ dl
 fU
 Tv
 ri
+Ov
 ri
-ri
+rj
+hR
+qv
+LB
+LB
+LB
 Fw
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
 Fw
-ri
-ri
-ri
+LB
+LB
+Fw
+LB
+fv
+hR
+Fw
+pP
+bf
+Tl
 Tv
+sj
 Fw
 Fw
 Fw
 Fw
-Fw
-Fw
-Fw
+xQ
+Qy
 Tv
 FK
 FK
@@ -5696,35 +6297,35 @@ Jn
 Bc
 mo
 ZH
-ZH
-ri
-ZH
+Yz
+mc
+Mp
 Dz
+Ii
 gD
-gD
-gD
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-Fw
+pE
+pE
+pE
+uG
+uG
+uG
+pE
+pE
+uG
+IM
+hR
+xD
+rn
 ri
-ri
-ri
-Fw
-Fw
-Fw
-Fw
-Fw
-Fw
-Fw
-Fw
+aR
+Ox
+Kp
+uG
+uG
+uG
+tE
+Gp
+LV
 Tv
 FK
 FK
@@ -5799,25 +6400,25 @@ Tv
 Tv
 Tv
 ri
+Ei
 ri
-ri
+Av
+UJ
+qv
+LB
+LB
 Fw
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
 Fw
-ri
-ri
+Fw
+Fw
+LB
+LB
+LB
+fv
+hR
+Fw
+gi
+oG
 ri
 Tv
 Tv
@@ -5904,19 +6505,19 @@ Tv
 Tv
 Tv
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+UJ
+qv
+LB
+LB
+Fw
+LB
+Fw
+Fw
+Fw
+LB
+LB
+Fw
+hR
 Tv
 Tv
 Tv
@@ -6006,19 +6607,19 @@ FK
 FK
 FK
 Tv
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+UJ
+qv
+gW
+Fw
+Fw
+LB
+Fw
+LB
+Fw
+LB
+gW
+fv
+hR
 Tv
 FK
 FK
@@ -6108,19 +6709,19 @@ FK
 FK
 FK
 vS
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+Ib
+Fw
+LB
+Fw
+LB
+Fw
+LB
+LB
+Fw
+Fw
+LB
+gW
+hR
 vS
 FK
 FK
@@ -6210,19 +6811,19 @@ FK
 FK
 FK
 vS
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+Ib
+rs
+AI
+Fw
+Fw
+AI
+Fw
+gW
+Fw
+AI
+gW
+Fw
+gW
 vS
 FK
 FK
@@ -6312,19 +6913,19 @@ FK
 FK
 FK
 Tv
-rU
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
-XO
+XN
+Fw
+hR
+hR
+hR
+Fw
+Fw
+hR
+hR
+Fw
+hR
+gW
+Fw
 Tv
 FK
 FK
