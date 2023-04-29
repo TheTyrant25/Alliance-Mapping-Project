@@ -1,19 +1,47 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aD" = (
+"aI" = (
 /obj/cable{
-	icon_state = "1-4"
+	icon_state = "0-4"
 	},
-/turf/unsimulated/floor/grey/whitegrime/other,
+/obj/decal/fakeobjects/apc_broken{
+	pixel_y = 30
+	},
+/turf/unsimulated/floor/plating,
 /area/space)
-"aQ" = (
-/obj/stool/chair/comfy{
-	dir = 4;
-	name = "ratty brown chair"
+"aS" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
+	},
+/obj/cable{
+	icon_state = "5-8"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"aT" = (
+/obj/cable{
+	icon_state = "1-10"
+	},
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"bf" = (
+/obj/disposalpipe/junction/middle/south,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"bg" = (
+/obj/cable{
+	icon_state = "2-9"
 	},
 /obj/disposalpipe/segment{
-	dir = 4
+	dir = 2;
+	icon_state = "pipe-c"
 	},
-/turf/unsimulated/floor/specialroom/cafeteria,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"bm" = (
+/obj/decal/fakeobjects/skeleton/decomposed_corpse,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "bn" = (
 /obj/stool/chair/comfy{
@@ -22,6 +50,10 @@
 	},
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
+"bv" = (
+/obj/machinery/deep_fryer,
+/turf/unsimulated/floor/blackwhite/whitegrime,
+/area/space)
 "by" = (
 /obj/storage/secure/closet/fridge{
 	desc = "I'm sure the food in this is still good.";
@@ -29,46 +61,70 @@
 	},
 /turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
+"bD" = (
+/obj/machinery/light/worn{
+	brightness = 2;
+	dir = 1
+	},
+/turf/unsimulated/floor/grime,
+/area/space)
 "bG" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/insulated/cold,
 /turf/unsimulated/floor/engine,
 /area/space)
-"bM" = (
-/obj/disposalpipe/junction/middle/south,
-/turf/unsimulated/floor/black/grime,
-/area/space)
 "bP" = (
 /obj/machinery/atmospherics/mixer,
 /turf/unsimulated/floor/engine,
 /area/space)
-"cb" = (
-/mob/living/critter/aberration,
-/turf/unsimulated/floor/plating/random,
-/area/space)
-"cc" = (
-/obj/machinery/disposal,
-/obj/disposalpipe/trunk/north,
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"ct" = (
-/mob/living/critter/aberration,
-/turf/simulated/floor/purple/checker,
-/area/space)
-"cP" = (
-/obj/decal/cleanable/blood/drip/high,
-/turf/unsimulated/floor/plating/random,
-/area/space)
-"cR" = (
-/obj/machinery/door/poddoor/blast{
-	icon_state = "bdoorleft1";
-	dir = 8
-	},
+"bV" = (
+/obj/disposalpipe/segment,
 /turf/unsimulated/floor/plating,
 /area/space)
-"cV" = (
-/obj/machinery/door/unpowered/wood/stall,
-/turf/unsimulated/floor/grey/whitegrime/other,
+"cu" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibdown1"
+	},
+/turf/unsimulated/floor/grime,
+/area/space)
+"cB" = (
+/obj/decal/fakeobjects{
+	anchored = 1;
+	density = 1;
+	desc = "Filing cabinets. The locking mechanism is jammed.";
+	dir = 4;
+	icon = 'icons/obj/computer.dmi';
+	icon_state = "messyfilesb";
+	name = "facility records";
+	tag = "icon-messyfilesb (EAST)"
+	},
+/turf/simulated/floor/purple,
+/area/space)
+"cJ" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/white/grime,
+/area/space)
+"cQ" = (
+/obj/cable{
+	icon_state = "1-4"
+	},
+/obj/cable{
+	icon_state = "1-8"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"dc" = (
+/obj/disposalpipe/broken{
+	dir = 1
+	},
+/turf/simulated/floor/purplewhite,
+/area/space)
+"dh" = (
+/obj/random_item_spawner/organs/bloody,
+/turf/unsimulated/floor/grime,
 /area/space)
 "dl" = (
 /obj/stool/chair/office/blue{
@@ -80,37 +136,8 @@
 	},
 /turf/simulated/floor/carpet/red/fancy/narrow/east,
 /area/space)
-"dm" = (
-/obj/cable{
-	icon_state = "2-9"
-	},
-/obj/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
-	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"dy" = (
-/obj/machinery/optable{
-	id = "OR1"
-	},
-/turf/simulated/floor/white/grime,
-/area/space)
-"dB" = (
-/obj/decal/cleanable/blood/drip/high,
-/turf/unsimulated/floor/grime,
-/area/space)
-"dE" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gib2"
-	},
-/turf/unsimulated/floor/grime,
-/area/space)
-"dJ" = (
-/obj/machinery/conveyor/SN{
-	id = "Janus_disposals"
-	},
-/turf/unsimulated/floor/plating,
+"dI" = (
+/turf/simulated/floor/purple,
 /area/space)
 "dQ" = (
 /obj/stool/chair/comfy{
@@ -119,42 +146,11 @@
 	},
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
-"dU" = (
-/obj/decal/cleanable/blood/splatter,
-/turf/unsimulated/floor/grime,
-/area/space)
-"dV" = (
-/obj/cable{
-	dir = null;
-	icon_state = "6-8"
-	},
-/obj/cable{
-	icon_state = "5-8"
-	},
-/obj/disposalpipe/junction/right/east,
-/turf/unsimulated/floor/black/grime,
-/area/space)
 "dZ" = (
 /obj/machinery/atmospherics/pipe/vent{
 	dir = 1
 	},
 /turf/unsimulated/outdoors/grass,
-/area/space)
-"ed" = (
-/obj/iv_stand,
-/turf/simulated/floor/white/grime,
-/area/space)
-"eg" = (
-/obj/disposalpipe/broken{
-	dir = 1
-	},
-/obj/disposalpipe/broken{
-	dir = 2
-	},
-/obj/cable{
-	icon_state = "1-4"
-	},
-/turf/unsimulated/floor/plating/random,
 /area/space)
 "eh" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
@@ -167,56 +163,30 @@
 /obj/machinery/glass_recycler,
 /turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
-"ez" = (
+"el" = (
 /obj/submachine/chef_sink/chem_sink{
 	dir = 4
 	},
 /turf/unsimulated/floor/grey/whitegrime/other,
 /area/space)
-"eB" = (
+"eL" = (
 /obj/cable{
-	icon_state = "5-8"
+	icon_state = "1-10"
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"eS" = (
-/obj/machinery/traymachine/locking/crematorium,
-/turf/unsimulated/floor/plating,
-/area/space)
-"eT" = (
+"eN" = (
 /obj/decal/cleanable/blood/gibs{
-	icon_state = "gib1"
-	},
-/turf/unsimulated/floor/grime,
-/area/space)
-"eU" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gibarm"
+	icon_state = "gib3"
 	},
 /turf/unsimulated/floor/plating/random,
 /area/space)
-"fz" = (
-/obj/cable{
-	icon_state = "4-8"
+"fk" = (
+/obj/machinery/door/unpowered/wood/stall{
+	dir = 4;
+	lock_dir = 8
 	},
-/turf/unsimulated/floor/plating/random,
-/area/space)
-"fK" = (
-/obj/cable{
-	icon_state = "1-2"
-	},
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"fM" = (
-/obj/cable{
-	dir = null;
-	icon_state = "6-8"
-	},
-/obj/disposalpipe/segment{
-	dir = 4
-	},
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/grey/whitegrime/other,
 /area/space)
 "fN" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -225,16 +195,19 @@
 /obj/cable{
 	icon_state = "0-8"
 	},
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "fU" = (
 /turf/simulated/floor/carpet/red/fancy/edge,
 /area/space)
-"ga" = (
-/obj/machinery/conveyor/NS{
-	id = "Janus_disposals"
+"ge" = (
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"gl" = (
+/turf/simulated/floor/purplewhite{
+	dir = 4
 	},
-/turf/unsimulated/floor/plating,
 /area/space)
 "gp" = (
 /obj/machinery/atmospherics/pipe/manifold,
@@ -264,10 +237,6 @@
 /obj/disposalpipe/segment,
 /turf/simulated/floor/purple/checker,
 /area/space)
-"gE" = (
-/mob/living/critter/aberration,
-/turf/unsimulated/floor/grime,
-/area/space)
 "gG" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
 	dir = 8
@@ -275,73 +244,79 @@
 /obj/machinery/meter,
 /turf/unsimulated/floor/engine,
 /area/space)
-"gK" = (
-/obj/cable{
-	dir = null;
-	icon_state = "4-9"
-	},
-/obj/cable{
-	icon_state = "4-10"
-	},
+"gJ" = (
+/obj/table/wood/auto,
 /obj/disposalpipe/segment{
 	dir = 4
 	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"gY" = (
-/obj/cable{
-	icon_state = "4-10"
-	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"hb" = (
-/obj/machinery/disposal,
-/obj/disposalpipe/trunk/south,
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"hn" = (
-/obj/machinery/computer3/terminal/console_lower{
-	dir = 4
-	},
 /turf/unsimulated/floor/plating/random,
+/area/space)
+"gL" = (
+/obj/cable{
+	dir = null;
+	icon_state = "1-6"
+	},
+/obj/cable{
+	icon_state = "1-10"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"gT" = (
+/obj/overlay{
+	density = 1;
+	dir = 1;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "airlock_closed";
+	name = "broken airlock"
+	},
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "hu" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold,
 /turf/unsimulated/floor/engine,
 /area/space)
-"hD" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gib2"
-	},
-/turf/unsimulated/floor/plating/random,
+"hF" = (
+/obj/table/wood/auto,
+/obj/random_item_spawner/tableware,
+/turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
 "hR" = (
-/obj/machinery/traymachine/morgue,
+/turf/unsimulated/floor/void,
+/area/space)
+"hU" = (
+/obj/machinery/atmospherics/pipe/manifold{
+	dir = 8
+	},
 /turf/simulated/floor/white/grime,
 /area/space)
-"ir" = (
-/obj/disposalpipe/junction/left/west,
+"id" = (
+/mob/living/critter/mechmonstrosity/medical,
+/turf/simulated/floor/white/grime,
+/area/space)
+"io" = (
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	dir = 8
+	},
+/turf/simulated/floor/white/grime,
+/area/space)
+"iv" = (
+/obj/cable{
+	icon_state = "2-9"
+	},
+/obj/disposalpipe/segment,
 /turf/unsimulated/floor/black/grime,
 /area/space)
 "iz" = (
-/turf/simulated/floor/purple,
-/area/space)
-"iE" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 1
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
 	},
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/white/grime,
-/area/space)
-"iV" = (
-/obj/stool/chair/comfy{
-	name = "ratty brown chair";
-	dir = 8
-	},
-/obj/disposalpipe/segment{
-	dir = 4
-	},
-/turf/unsimulated/floor/specialroom/cafeteria,
+/obj/disposalpipe/junction/left/south,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "iZ" = (
 /obj/cable{
@@ -349,6 +324,12 @@
 	icon_state = "4-9"
 	},
 /turf/simulated/floor/carpet/red/fancy/narrow/eastwest,
+/area/space)
+"jd" = (
+/obj/machinery/computer3/terminal/console_lower{
+	dir = 4
+	},
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "je" = (
 /obj/machinery/atmospherics/valve{
@@ -359,34 +340,10 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"jt" = (
-/obj/machinery/atmospherics/unary/cryo_cell{
-	pipe_direction = 2
-	},
-/turf/simulated/floor/white/grime,
-/area/space)
-"jD" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gibdown1"
-	},
-/turf/unsimulated/floor/plating/random,
-/area/space)
-"jI" = (
-/mob/living/critter/aberration,
-/turf/simulated/floor/purplewhite{
-	dir = 9
-	},
-/area/space)
-"jT" = (
-/obj/table/wood/auto,
-/obj/random_item_spawner/tableware,
-/turf/unsimulated/floor/specialroom/cafeteria,
-/area/space)
-"jU" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gib3"
-	},
-/turf/unsimulated/floor/plating/random,
+"jw" = (
+/obj/machinery/disposal,
+/obj/disposalpipe/trunk/north,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "kc" = (
 /obj/cable{
@@ -394,7 +351,11 @@
 	},
 /turf/simulated/floor/carpet/red/fancy/narrow/east,
 /area/space)
-"kp" = (
+"ke" = (
+/obj/cable{
+	dir = null;
+	icon_state = "4-9"
+	},
 /obj/cable{
 	icon_state = "4-10"
 	},
@@ -403,31 +364,18 @@
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"kq" = (
-/turf/simulated/floor/purple/checker,
-/area/space)
-"kt" = (
-/obj/cable{
-	icon_state = "1-10"
+"ky" = (
+/obj/machinery/door/poddoor/blast{
+	icon_state = "bdoorright1";
+	dir = 8
 	},
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"kw" = (
-/obj/stool/bar,
-/turf/unsimulated/floor/plating/random,
-/area/space)
-"kI" = (
-/obj/machinery/conveyor/SN{
-	id = "Janus_disposals"
-	},
-/obj/machinery/crusher,
 /turf/unsimulated/floor/plating,
 /area/space)
-"kL" = (
-/obj/disposalpipe/trunk/west,
-/obj/machinery/disposal,
-/turf/unsimulated/floor/blackwhite/whitegrime,
+"kO" = (
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "li" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
@@ -436,27 +384,37 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/space)
-"lr" = (
-/obj/disposaloutlet,
-/obj/disposalpipe/trunk/north,
-/turf/unsimulated/floor/plating,
-/area/space)
-"lP" = (
-/obj/machinery/door/poddoor/blast{
-	icon_state = "bdoorright1";
-	dir = 8
+"lD" = (
+/obj/cable{
+	icon_state = "4-10"
 	},
-/turf/unsimulated/floor/plating,
-/area/space)
-"mg" = (
-/obj/table/wood/auto,
-/turf/unsimulated/floor/plating/random,
-/area/space)
-"ml" = (
 /obj/disposalpipe/segment{
 	dir = 4
 	},
 /turf/unsimulated/floor/black/grime,
+/area/space)
+"lI" = (
+/obj/barricade,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"lT" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/decal/fakeobjects/apc_broken{
+	pixel_x = 25
+	},
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
+"mb" = (
+/obj/cable{
+	icon_state = "1-4"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"mm" = (
+/obj/decoration/ntcrate,
+/turf/simulated/floor/purple,
 /area/space)
 "mo" = (
 /obj/cable{
@@ -466,13 +424,46 @@
 	dir = 6
 	},
 /area/space)
-"mF" = (
-/turf/cordon,
+"mt" = (
+/obj/disposalpipe/broken{
+	dir = 1
+	},
+/obj/disposalpipe/broken{
+	dir = 2
+	},
+/obj/cable{
+	icon_state = "1-4"
+	},
+/turf/unsimulated/floor/plating/random,
 /area/space)
-"ng" = (
-/turf/simulated/floor/purplewhite{
+"mw" = (
+/obj/disposalpipe/junction/left/west,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"mE" = (
+/obj/stool/chair/comfy{
+	name = "ratty brown chair";
 	dir = 8
 	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"nn" = (
+/obj/cable{
+	dir = null;
+	icon_state = "4-9"
+	},
+/obj/disposalpipe/segment{
+	dir = 4;
+	name = "factory pipe"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"nq" = (
+/obj/decal/cleanable/blood/drip/high,
+/turf/unsimulated/floor/grime,
 /area/space)
 "nC" = (
 /obj/cable{
@@ -480,10 +471,17 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"nR" = (
-/turf/simulated/floor/purplewhite{
-	dir = 5
+"nK" = (
+/obj/machinery/conveyor/SN{
+	id = "Janus_disposals"
 	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"nQ" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/purple,
 /area/space)
 "nV" = (
 /obj/overlay{
@@ -504,10 +502,6 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"of" = (
-/obj/random_item_spawner/organs/bloody,
-/turf/unsimulated/floor/grime,
-/area/space)
 "oi" = (
 /obj/landmark{
 	name = "telesci"
@@ -522,23 +516,6 @@
 "oj" = (
 /turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
-"ok" = (
-/obj/disposalpipe/segment,
-/obj/cable{
-	icon_state = "1-2"
-	},
-/turf/unsimulated/floor/plating,
-/area/space)
-"ol" = (
-/obj/cable{
-	dir = null;
-	icon_state = "1-6"
-	},
-/obj/cable{
-	icon_state = "1-10"
-	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
 "om" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
 	dir = 10
@@ -548,53 +525,64 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"ou" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gibmid3"
-	},
-/turf/unsimulated/floor/grime,
-/area/space)
 "oD" = (
 /obj/table/reinforced/auto,
 /turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 8
 	},
 /area/space)
-"oE" = (
+"oQ" = (
+/obj/machinery/conveyor/EW{
+	id = "Janus_disposals"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
+"po" = (
+/obj/decal/cleanable/blood/drip/high,
+/turf/unsimulated/floor/engine,
+/area/space)
+"pp" = (
 /obj/cable{
-	icon_state = "2-9"
+	dir = null;
+	icon_state = "6-8"
 	},
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"oV" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gibdown1"
+/obj/cable{
+	icon_state = "5-8"
 	},
-/turf/unsimulated/floor/grime,
-/area/space)
-"pa" = (
 /obj/disposalpipe/segment{
 	dir = 4
 	},
-/turf/unsimulated/floor/blackwhite/whitegrime,
-/area/space)
-"pq" = (
-/obj/machinery/atmospherics/pipe/manifold{
-	dir = 8
-	},
-/turf/simulated/floor/white/grime,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "px" = (
 /obj/artifact_spawner,
 /turf/unsimulated/floor/grime,
 /area/space)
-"pG" = (
-/obj/disposalpipe/segment{
-	dir = 1;
-	icon_state = "pipe-c"
+"py" = (
+/obj/item/storage/toilet/random,
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
+"pA" = (
+/obj/machinery/computer/operating{
+	id = "OR1"
 	},
-/turf/unsimulated/floor/specialroom/cafeteria,
+/turf/simulated/floor/white/grime,
+/area/space)
+"pJ" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
+	},
+/obj/cable{
+	icon_state = "5-8"
+	},
+/obj/disposalpipe/junction/right/east,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"pT" = (
+/obj/machinery/disposal,
+/obj/disposalpipe/trunk/east,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "pV" = (
 /obj/cable{
@@ -606,19 +594,53 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"pY" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibmid3"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"qb" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib2"
+	},
+/turf/unsimulated/floor/grime,
+/area/space)
+"qd" = (
+/obj/disposalpipe/segment,
+/obj/cable{
+	icon_state = "1-8"
+	},
+/turf/unsimulated/floor/plating,
+/area/space)
 "qg" = (
 /turf/unsimulated/floor/specialroom/bar,
 /area/space)
-"qF" = (
+"qm" = (
+/mob/living/critter/aberration,
+/turf/simulated/floor/purple/checker,
+/area/space)
+"qs" = (
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	can_rupture = 0;
+	dir = 9
+	},
+/turf/simulated/floor/white/grime,
+/area/space)
+"qu" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
 /obj/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
+	dir = 4;
+	name = "factory pipe"
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"rg" = (
-/obj/decal/cleanable/blood/drip/high,
-/turf/unsimulated/floor/engine,
+"qG" = (
+/turf/simulated/floor/purplewhite{
+	dir = 10
+	},
 /area/space)
 "rh" = (
 /obj/cable/brown{
@@ -637,24 +659,14 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"rm" = (
-/obj/disposalpipe/segment,
-/turf/simulated/floor/purplewhite{
-	dir = 1
-	},
-/area/space)
-"rA" = (
-/obj/decoration/ntcrate,
-/turf/simulated/floor/purple,
-/area/space)
-"rG" = (
+"rL" = (
 /obj/cable{
-	icon_state = "4-8"
+	icon_state = "1-8"
 	},
-/obj/disposalpipe/segment{
-	dir = 4
+/obj/cable{
+	icon_state = "2-8"
 	},
-/obj/barricade,
+/obj/disposalpipe/segment,
 /turf/unsimulated/floor/black/grime,
 /area/space)
 "rQ" = (
@@ -662,11 +674,6 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/red/fancy/narrow/west,
-/area/space)
-"rS" = (
-/obj/stool/bed/moveable/hospital,
-/obj/random_item_spawner/medicine,
-/turf/simulated/floor/white/grime,
 /area/space)
 "rT" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
@@ -680,33 +687,24 @@
 	pixel_y = 30
 	},
 /obj/cable{
-	icon_state = "0-2"
+	icon_state = "0-8"
 	},
-/turf/simulated/floor/white/grime,
+/turf/simulated/floor/purple,
 /area/space)
-"sr" = (
-/obj/disposalpipe/junction/left/east,
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"sB" = (
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/plating,
-/area/space)
-"sD" = (
-/obj/disposalpipe/segment{
-	dir = 4;
-	name = "factory pipe"
+"sA" = (
+/obj/decal/fakeobjects/skeleton{
+	desc = "50% of a rotten corpse.";
+	dir = 8;
+	icon = 'icons/misc/hstation.dmi';
+	icon_state = "body5";
+	name = "pair of legs";
+	pixel_x = 14
 	},
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/grime,
 /area/space)
-"sE" = (
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/decal/fakeobjects/apc_broken{
-	pixel_y = 30
-	},
-/turf/unsimulated/floor/plating,
+"sR" = (
+/obj/table,
+/turf/unsimulated/floor/specialroom/bar,
 /area/space)
 "sV" = (
 /obj/machinery/door/poddoor/blast{
@@ -714,10 +712,6 @@
 	dir = 4
 	},
 /turf/unsimulated/floor/plating,
-/area/space)
-"ta" = (
-/obj/table,
-/turf/unsimulated/floor/specialroom/bar,
 /area/space)
 "tg" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -728,20 +722,31 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"tk" = (
-/obj/item/storage/toilet/random,
-/turf/unsimulated/floor/grey/whitegrime/other,
+"tq" = (
+/obj/machinery/conveyor/SN{
+	id = "Janus_disposals"
+	},
+/obj/machinery/crusher,
+/turf/unsimulated/floor/plating,
 /area/space)
 "tr" = (
 /obj/machinery/atmospherics/pipe/simple/insulated,
 /obj/machinery/meter,
 /turf/unsimulated/floor/engine,
 /area/space)
-"tx" = (
-/obj/disposalpipe/segment{
-	dir = 4
+"tu" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
 	},
-/turf/unsimulated/floor/plating/random,
+/obj/cable{
+	icon_state = "5-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4;
+	name = "factory pipe"
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "tI" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -752,20 +757,20 @@
 	},
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
-"tO" = (
+"tU" = (
+/turf/simulated/floor/white/grime,
+/area/space)
+"uc" = (
 /obj/cable{
-	icon_state = "2-9"
-	},
-/obj/cable{
-	icon_state = "2-5"
+	icon_state = "4-10"
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"uc" = (
-/obj/decal/cleanable/blood/splatter{
-	icon_state = "gibbl2"
+"ud" = (
+/obj/cable{
+	icon_state = "4-8"
 	},
-/turf/unsimulated/floor/grime,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "ue" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
@@ -773,6 +778,10 @@
 	},
 /obj/machinery/meter,
 /turf/unsimulated/floor/engine,
+/area/space)
+"uj" = (
+/obj/disposalpipe/junction/left/east,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "ut" = (
 /obj/machinery/power/terminal{
@@ -783,50 +792,32 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"uC" = (
-/obj/cable{
-	dir = null;
-	icon_state = "4-9"
+"uz" = (
+/obj/machinery/sleeper/compact{
+	dir = 4
 	},
-/obj/disposalpipe/segment{
+/turf/simulated/floor/white/grime,
+/area/space)
+"uE" = (
+/obj/machinery/door/airlock/pyro/medical{
 	dir = 4;
-	name = "factory pipe"
+	name = "Operating Theatre"
 	},
-/turf/unsimulated/floor/black/grime,
+/turf/simulated/floor/white/grime,
 /area/space)
 "uJ" = (
 /obj/cable/brown,
 /obj/machinery/atmospherics/binary/reactor_turbine,
 /turf/unsimulated/floor/engine,
 /area/space)
-"uK" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gib1"
-	},
-/turf/unsimulated/floor/engine,
-/area/space)
-"uQ" = (
-/obj/stool/chair/comfy{
-	name = "ratty brown chair"
-	},
-/turf/unsimulated/floor/plating/random,
-/area/space)
-"uS" = (
-/obj/decal/fakeobjects/robot/servotron,
-/turf/unsimulated/floor/specialroom/bar,
+"uT" = (
+/obj/decal/cleanable/blood/splatter,
+/turf/unsimulated/floor/grime,
 /area/space)
 "uU" = (
 /obj/cable{
 	dir = null;
-	icon_state = "1-6"
-	},
-/obj/cable{
-	icon_state = "1-10"
-	},
-/obj/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c";
-	name = "factory pipe"
+	icon_state = "4-9"
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
@@ -834,14 +825,20 @@
 /obj/table/reinforced/bar/auto,
 /turf/unsimulated/floor/specialroom/bar,
 /area/space)
-"va" = (
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/specialroom/cafeteria,
-/area/space)
-"vm" = (
-/obj/table/reinforced/auto,
-/obj/random_item_spawner/medicine,
+"vG" = (
+/obj/submachine/chef_sink/chem_sink{
+	pixel_y = 5
+	},
 /turf/simulated/floor/white/grime,
+/area/space)
+"vK" = (
+/obj/table/reinforced/auto,
+/obj/random_item_spawner/med_tool,
+/turf/simulated/floor/white/grime,
+/area/space)
+"vR" = (
+/obj/random_item_spawner/organs/bloody/one_to_three,
+/turf/unsimulated/floor/grime,
 /area/space)
 "vS" = (
 /turf/unsimulated/wall/setpieces/leadwindow/gray{
@@ -857,22 +854,62 @@
 	},
 /turf/unsimulated/floor/specialroom/bar,
 /area/space)
-"wA" = (
-/turf/simulated/floor/purplewhite{
-	dir = 10
-	},
+"wc" = (
+/obj/tree,
+/turf/unsimulated/outdoors/grass,
 /area/space)
-"wU" = (
-/obj/machinery/computer3/terminal/console_lower{
+"wh" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib1"
+	},
+/turf/unsimulated/floor/grime,
+/area/space)
+"wx" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/purple,
+/obj/barricade,
+/turf/unsimulated/floor/black/grime,
 /area/space)
-"wW" = (
-/obj/machinery/computer3/terminal/console_lower{
+"wP" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/purple/checker,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"xa" = (
+/obj/cable{
+	icon_state = "1-4"
+	},
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
+"xe" = (
+/obj/decal/fakeobjects/skeleton{
+	desc = "The remains of the captain of this, uh, part of station. Not sure if all of the station parts are from the same place.";
+	icon = 'icons/misc/hstation.dmi';
+	icon_state = "body7"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"xn" = (
+/obj/cable{
+	dir = null;
+	icon_state = "1-6"
+	},
+/obj/cable{
+	icon_state = "1-10"
+	},
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"xq" = (
+/turf/unsimulated/floor/plating/scorched,
 /area/space)
 "xr" = (
 /obj/machinery/atmospherics/valve{
@@ -886,27 +923,12 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"xy" = (
-/obj/decal/fakeobjects/skeleton{
-	desc = "50% of a rotten corpse.";
-	dir = 8;
-	icon = 'icons/misc/hstation.dmi';
-	icon_state = "body5";
-	name = "pair of legs";
-	pixel_x = 14
-	},
-/turf/unsimulated/floor/grime,
-/area/space)
-"xX" = (
+"xA" = (
 /turf/unsimulated/wall/void,
 /area/space)
-"yj" = (
-/mob/living/critter/aberration,
-/turf/simulated/floor/purplewhite,
-/area/space)
-"ym" = (
-/obj/table/reinforced/auto,
-/turf/simulated/floor/white/grime,
+"yp" = (
+/obj/machinery/chem_dispenser/soda,
+/turf/unsimulated/floor/specialroom/bar,
 /area/space)
 "ys" = (
 /obj/stool/chair/comfy{
@@ -914,17 +936,17 @@
 	},
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
-"yu" = (
-/mob/living/critter/maneater,
-/turf/unsimulated/floor/blackwhite/whitegrime,
-/area/space)
 "yB" = (
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/grey/whitegrime/other,
 /area/space)
 "yL" = (
 /obj/stool/bed,
 /turf/simulated/floor/carpet/red/fancy/edge,
+/area/space)
+"yR" = (
+/obj/stool/bed/moveable/hospital,
+/obj/random_item_spawner/medicine,
+/turf/simulated/floor/white/grime,
 /area/space)
 "yS" = (
 /obj/cable{
@@ -934,11 +956,22 @@
 	dir = 9
 	},
 /area/space)
-"zm" = (
+"yZ" = (
+/obj/cable{
+	dir = null;
+	icon_state = "1-6"
+	},
 /obj/cable{
 	icon_state = "1-10"
 	},
+/obj/barricade,
 /turf/unsimulated/floor/black/grime,
+/area/space)
+"zg" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib2"
+	},
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "zn" = (
 /obj/decal/fakeobjects/sink{
@@ -949,31 +982,30 @@
 	},
 /turf/unsimulated/floor/specialroom/bar,
 /area/space)
-"Aj" = (
-/obj/cable{
-	dir = null;
-	icon_state = "6-8"
+"zq" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibmid3"
 	},
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/engine,
 /area/space)
-"Aw" = (
-/obj/cable{
-	icon_state = "2-4"
-	},
-/obj/cable{
-	icon_state = "2-8"
-	},
+"zr" = (
 /obj/disposalpipe/segment{
 	dir = 4;
 	name = "factory pipe"
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"AI" = (
-/turf/unsimulated/floor/grey/whitegrime/other,
+"zx" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibhead"
+	},
+/obj/decal/cleanable/blood/splatter{
+	icon_state = "floor2"
+	},
+/turf/unsimulated/floor/plating/random,
 /area/space)
-"AQ" = (
-/turf/unsimulated/floor/void,
+"AI" = (
+/turf/simulated/floor/specialroom/arcade,
 /area/space)
 "Bc" = (
 /obj/table/reinforced/auto,
@@ -987,23 +1019,11 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"Bi" = (
-/obj/cable{
-	icon_state = "1-2"
+"Bm" = (
+/mob/living/critter/aberration,
+/turf/simulated/floor/purplewhite{
+	dir = 9
 	},
-/turf/unsimulated/floor/grey/whitegrime/other,
-/area/space)
-"Bq" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/disposalpipe/broken{
-	dir = 4
-	},
-/obj/disposalpipe/broken{
-	dir = 8
-	},
-/turf/unsimulated/floor/plating/random,
 /area/space)
 "Br" = (
 /obj/cable{
@@ -1013,6 +1033,13 @@
 /area/space)
 "Bt" = (
 /turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"Bv" = (
+/obj/machinery/door/airlock/pyro/medical{
+	name = "Morgue";
+	req_access_txt = "5"
+	},
+/turf/simulated/floor/white/grime,
 /area/space)
 "BA" = (
 /obj/machinery/door/poddoor/blast,
@@ -1026,18 +1053,55 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"Cz" = (
-/obj/disposalpipe/broken,
-/turf/unsimulated/floor/plating,
+"BX" = (
+/obj/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"Cf" = (
+/obj/cable{
+	icon_state = "5-8"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Cg" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib3"
+	},
+/turf/unsimulated/floor/engine,
+/area/space)
+"Cn" = (
+/obj/cable{
+	dir = null;
+	icon_state = "1-6"
+	},
+/obj/cable{
+	icon_state = "1-10"
+	},
+/obj/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c";
+	name = "factory pipe"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Ct" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "CE" = (
-/obj/disposalpipe/broken{
-	dir = 1
+/obj/decal/fakeobjects/apc_broken{
+	pixel_x = -25
 	},
-/obj/disposalpipe/broken{
-	dir = 4
+/obj/cable{
+	icon_state = "0-2"
 	},
-/turf/unsimulated/floor/plating/random,
+/turf/simulated/floor/specialroom/arcade,
 /area/space)
 "CP" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
@@ -1045,12 +1109,12 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"Dl" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gibhead"
+"CS" = (
+/obj/disposalpipe/broken{
+	dir = 1
 	},
-/obj/decal/cleanable/blood/splatter{
-	icon_state = "floor2"
+/obj/disposalpipe/broken{
+	dir = 4
 	},
 /turf/unsimulated/floor/plating/random,
 /area/space)
@@ -1061,8 +1125,10 @@
 	},
 /turf/unsimulated/floor/plating/random,
 /area/space)
-"Dv" = (
-/turf/simulated/floor/white/grime,
+"Dy" = (
+/obj/machinery/disposal,
+/obj/disposalpipe/trunk/south,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "Dz" = (
 /obj/cable{
@@ -1075,20 +1141,36 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"DF" = (
-/obj/item/skull,
-/turf/unsimulated/floor/grime,
+"DD" = (
+/obj/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/white/grime,
 /area/space)
 "DH" = (
 /obj/machinery/atmospherics/pipe/simple/insulated,
 /turf/unsimulated/floor/engine,
 /area/space)
-"DN" = (
-/obj/table/wood/auto,
-/obj/disposalpipe/segment{
-	dir = 4
+"DL" = (
+/obj/decal/cleanable/blood/splatter,
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"DQ" = (
+/obj/machinery/traymachine/morgue{
+	dir = 8
 	},
-/turf/unsimulated/floor/specialroom/cafeteria,
+/turf/simulated/floor/white/grime,
+/area/space)
+"DS" = (
+/obj/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"DT" = (
+/mob/living/critter/aberration,
+/turf/unsimulated/floor/grime,
 /area/space)
 "DX" = (
 /obj/cable{
@@ -1099,18 +1181,14 @@
 	},
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
-"Ej" = (
-/obj/decal/fakeobjects{
-	anchored = 1;
-	density = 1;
-	desc = "Filing cabinets. The locking mechanism is jammed.";
-	dir = 4;
-	icon = 'icons/obj/computer.dmi';
-	icon_state = "messyfilesb";
-	name = "facility records";
-	tag = "icon-messyfilesb (EAST)"
+"Ei" = (
+/obj/decal/fakeobjects/apc_broken{
+	pixel_x = -25
 	},
-/turf/simulated/floor/purple,
+/obj/cable{
+	dir = null
+	},
+/turf/unsimulated/floor/grey/whitegrime/other,
 /area/space)
 "Em" = (
 /obj/cable{
@@ -1125,45 +1203,17 @@
 /obj/submachine/foodprocessor,
 /turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
-"Ew" = (
-/obj/machinery/traymachine/morgue{
-	dir = 8
-	},
-/turf/simulated/floor/white/grime,
-/area/space)
-"EE" = (
-/mob/living/critter/mechmonstrosity/medical,
-/turf/simulated/floor/white/grime,
-/area/space)
-"EL" = (
-/obj/cable{
-	dir = null;
-	icon_state = "6-8"
-	},
-/obj/cable{
-	icon_state = "5-8"
-	},
-/turf/unsimulated/floor/plating/random,
-/area/space)
-"EP" = (
-/obj/table/wood/auto,
-/obj/item/reagent_containers/food/snacks/burger/moldy,
+"Et" = (
+/obj/disposalpipe/segment,
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
-"ET" = (
-/obj/cable{
-	icon_state = "1-4"
-	},
-/obj/cable{
-	icon_state = "1-8"
-	},
-/turf/unsimulated/floor/black/grime,
+"EH" = (
+/obj/machinery/traymachine/morgue,
+/turf/simulated/floor/white/grime,
 /area/space)
-"Fa" = (
-/obj/disposalpipe/broken{
-	dir = 1
-	},
-/turf/simulated/floor/purplewhite,
+"ES" = (
+/obj/machinery/door/unpowered/wood/stall,
+/turf/unsimulated/floor/grey/whitegrime/other,
 /area/space)
 "Fe" = (
 /obj/machinery/door/poddoor/blast{
@@ -1172,43 +1222,55 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
+"Fi" = (
+/turf/simulated/floor/purple/checker,
+/area/space)
 "Fw" = (
 /turf/unsimulated/floor/plating,
 /area/space)
-"FB" = (
-/obj/overlay{
-	density = 1;
-	dir = 1;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "airlock_closed";
-	name = "broken airlock"
+"Fz" = (
+/obj/decal/cleanable/blood/splatter{
+	icon_state = "floor5"
 	},
-/obj/cable{
-	icon_state = "1-2"
-	},
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"FF" = (
-/obj/machinery/disposal,
-/obj/disposalpipe/trunk/east,
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "FK" = (
 /turf/unsimulated/outdoors/grass,
 /area/space)
-"FU" = (
-/obj/machinery/door/airlock/pyro/medical{
-	name = "Morgue";
-	req_access_txt = "5"
+"FM" = (
+/obj/machinery/computer3/terminal/console_lower{
+	dir = 4
 	},
+/turf/simulated/floor/purple,
+/area/space)
+"FR" = (
+/obj/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Gb" = (
+/obj/decal/fakeobjects/bookcase,
+/turf/simulated/floor/carpet/red/fancy/edge{
+	dir = 1
+	},
+/area/space)
+"Gd" = (
+/obj/stool/bed/moveable/hospital,
 /turf/simulated/floor/white/grime,
 /area/space)
-"Gf" = (
-/obj/machinery/conveyor/NW{
-	id = "Janus_disposals"
+"Gi" = (
+/obj/cable{
+	icon_state = "2-9"
 	},
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Gl" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib1"
+	},
+/turf/unsimulated/floor/engine,
 /area/space)
 "Gu" = (
 /obj/cable{
@@ -1229,17 +1291,21 @@
 	dir = 9
 	},
 /area/space)
-"GD" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/purple,
+"GE" = (
+/mob/living/critter/brullbar,
+/turf/simulated/floor/white/grime,
 /area/space)
 "GI" = (
 /obj/stool/bed,
 /turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 6
 	},
+/area/space)
+"GK" = (
+/obj/machinery/atmospherics/unary/cryo_cell{
+	pipe_direction = 2
+	},
+/turf/simulated/floor/white/grime,
 /area/space)
 "GS" = (
 /obj/machinery/door_control{
@@ -1248,20 +1314,39 @@
 	},
 /turf/unsimulated/floor/grime,
 /area/space)
+"GU" = (
+/obj/machinery/atmospherics/valve,
+/turf/simulated/floor/white/grime,
+/area/space)
+"GW" = (
+/obj/table/reinforced/auto,
+/obj/random_item_spawner/medicine,
+/turf/simulated/floor/white/grime,
+/area/space)
 "Hd" = (
 /turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 1
 	},
 /area/space)
-"Hw" = (
-/obj/artifact_spawner,
-/turf/unsimulated/floor/plating/random,
-/area/space)
-"HF" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gibmid3"
+"Hr" = (
+/obj/cable{
+	dir = null;
+	icon_state = "4-9"
 	},
-/turf/unsimulated/floor/plating/random,
+/obj/cable{
+	icon_state = "4-10"
+	},
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Hs" = (
+/mob/living/critter/aberration,
+/turf/simulated/floor/purplewhite,
+/area/space)
+"HA" = (
+/obj/machinery/door/airlock/pyro/medical{
+	name = "Long Term Ward."
+	},
+/turf/simulated/floor/white/grime,
 /area/space)
 "HT" = (
 /obj/cable/brown{
@@ -1269,11 +1354,21 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"Ib" = (
-/obj/machinery/computer/operating{
-	id = "OR1"
+"HV" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibdown1"
+	},
+/turf/unsimulated/floor/engine,
+/area/space)
+"HX" = (
+/obj/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/white/grime,
+/area/space)
+"Ib" = (
+/obj/decal/fakeobjects/robot/servotron,
+/turf/unsimulated/floor/specialroom/bar,
 /area/space)
 "Ie" = (
 /obj/machinery/door/poddoor/blast{
@@ -1283,14 +1378,25 @@
 /turf/unsimulated/floor/plating,
 /area/space)
 "Ik" = (
-/obj/machinery/light/worn{
-	brightness = 2;
+/mob/living/critter/aberration,
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"Iq" = (
+/obj/disposalpipe/segment,
+/turf/simulated/floor/purplewhite{
 	dir = 1
 	},
-/turf/unsimulated/floor/grime,
 /area/space)
-"Ip" = (
-/mob/living/critter/brullbar,
+"Iv" = (
+/turf/simulated/floor/purplewhite,
+/area/space)
+"IF" = (
+/obj/decal/fakeobjects/apc_broken{
+	pixel_y = 30
+	},
+/obj/cable{
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/white/grime,
 /area/space)
 "IG" = (
@@ -1299,15 +1405,16 @@
 	dir = 4
 	},
 /area/space)
-"IV" = (
-/obj/cable{
-	icon_state = "1-4"
+"IP" = (
+/obj/disposalpipe/segment{
+	dir = 4
 	},
-/turf/simulated/floor/white/grime,
+/turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
-"IW" = (
-/obj/random_item_spawner/junk,
-/turf/unsimulated/floor/plating,
+"Jh" = (
+/turf/simulated/floor/purplewhite{
+	dir = 8
+	},
 /area/space)
 "Jk" = (
 /obj/machinery/atmospherics/pipe/manifold{
@@ -1327,37 +1434,35 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"JO" = (
-/obj/stool/chair/comfy{
-	dir = 4;
-	name = "ratty brown chair"
+"Ka" = (
+/obj/machinery/door/poddoor/blast{
+	icon_state = "bdoorleft1";
+	dir = 8
 	},
-/turf/unsimulated/floor/plating/random,
+/turf/unsimulated/floor/plating,
 /area/space)
-"JY" = (
-/obj/random_item_spawner/organs/bloody/one_to_three,
-/turf/unsimulated/floor/grime,
-/area/space)
-"Kj" = (
-/obj/machinery/conveyor_switch{
-	id = "Janus_disposals"
+"Kh" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
 	},
-/turf/simulated/floor/specialroom/arcade,
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "Km" = (
 /obj/cable{
 	icon_state = "2-4"
 	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"Kn" = (
 /obj/cable{
-	icon_state = "4-8"
+	icon_state = "2-8"
 	},
 /obj/disposalpipe/segment{
-	dir = 4
+	dir = 4;
+	name = "factory pipe"
 	},
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "Kr" = (
 /obj/reagent_dispensers/beerkeg,
@@ -1366,6 +1471,13 @@
 "Kt" = (
 /obj/machinery/atmospherics/pipe/manifold,
 /turf/unsimulated/outdoors/grass,
+/area/space)
+"Kx" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/barricade,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "Kz" = (
 /obj/machinery/door/airlock/pyro{
@@ -1382,20 +1494,39 @@
 /obj/machinery/atmospherics/binary/nuclear_reactor,
 /turf/unsimulated/floor/engine,
 /area/space)
-"KN" = (
-/obj/machinery/chem_dispenser/chemical,
-/turf/unsimulated/floor/specialroom/bar,
+"KM" = (
+/obj/disposalpipe/trunk/west,
+/obj/machinery/disposal,
+/turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
-"KV" = (
-/obj/cable{
-	icon_state = "1-2"
+"KO" = (
+/obj/stool/chair/comfy{
+	dir = 4;
+	name = "ratty brown chair"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/specialroom/cafeteria,
+/area/space)
+"KQ" = (
+/obj/machinery/conveyor_switch{
+	id = "Janus_disposals"
+	},
+/turf/simulated/floor/specialroom/arcade,
+/area/space)
+"Li" = (
+/obj/machinery/door/airlock/pyro/medical{
+	name = "Cryotherapy Room."
 	},
 /turf/simulated/floor/white/grime,
 /area/space)
-"KX" = (
-/turf/simulated/floor/purplewhite{
-	dir = 1
+"Lk" = (
+/obj/table/wood/auto,
+/obj/disposalpipe/segment{
+	dir = 4
 	},
+/turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
 "Ll" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
@@ -1403,16 +1534,23 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"Lo" = (
-/obj/disposalpipe/trunk/west,
-/obj/machinery/disposal,
-/turf/unsimulated/floor/black/grime,
-/area/space)
 "Lq" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
 	dir = 6
 	},
 /turf/unsimulated/floor/engine,
+/area/space)
+"Ls" = (
+/obj/machinery/optable{
+	id = "OR1"
+	},
+/turf/simulated/floor/white/grime,
+/area/space)
+"Lu" = (
+/obj/cable{
+	icon_state = "2-5"
+	},
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "LB" = (
 /obj/overlay{
@@ -1434,55 +1572,36 @@
 /obj/machinery/atmospherics/valve,
 /turf/unsimulated/floor/engine,
 /area/space)
+"LR" = (
+/obj/machinery/computer3/terminal/console_lower{
+	dir = 4
+	},
+/turf/simulated/floor/purple/checker,
+/area/space)
+"LT" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibarm"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
 "LY" = (
-/obj/cable{
-	icon_state = "2-9"
+/obj/machinery/conveyor/EN{
+	id = "Janus_disposals"
 	},
-/obj/cable{
-	icon_state = "2-5"
+/turf/unsimulated/floor/plating,
+/area/space)
+"LZ" = (
+/obj/decal/cleanable/blood/splatter{
+	icon_state = "gibbl2"
 	},
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/grime,
 /area/space)
 "Ma" = (
 /obj/table/wood/auto,
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
-"Md" = (
-/obj/cable{
-	dir = null;
-	icon_state = "1-6"
-	},
-/obj/cable{
-	icon_state = "1-10"
-	},
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"Mo" = (
-/obj/machinery/chem_dispenser/soda,
-/turf/unsimulated/floor/specialroom/bar,
-/area/space)
-"Mp" = (
-/obj/random_item_spawner/organs/bloody,
-/turf/unsimulated/floor/plating/random,
-/area/space)
-"Mv" = (
-/obj/cable{
-	icon_state = "1-2"
-	},
-/obj/barricade,
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"My" = (
-/obj/cable{
-	dir = null;
-	icon_state = "1-6"
-	},
-/obj/cable{
-	icon_state = "1-10"
-	},
-/obj/barricade,
+"Mb" = (
+/obj/decal/fakeobjects/teleport_pad,
 /turf/unsimulated/floor/black/grime,
 /area/space)
 "MD" = (
@@ -1495,16 +1614,13 @@
 "MF" = (
 /turf/unsimulated/floor/engine,
 /area/space)
-"MN" = (
-/obj/machinery/deep_fryer,
+"MG" = (
+/mob/living/critter/maneater,
 /turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
-"MV" = (
-/obj/machinery/door/unpowered/wood/stall{
-	dir = 4;
-	lock_dir = 8
-	},
-/turf/unsimulated/floor/grey/whitegrime/other,
+"MS" = (
+/obj/table/wood/auto,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "Na" = (
 /obj/machinery/door/poddoor/blast{
@@ -1512,37 +1628,11 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"Nj" = (
-/obj/decal/fakeobjects/apc_broken{
-	pixel_x = -25
-	},
-/obj/cable{
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/specialroom/arcade,
-/area/space)
 "Nm" = (
 /obj/stool/bed,
 /turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 10
 	},
-/area/space)
-"Nn" = (
-/turf/simulated/floor/purplewhite,
-/area/space)
-"Np" = (
-/obj/decal/fakeobjects/skeleton{
-	desc = "The remains of the captain of this, uh, part of station. Not sure if all of the station parts are from the same place.";
-	icon = 'icons/misc/hstation.dmi';
-	icon_state = "body7"
-	},
-/turf/unsimulated/floor/plating/random,
-/area/space)
-"Nq" = (
-/obj/cable{
-	icon_state = "2-9"
-	},
-/turf/unsimulated/floor/black/grime,
 /area/space)
 "Nr" = (
 /obj/overlay{
@@ -1557,9 +1647,12 @@
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"NL" = (
-/obj/decal/fakeobjects/teleport_pad,
-/turf/unsimulated/floor/black/grime,
+"Nx" = (
+/obj/disposalpipe/segment,
+/obj/cable{
+	icon_state = "1-2"
+	},
+/turf/unsimulated/floor/plating,
 /area/space)
 "NM" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
@@ -1568,20 +1661,29 @@
 /turf/unsimulated/floor/engine,
 /area/space)
 "NS" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gib3"
+/obj/cable{
+	icon_state = "4-8"
 	},
-/turf/unsimulated/floor/engine,
-/area/space)
-"Oa" = (
-/obj/decal/cleanable/blood/splatter{
-	icon_state = "floor5"
+/obj/disposalpipe/broken{
+	dir = 4
+	},
+/obj/disposalpipe/broken{
+	dir = 8
 	},
 /turf/unsimulated/floor/plating/random,
 /area/space)
-"Oq" = (
-/obj/barricade,
+"Of" = (
+/obj/disposalpipe/junction/left/south,
 /turf/unsimulated/floor/black/grime,
+/area/space)
+"Oh" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/unsimulated/floor/plating,
 /area/space)
 "Ow" = (
 /obj/machinery/atmospherics/binary/pump{
@@ -1609,13 +1711,11 @@
 	dir = 1
 	},
 /area/space)
-"OH" = (
-/obj/cable{
-	dir = null;
-	icon_state = "6-8"
+"OJ" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibdown1"
 	},
-/obj/disposalpipe/junction/left/south,
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "OU" = (
 /obj/item/instrument/large/jukebox,
@@ -1634,6 +1734,13 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
+"Pe" = (
+/obj/machinery/bathtub{
+	anchored = 1;
+	dir = 4
+	},
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
 "Pg" = (
 /obj/table/auto,
 /obj/machinery/microwave,
@@ -1645,31 +1752,38 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/space)
-"PA" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gibmid3"
-	},
-/turf/unsimulated/floor/engine,
+"Px" = (
+/obj/item/skull,
+/turf/unsimulated/floor/grime,
 /area/space)
 "PH" = (
 /turf/unsimulated/wall/setpieces/leadwindow/gray,
 /area/space)
 "PS" = (
-/obj/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
-	},
-/turf/unsimulated/floor/black/grime,
+/obj/table/reinforced/auto,
+/turf/simulated/floor/white/grime,
 /area/space)
 "Qc" = (
+/obj/cable{
+	icon_state = "2-9"
+	},
+/obj/cable{
+	icon_state = "2-5"
+	},
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"Qi" = (
+/obj/cable{
+	icon_state = "4-6"
+	},
 /turf/unsimulated/floor/plating/random,
 /area/space)
 "Ql" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold{
-	can_rupture = 0;
-	dir = 9
+/obj/stool/chair/comfy{
+	name = "ratty brown chair"
 	},
-/turf/simulated/floor/white/grime,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "Qn" = (
 /obj/machinery/door/unpowered/wood{
@@ -1683,20 +1797,6 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"Qw" = (
-/obj/decal/cleanable/blood/splatter,
-/turf/unsimulated/floor/plating/random,
-/area/space)
-"Qz" = (
-/obj/cable{
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/specialroom/arcade,
-/area/space)
-"QA" = (
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/plating/random,
-/area/space)
 "QE" = (
 /obj/table/auto,
 /obj/submachine/mixer,
@@ -1705,16 +1805,16 @@
 	},
 /turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
-"QI" = (
-/obj/tree,
-/turf/unsimulated/outdoors/grass,
-/area/space)
-"QN" = (
-/obj/disposalpipe/segment,
+"Rp" = (
 /obj/cable{
-	icon_state = "1-8"
+	icon_state = "1-2"
 	},
-/turf/unsimulated/floor/plating,
+/turf/unsimulated/floor/grey/whitegrime/other,
+/area/space)
+"Rq" = (
+/obj/disposalpipe/trunk/west,
+/obj/machinery/disposal,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "RA" = (
 /obj/machinery/atmospherics/pipe/manifold{
@@ -1722,48 +1822,28 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"RG" = (
-/obj/machinery/door/airlock/pyro/medical{
-	name = "Cryotherapy Room."
-	},
-/turf/simulated/floor/white/grime,
-/area/space)
 "RT" = (
 /obj/table/reinforced/auto,
 /turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 1
 	},
 /area/space)
-"Sb" = (
-/obj/machinery/chem_dispenser/alcohol,
-/turf/unsimulated/floor/specialroom/bar,
-/area/space)
-"Sc" = (
-/obj/machinery/sleeper/compact{
-	dir = 4
+"RV" = (
+/obj/cable{
+	dir = null;
+	icon_state = "6-8"
 	},
-/turf/simulated/floor/white/grime,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "Sd" = (
-/obj/table/wood/auto,
-/obj/disposalpipe/segment{
-	dir = 4
+/obj/machinery/conveyor/NS{
+	id = "Janus_disposals"
 	},
-/turf/unsimulated/floor/plating/random,
+/turf/unsimulated/floor/plating,
 /area/space)
 "Sh" = (
 /obj/stool/bar,
 /turf/unsimulated/floor/specialroom/bar,
-/area/space)
-"Sy" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/disposalpipe/segment{
-	dir = 4;
-	name = "factory pipe"
-	},
-/turf/unsimulated/floor/black/grime,
 /area/space)
 "SD" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -1774,10 +1854,24 @@
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"SU" = (
-/turf/simulated/floor/purplewhite{
-	dir = 4
+"SH" = (
+/obj/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
 	},
+/turf/unsimulated/floor/blackwhite/whitegrime,
+/area/space)
+"SI" = (
+/obj/stool/chair/comfy{
+	dir = 4;
+	name = "ratty brown chair"
+	},
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"SS" = (
+/obj/table/wood/auto,
+/obj/item/reagent_containers/food/snacks/burger/moldy,
+/turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
 "Tc" = (
 /obj/machinery/atmospherics/valve{
@@ -1791,20 +1885,8 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"Td" = (
-/obj/cable{
-	dir = null;
-	icon_state = "4-9"
-	},
-/obj/cable{
-	icon_state = "4-10"
-	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"Tn" = (
-/obj/machinery/door/airlock/pyro/medical{
-	name = "Long Term Ward."
-	},
+"Th" = (
+/obj/iv_stand,
 /turf/simulated/floor/white/grime,
 /area/space)
 "Tt" = (
@@ -1816,12 +1898,9 @@
 "Tv" = (
 /turf/unsimulated/wall/auto/lead/gray,
 /area/space)
-"TE" = (
-/obj/cable{
-	dir = null;
-	icon_state = "4-9"
-	},
-/turf/unsimulated/floor/black/grime,
+"Tx" = (
+/obj/machinery/traymachine/locking/crematorium,
+/turf/unsimulated/floor/plating,
 /area/space)
 "TG" = (
 /obj/submachine/chef_oven,
@@ -1834,10 +1913,6 @@
 /obj/machinery/portable_atmospherics/canister/empty,
 /turf/unsimulated/floor/engine,
 /area/space)
-"Uc" = (
-/obj/decal/fakeobjects/skeleton/decomposed_corpse,
-/turf/unsimulated/floor/plating/random,
-/area/space)
 "Ui" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_x = -25
@@ -1847,11 +1922,26 @@
 	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
+"Uk" = (
+/turf/simulated/floor/purplewhite{
+	dir = 1
+	},
+/area/space)
+"Ul" = (
+/obj/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/specialroom/arcade,
+/area/space)
 "Us" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
 	dir = 6
 	},
 /turf/unsimulated/outdoors/grass,
+/area/space)
+"Uw" = (
+/obj/random_item_spawner/organs/bloody,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "UC" = (
 /obj/machinery/atmospherics/pipe/manifold{
@@ -1859,19 +1949,16 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"UG" = (
-/obj/table/reinforced/auto,
-/obj/random_item_spawner/med_tool,
-/turf/simulated/floor/white/grime,
+"UH" = (
+/mob/living/critter/fire_elemental,
+/turf/simulated/floor/purple/checker,
 /area/space)
-"UI" = (
-/obj/machinery/conveyor/EN{
-	id = "Janus_disposals"
+"UL" = (
+/obj/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
 	},
-/turf/unsimulated/floor/plating,
-/area/space)
-"UM" = (
-/turf/unsimulated/floor/plating/scorched,
+/turf/unsimulated/floor/black/grime,
 /area/space)
 "US" = (
 /obj/machinery/door/poddoor/blast{
@@ -1879,26 +1966,23 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"UV" = (
-/obj/decal/fakeobjects/apc_broken{
-	pixel_x = -25
-	},
-/obj/cable{
-	dir = null
-	},
-/turf/unsimulated/floor/grey/whitegrime/other,
+"UX" = (
+/obj/disposaloutlet,
+/obj/disposalpipe/trunk/north,
+/turf/unsimulated/floor/plating,
 /area/space)
 "Va" = (
-/obj/submachine/chef_sink/chem_sink{
-	pixel_y = 5
-	},
-/turf/simulated/floor/white/grime,
+/turf/cordon,
 /area/space)
-"Vw" = (
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gibdown1"
+"Vj" = (
+/obj/disposalpipe/segment{
+	dir = 4
 	},
-/turf/unsimulated/floor/engine,
+/turf/unsimulated/floor/black/grime,
+/area/space)
+"VC" = (
+/obj/machinery/chem_dispenser/alcohol,
+/turf/unsimulated/floor/specialroom/bar,
 /area/space)
 "VD" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
@@ -1913,21 +1997,6 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/space)
-"Wc" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold{
-	dir = 8
-	},
-/turf/simulated/floor/white/grime,
-/area/space)
-"We" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/disposalpipe/segment{
-	dir = 4
-	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
 "Wq" = (
 /obj/table/reinforced/auto,
 /obj/item/boardgame/chess,
@@ -1939,40 +2008,30 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/space)
-"Wu" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/decal/fakeobjects/apc_broken{
-	pixel_x = 25
-	},
-/turf/unsimulated/floor/grey/whitegrime/other,
-/area/space)
-"Ww" = (
-/obj/cable{
-	icon_state = "2-5"
-	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
 "Wz" = (
 /obj/decal/fakeobjects/sink{
 	dir = 4
 	},
 /turf/unsimulated/floor/blackwhite/whitegrime,
 /area/space)
-"WK" = (
-/obj/disposalpipe/junction/left/south,
+"WV" = (
+/obj/cable{
+	icon_state = "2-9"
+	},
+/obj/cable{
+	icon_state = "2-5"
+	},
 /turf/unsimulated/floor/black/grime,
 /area/space)
-"Xg" = (
-/obj/cable{
-	icon_state = "1-8"
+"WZ" = (
+/obj/machinery/conveyor/NW{
+	id = "Janus_disposals"
 	},
-/obj/cable{
-	icon_state = "2-8"
-	},
-/obj/disposalpipe/segment,
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/plating,
+/area/space)
+"Xa" = (
+/obj/artifact_spawner,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "Xi" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -1986,17 +2045,10 @@
 	},
 /area/space)
 "Xn" = (
-/obj/machinery/atmospherics/valve,
-/turf/simulated/floor/white/grime,
+/obj/disposalpipe/segment,
+/turf/unsimulated/floor/black/grime,
 /area/space)
-"Xt" = (
-/obj/machinery/bathtub{
-	anchored = 1;
-	dir = 4
-	},
-/turf/unsimulated/floor/grey/whitegrime/other,
-/area/space)
-"Xw" = (
+"Xs" = (
 /obj/cable{
 	dir = null;
 	icon_state = "1-6"
@@ -2009,28 +2061,22 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"XF" = (
-/obj/machinery/door/airlock/pyro/medical{
-	dir = 4;
-	name = "Operating Theatre"
+"XB" = (
+/turf/simulated/floor/purplewhite{
+	dir = 5
 	},
-/turf/simulated/floor/white/grime,
 /area/space)
 "XO" = (
 /turf/unsimulated/floor/grime,
 /area/space)
-"Yl" = (
-/obj/stool/bed/moveable/hospital,
-/turf/simulated/floor/white/grime,
-/area/space)
-"Yn" = (
-/obj/decal/fakeobjects/apc_broken{
-	pixel_y = 30
+"Yi" = (
+/obj/decal/fakeobjects/skeleton{
+	desc = "Apparently, there is a limit to the electrical protection offered by environment suits.";
+	icon = 'icons/misc/hstation.dmi';
+	icon_state = "burntnerd";
+	name = "charred corpse"
 	},
-/obj/cable{
-	icon_state = "0-8"
-	},
-/turf/simulated/floor/purple,
+/turf/unsimulated/floor/engine,
 /area/space)
 "Yo" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -2043,19 +2089,26 @@
 	dir = 4
 	},
 /area/space)
-"YD" = (
-/obj/cable{
-	dir = null;
-	icon_state = "6-8"
+"Yr" = (
+/obj/decal/cleanable/blood/drip/high,
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"Ys" = (
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibmid3"
 	},
-/obj/cable{
-	icon_state = "5-8"
-	},
-/obj/disposalpipe/segment{
-	dir = 4;
-	name = "factory pipe"
-	},
-/turf/unsimulated/floor/black/grime,
+/turf/unsimulated/floor/grime,
+/area/space)
+"Yz" = (
+/turf/unsimulated/floor/plating/random,
+/area/space)
+"YC" = (
+/obj/disposalpipe/broken,
+/turf/unsimulated/floor/plating,
+/area/space)
+"YI" = (
+/obj/stool/bar,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "YJ" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
@@ -2063,68 +2116,25 @@
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"YL" = (
-/obj/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
-	},
-/turf/unsimulated/floor/blackwhite/whitegrime,
-/area/space)
-"YT" = (
-/turf/simulated/floor/specialroom/arcade,
-/area/space)
 "YV" = (
 /obj/cable/brown{
 	icon_state = "1-2"
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
-"Zb" = (
-/obj/machinery/conveyor/EW{
-	id = "Janus_disposals"
-	},
+"YZ" = (
+/obj/random_item_spawner/junk,
 /turf/unsimulated/floor/plating,
 /area/space)
-"Zy" = (
-/obj/decal/fakeobjects/bookcase,
-/turf/simulated/floor/carpet/red/fancy/edge{
-	dir = 1
-	},
-/area/space)
-"ZA" = (
-/obj/cable{
-	dir = null;
-	icon_state = "6-8"
-	},
-/obj/cable{
-	icon_state = "5-8"
-	},
-/obj/disposalpipe/segment{
-	dir = 4
-	},
-/turf/unsimulated/floor/black/grime,
+"Zo" = (
+/obj/machinery/chem_dispenser/chemical,
+/turf/unsimulated/floor/specialroom/bar,
 /area/space)
 "ZH" = (
 /obj/cable{
 	icon_state = "1-2"
 	},
 /turf/unsimulated/floor/black/grime,
-/area/space)
-"ZU" = (
-/obj/disposalpipe/segment{
-	dir = 1;
-	icon_state = "pipe-c"
-	},
-/turf/unsimulated/floor/black/grime,
-/area/space)
-"ZY" = (
-/obj/decal/fakeobjects/skeleton{
-	desc = "Apparently, there is a limit to the electrical protection offered by environment suits.";
-	icon = 'icons/misc/hstation.dmi';
-	icon_state = "burntnerd";
-	name = "charred corpse"
-	},
-/turf/unsimulated/floor/engine,
 /area/space)
 
 (1,1,1) = {"
@@ -2170,36 +2180,36 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-mF
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+Va
 FK
 FK
 FK
@@ -2217,17 +2227,17 @@ FK
 FK
 FK
 FK
-mF
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+Va
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (2,1,1) = {"
 FK
@@ -2272,44 +2282,40 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-mF
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+Va
 FK
 FK
 FK
-QI
-FK
-FK
-FK
-FK
+wc
 FK
 FK
 FK
@@ -2319,17 +2325,21 @@ FK
 FK
 FK
 FK
-mF
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+FK
+FK
+FK
+FK
+Va
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (3,1,1) = {"
 FK
@@ -2374,36 +2384,36 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-mF
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+Va
 FK
 FK
 FK
@@ -2419,19 +2429,19 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
-mF
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+Va
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (4,1,1) = {"
 FK
@@ -2476,36 +2486,36 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-mF
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+Va
 FK
 FK
 FK
@@ -2517,23 +2527,23 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
 FK
 FK
-mF
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+Va
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (5,1,1) = {"
 FK
@@ -2578,27 +2588,27 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 Tv
 Tv
@@ -2625,17 +2635,17 @@ FK
 FK
 FK
 FK
-mF
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+Va
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (6,1,1) = {"
 FK
@@ -2680,27 +2690,27 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 TP
 TP
@@ -2727,17 +2737,17 @@ FK
 FK
 FK
 FK
-mF
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+Va
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (7,1,1) = {"
 FK
@@ -2782,27 +2792,27 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 vS
 Ow
 Ow
@@ -2829,17 +2839,17 @@ FK
 FK
 FK
 FK
-mF
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+Va
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (8,1,1) = {"
 FK
@@ -2884,27 +2894,27 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 vS
 xr
 je
@@ -2931,17 +2941,17 @@ FK
 FK
 FK
 FK
-mF
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+Va
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (9,1,1) = {"
 FK
@@ -2986,27 +2996,27 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 om
 bP
@@ -3030,20 +3040,20 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
-mF
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+Va
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (10,1,1) = {"
 FK
@@ -3088,23 +3098,23 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 Tv
 Tv
@@ -3135,17 +3145,17 @@ FK
 FK
 FK
 FK
-mF
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+Va
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (11,1,1) = {"
 FK
@@ -3190,15 +3200,15 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 Tv
 Tv
@@ -3209,7 +3219,7 @@ Tv
 Tv
 Tv
 ri
-FF
+pT
 ri
 Fw
 HT
@@ -3227,7 +3237,7 @@ MF
 MF
 Fw
 ri
-FF
+pT
 ri
 Tv
 Tv
@@ -3238,16 +3248,16 @@ Tv
 Tv
 Tv
 Tv
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (12,1,1) = {"
 FK
@@ -3292,15 +3302,15 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 Fw
 Fw
@@ -3310,8 +3320,8 @@ Fw
 Fw
 Fw
 Fw
-Xw
-sD
+Xs
+zr
 ri
 Fw
 MF
@@ -3329,27 +3339,27 @@ MF
 MF
 Fw
 ri
-ml
-Ww
-Bi
-UV
-AI
-ez
+Vj
+Lu
+Rp
+Ei
+yB
+el
 Fw
-Xt
+Pe
 Tv
-Xt
+Pe
 Tv
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (13,1,1) = {"
 FK
@@ -3394,15 +3404,15 @@ FK
 FK
 FK
 FK
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 Fw
 Fw
@@ -3413,7 +3423,7 @@ Fw
 Fw
 Tv
 ri
-uC
+nn
 ri
 Fw
 Bf
@@ -3431,27 +3441,27 @@ MF
 MF
 Fw
 ri
-kp
+lD
 ri
 Tv
 Tv
 Tv
-AI
+yB
 Tv
-MV
+fk
 Tv
-MV
+fk
 Tv
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (14,1,1) = {"
 FK
@@ -3489,22 +3499,22 @@ FK
 FK
 FK
 FK
-xX
-xX
-xX
-xX
-xX
-xX
-xX
-xX
-xX
-xX
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
+xA
+xA
+xA
+xA
+xA
+xA
+xA
+xA
+xA
+xA
+xA
+hR
+hR
+hR
+hR
+hR
 Tv
 Fw
 Fw
@@ -3515,7 +3525,7 @@ Fw
 Fw
 Tv
 ri
-Sy
+qu
 ri
 Tv
 rh
@@ -3533,27 +3543,27 @@ MF
 MF
 Tv
 ri
-We
+wP
 ri
 Tv
-tk
-cV
-AI
+py
+ES
+yB
 Tv
-AI
-AI
-AI
+yB
+yB
+yB
 Tv
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (15,1,1) = {"
 FK
@@ -3591,22 +3601,22 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
+xA
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+xA
+hR
+hR
+hR
+hR
+hR
 Tv
 Tv
 Tv
@@ -3617,7 +3627,7 @@ Tv
 Tv
 Tv
 ri
-Sy
+qu
 ri
 Tv
 rh
@@ -3634,28 +3644,28 @@ LJ
 Tt
 MF
 Tv
-Oq
-We
-Oq
+lI
+wP
+lI
 Tv
 Tv
 Tv
-AI
+yB
 Tv
-AI
-AI
-AI
+yB
+yB
+yB
 Tv
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (16,1,1) = {"
 FK
@@ -3693,22 +3703,22 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
+xA
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+xA
+hR
+hR
+hR
+hR
+hR
 Tv
 Fw
 Fw
@@ -3719,7 +3729,7 @@ Fw
 Fw
 Tv
 ri
-Sy
+qu
 ri
 vS
 HT
@@ -3737,27 +3747,27 @@ MF
 MF
 vS
 ri
-rG
+wx
 ri
 Tv
-tk
-cV
-AI
+py
+ES
+yB
 Tv
-AI
-AI
-AI
+yB
+yB
+yB
 Tv
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (17,1,1) = {"
 FK
@@ -3795,22 +3805,22 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
+xA
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+xA
+hR
+hR
+hR
+hR
+hR
 Tv
 Fw
 Fw
@@ -3821,7 +3831,7 @@ Fw
 Fw
 Tv
 ri
-Aw
+Km
 ZH
 gy
 pV
@@ -3838,28 +3848,28 @@ MF
 MF
 MF
 vS
-Oq
-We
-Oq
+lI
+wP
+lI
 Tv
 Tv
 Tv
-AI
+yB
 Tv
-AI
-AI
-AI
+yB
+yB
+yB
 Tv
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (18,1,1) = {"
 FK
@@ -3897,22 +3907,22 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
+xA
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+xA
+hR
+hR
+hR
+hR
+hR
 Tv
 Fw
 Fw
@@ -3923,7 +3933,7 @@ Fw
 Fw
 Tv
 ri
-sD
+zr
 ri
 Tv
 tg
@@ -3941,27 +3951,27 @@ MF
 MF
 Tv
 ri
-We
+wP
 ri
 Tv
-tk
-cV
-AI
+py
+ES
+yB
 Tv
-Wu
-Bi
-aD
+lT
+Rp
+xa
 Tv
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (19,1,1) = {"
 FK
@@ -3999,16 +4009,16 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+xA
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 Tv
 Tv
@@ -4024,8 +4034,8 @@ Tv
 Tv
 Tv
 Tv
-Oq
-Sy
+lI
+qu
 ri
 Tv
 Tv
@@ -4043,7 +4053,7 @@ Tv
 Tv
 Tv
 ri
-We
+wP
 ri
 Tv
 Tv
@@ -4055,15 +4065,15 @@ Tv
 nC
 Tv
 Tv
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (20,1,1) = {"
 FK
@@ -4101,33 +4111,33 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
-AQ
+xA
+hR
+hR
+hR
 ri
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 ri
 ri
 ri
-Aj
+RV
 ri
-Oq
+lI
 ri
-Oq
+lI
 ri
-Oq
+lI
 ri
-Oq
-YD
+lI
+tu
 ri
 ri
 ri
@@ -4144,8 +4154,8 @@ ri
 ri
 ri
 ri
-PS
-dV
+DS
+pJ
 ri
 ri
 ri
@@ -4154,18 +4164,18 @@ ri
 ri
 ri
 ri
-eB
+Cf
 ri
 Tv
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (21,1,1) = {"
 FK
@@ -4203,71 +4213,71 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
+xA
+hR
+hR
 ri
-NL
+Mb
 ri
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
 ri
-AQ
-AQ
-AQ
+hR
+hR
+hR
 ri
 ri
-Oq
-Nq
-Mv
-Mv
+lI
+Gi
+Kx
+Kx
 ZH
-Mv
+Kx
 ZH
-Oq
-My
-qF
-LY
-fK
-fK
-fK
-fK
-fK
-FB
-fK
-Xg
-fK
-FB
-fK
-fK
-fK
-fK
-fK
-uU
-sr
-LY
-fK
-fK
-fK
-fK
-fK
-fK
-kt
-yB
-cc
+lI
+yZ
+FR
+Qc
+Ct
+Ct
+Ct
+Ct
+Ct
+gT
+Ct
+rL
+Ct
+gT
+Ct
+Ct
+Ct
+Ct
+Ct
+Cn
+uj
+Qc
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+aT
+Xn
+jw
 Tv
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (22,1,1) = {"
 FK
@@ -4305,55 +4315,33 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
-AQ
+xA
+hR
+hR
+hR
 ri
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 ri
-AQ
-ri
-ri
-Oq
-ri
-Oq
-ri
-Oq
-ri
-Oq
-ri
-Oq
-Td
+hR
 ri
 ri
+lI
 ri
+lI
 ri
+lI
 ri
+lI
 ri
-Tv
-ri
-ri
-ri
-Tv
-ri
-ri
-ri
-ri
-ri
-ri
-gK
-ri
-ri
-ri
-ri
+lI
+Hr
 ri
 ri
 ri
@@ -4361,15 +4349,37 @@ ri
 ri
 ri
 Tv
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+ri
+ri
+ri
+Tv
+ri
+ri
+ri
+ri
+ri
+ri
+ke
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+ri
+Tv
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 "}
 (23,1,1) = {"
 FK
@@ -4407,16 +4417,16 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+xA
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 Tv
 Tv
@@ -4432,7 +4442,7 @@ PH
 PH
 Tv
 Tv
-Oq
+lI
 Br
 ri
 Tv
@@ -4451,10 +4461,10 @@ PH
 Tv
 Tv
 ri
-We
+wP
 ri
 Tv
-UM
+xq
 PH
 PH
 Tv
@@ -4468,10 +4478,10 @@ PH
 PH
 Tv
 Tv
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
 "}
 (24,1,1) = {"
 FK
@@ -4509,24 +4519,24 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+xA
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 by
 Wz
-YL
+SH
 Kz
-va
-va
-pG
+Et
+Et
+BX
 Bt
 Bt
 Bt
@@ -4538,42 +4548,42 @@ ri
 Br
 ri
 Tv
-cP
+Yr
 XO
 px
 XO
 XO
 XO
-JY
+vR
 XO
 XO
 XO
 XO
-Qc
-Hw
+Yz
+Xa
 Tv
 ri
-We
+wP
 ri
 Tv
-Dv
-Dv
-Dv
-Dv
+tU
+tU
+tU
+tU
 Tv
 Tv
-Dv
-Dv
+tU
+tU
 Tv
-jt
-pq
-Xn
-iE
+GK
+hU
+GU
+cJ
 vS
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
 "}
 (25,1,1) = {"
 FK
@@ -4611,71 +4621,71 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+xA
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 by
 oj
-pa
+IP
 Tv
 Bt
 Bt
-tx
+kO
 Bt
 Bt
 OY
 Bt
 Bt
-jT
+hF
 Tv
 ri
 Br
 ri
 vS
-dU
-Qc
-Qc
-dB
-Qc
-Qc
-Np
-Qc
-hD
+uT
+Yz
+Yz
+nq
+Yz
+Yz
+xe
+Yz
+zg
 XO
-gE
-oV
-Qc
+DT
+cu
+Yz
 vS
 ri
-We
+wP
 ri
 Tv
-Dv
-Dv
-Dv
-EE
-UG
+tU
+tU
+tU
+id
+vK
 vS
-Dv
-Dv
+tU
+tU
 vS
-Dv
-Wc
-Dv
-Dv
+tU
+io
+tU
+tU
 vS
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
 "}
 (26,1,1) = {"
 FK
@@ -4713,24 +4723,24 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+xA
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 TG
 oj
-kL
+KM
 Tv
 Bt
 OY
-aQ
+KO
 Bt
 ys
 Ma
@@ -4742,42 +4752,42 @@ ri
 Br
 ri
 vS
-Qc
-dE
+Yz
+qb
 XO
-Qc
-jD
-Mp
-Qc
-jD
-Qc
-Qc
+Yz
+OJ
+Uw
+Yz
+OJ
+Yz
+Yz
 XO
-Oa
+Fz
 XO
 vS
 ri
-We
+wP
 ri
 Tv
-Dv
-Dv
-ed
-Dv
-ym
+tU
+tU
+Th
+tU
+PS
 vS
-Dv
-Dv
+tU
+tU
 Tv
-jt
-Ql
-Dv
-Dv
+GK
+qs
+tU
+tU
 vS
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
 "}
 (27,1,1) = {"
 FK
@@ -4815,71 +4825,71 @@ FK
 FK
 FK
 FK
-xX
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
-AQ
+xA
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
+hR
 Tv
 Pg
-Qc
+Yz
 Kr
 Tv
 ys
 Ma
-Sd
+gJ
 dQ
 ys
-EP
+SS
 dQ
-Qc
+Yz
 OY
 Tv
 ri
 Br
 ri
 Tv
-ou
+Ys
 XO
-jU
+eN
 Ds
-Qc
-Qc
-Qc
-HF
-Qc
+Yz
+Yz
+Yz
+pY
+Yz
 Ds
-Qc
+Yz
 XO
-of
+dh
 Tv
 ri
-We
+wP
 ri
 Tv
-Dv
-Ib
-dy
-Dv
-ym
+tU
+pA
+Ls
+tU
+PS
 vS
-Dv
-Dv
-RG
-Dv
-Dv
-Dv
-Dv
+tU
+tU
+Li
+tU
+tU
+tU
+tU
 vS
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
 "}
 (28,1,1) = {"
 FK
@@ -4917,24 +4927,24 @@ FK
 FK
 FK
 FK
-xX
-xX
-xX
-xX
-xX
-xX
-xX
-xX
-xX
-xX
+xA
+xA
+xA
+xA
+xA
+xA
+xA
+xA
+xA
+xA
 Tv
 ej
-yu
-MN
+MG
+bv
 Tv
 ys
 Ma
-DN
+Lk
 dQ
 ys
 Ma
@@ -4946,42 +4956,42 @@ Tv
 Nr
 Tv
 Tv
-Ik
-Qc
-Qc
-Qc
-Qc
+bD
+Yz
+Yz
+Yz
+Yz
 MF
-cP
+Yr
 MF
-Qc
-Dl
-Qc
-Qc
+Yz
+zx
+Yz
+Yz
 XO
 Tv
 Tv
 LB
 Tv
 Tv
-Dv
-Dv
-Dv
-Dv
-UG
+tU
+tU
+tU
+tU
+vK
 vS
-Dv
-Dv
+tU
+tU
 Tv
 Tv
 Tv
 Tv
 Tv
 Tv
-AQ
-AQ
-AQ
-AQ
+hR
+hR
+hR
+hR
 "}
 (29,1,1) = {"
 FK
@@ -5034,56 +5044,56 @@ QE
 oj
 En
 Tv
-Qc
+Yz
 bn
-iV
+mE
 Bt
-Qc
+Yz
 bn
-Qc
+Yz
 Bt
 bn
 Tv
 ri
 Fw
 ri
-lP
-Qc
-eU
-Qc
-HF
-rg
-PA
+ky
+Yz
+LT
+Yz
+pY
+po
+zq
 MF
-rg
+po
 MF
-Qc
-Qc
-Qc
+Yz
+Yz
+Yz
 XO
 Gz
 ri
-We
+wP
 ri
 Tv
-Dv
-Dv
-Dv
-Dv
-vm
+tU
+tU
+tU
+tU
+GW
 vS
-Dv
-Dv
+tU
+tU
+Tv
+EH
+EH
+EH
+EH
 Tv
 hR
 hR
 hR
 hR
-Tv
-AQ
-AQ
-AQ
-AQ
 "}
 (30,1,1) = {"
 FK
@@ -5141,51 +5151,51 @@ Gu
 DX
 Bt
 Bt
-Qc
-Qc
+Yz
+Yz
 Bt
-Qc
+Yz
 Tv
 SD
-ET
+cQ
 ri
 VW
 XO
-Qc
-Qc
-Qc
-NS
+Yz
+Yz
+Yz
+Cg
 MF
 oi
-rg
+po
 MF
-Qc
-Vw
-Qc
+Yz
+HV
+Yz
 XO
 US
 ri
-ml
+Vj
 ri
 Tv
-Dv
-Dv
-Dv
-Dv
-UG
+tU
+tU
+tU
+tU
+vK
 vS
-Dv
-Dv
-FU
-Dv
-Dv
-Dv
-Ip
+tU
+tU
+Bv
+tU
+tU
+tU
+GE
 Tv
-mF
-mF
-mF
-mF
+Va
+Va
+Va
+Va
 "}
 (31,1,1) = {"
 FK
@@ -5234,7 +5244,7 @@ FK
 FK
 FK
 Tv
-ta
+sR
 qg
 qg
 uY
@@ -5242,8 +5252,8 @@ Sh
 qg
 vZ
 OU
-Qc
-JO
+Yz
+SI
 OY
 Bt
 OY
@@ -5253,36 +5263,36 @@ Br
 ri
 BD
 XO
-Mp
-Qc
-Qc
-rg
+Uw
+Yz
+Yz
+po
 MF
 MF
 MF
-PA
-Qc
-Qc
-Qc
+zq
+Yz
+Yz
+Yz
 XO
 sV
 ri
-We
+wP
 ri
 Tv
-XF
+uE
 Tv
 PH
 PH
 PH
 Tv
-Dv
-Dv
+tU
+tU
 Tv
-Ew
-Ew
-Ew
-Ew
+DQ
+DQ
+DQ
+DQ
 Tv
 FK
 FK
@@ -5336,7 +5346,7 @@ FK
 FK
 FK
 Tv
-ta
+sR
 qg
 qg
 uY
@@ -5344,9 +5354,9 @@ Sh
 qg
 vZ
 qg
-uQ
-mg
-jT
+Ql
+MS
+hF
 dQ
 Ma
 Tv
@@ -5355,31 +5365,31 @@ Br
 Tv
 Tv
 GS
-Qc
-ZY
-Qc
-Qc
-PA
-uK
+Yz
+Yi
+Yz
+Yz
+zq
+Gl
 MF
-Qc
-Mp
-Qw
-Qc
+Yz
+Uw
+DL
+Yz
 XO
 Tv
 Tv
 LB
 Tv
 Tv
-Dv
-Dv
-Dv
-Dv
-Dv
-Dv
-Dv
-Dv
+tU
+tU
+tU
+tU
+tU
+tU
+tU
+tU
 Tv
 Tv
 Tv
@@ -5388,7 +5398,7 @@ Tv
 Tv
 FK
 FK
-QI
+wc
 FK
 "}
 (33,1,1) = {"
@@ -5438,14 +5448,14 @@ FK
 FK
 FK
 Tv
-KN
+Zo
 qg
 qg
 uY
 Sh
 qg
-Bq
-Qc
+NS
+Yz
 ys
 Ma
 Ma
@@ -5456,37 +5466,37 @@ ri
 Br
 ri
 Tv
-dB
+nq
 XO
-Qc
+Yz
 Ds
-jD
-Qc
-Qc
-Qc
-Qc
+OJ
+Yz
+Yz
+Yz
+Yz
 Ds
-jU
-eT
+eN
+wh
 XO
 Tv
 ri
-We
+wP
 ri
 Tv
-Dv
-Dv
-Dv
-Dv
-Dv
-Dv
-Dv
-Dv
+tU
+tU
+tU
+tU
+tU
+tU
+tU
+tU
 Tv
-Yl
-Yl
-Yl
-Yl
+Gd
+Gd
+Gd
+Gd
 vS
 FK
 FK
@@ -5540,16 +5550,16 @@ FK
 FK
 FK
 Tv
-Sb
+VC
 qg
 qg
 uY
-kw
-Qc
+YI
+Yz
 vZ
 qg
 ys
-jT
+hF
 Ma
 dQ
 OY
@@ -5558,37 +5568,37 @@ ri
 Br
 ri
 vS
-JY
-dU
+vR
+uT
 XO
-Mp
-Qc
-Qw
-hD
-Qc
-Qc
-Qc
-xy
-uc
-Qc
+Uw
+Yz
+DL
+zg
+Yz
+Yz
+Yz
+sA
+LZ
+Yz
 vS
 ri
-We
+wP
 ri
 Tv
-Dv
-Sc
-Sc
-Sc
-Sc
-Sc
-Dv
-Dv
-Tn
-Dv
-Dv
-Dv
-Dv
+tU
+uz
+uz
+uz
+uz
+uz
+tU
+tU
+HA
+tU
+tU
+tU
+tU
 vS
 FK
 FK
@@ -5642,7 +5652,7 @@ FK
 FK
 FK
 Tv
-Mo
+yp
 qg
 qg
 uY
@@ -5650,7 +5660,7 @@ Sh
 qg
 vZ
 qg
-Qc
+Yz
 bn
 bn
 Bt
@@ -5661,36 +5671,36 @@ Br
 ri
 vS
 XO
-jD
-ou
+OJ
+Ys
 XO
-Qc
-Qc
-Qc
-Qc
-eU
+Yz
+Yz
+Yz
+Yz
+LT
 XO
-Qc
-Qc
+Yz
+Yz
 XO
 vS
 ri
-We
+wP
 ri
 Tv
-Dv
-Dv
-Dv
-Dv
-Dv
-Dv
-Dv
-Dv
+tU
+tU
+tU
+tU
+tU
+tU
+tU
+tU
 Tv
-Va
-Dv
-Dv
-Dv
+vG
+tU
+tU
+tU
 vS
 FK
 FK
@@ -5746,7 +5756,7 @@ FK
 Tv
 zn
 qg
-uS
+Ib
 uY
 Sh
 qg
@@ -5762,37 +5772,37 @@ ri
 Br
 ri
 Tv
-Qc
-dB
+Yz
+nq
 XO
 XO
 XO
-of
+dh
 XO
 px
 XO
 XO
 XO
-DF
+Px
 XO
 Tv
 ri
-We
+wP
 ri
 Tv
-rU
-KV
-KV
-KV
-KV
-KV
-IV
-Dv
+IF
+HX
+HX
+HX
+HX
+HX
+DD
+tU
 vS
-Yl
-Yl
-Yl
-rS
+Gd
+Gd
+Gd
+yR
 vS
 FK
 FK
@@ -5852,7 +5862,7 @@ PH
 Tv
 Tv
 Fw
-Kn
+Oh
 Fw
 Tv
 Tv
@@ -5879,7 +5889,7 @@ PH
 Tv
 Tv
 ri
-We
+wP
 ri
 Tv
 Tv
@@ -5899,7 +5909,7 @@ Tv
 FK
 FK
 FK
-QI
+wc
 "}
 (38,1,1) = {"
 FK
@@ -5954,7 +5964,7 @@ FK
 FK
 Tv
 ri
-fM
+Kh
 ri
 ri
 ri
@@ -5963,17 +5973,17 @@ ri
 ri
 ri
 ri
-EL
-Qc
+aS
+Yz
 ri
 ri
 ri
 ri
 ri
 Tv
-ri
-ri
-ri
+Yz
+Yz
+Yz
 Tv
 ri
 ri
@@ -5981,7 +5991,7 @@ ri
 ri
 ri
 ri
-ZA
+pp
 ri
 ri
 ri
@@ -5990,7 +6000,7 @@ ri
 ri
 ri
 ri
-eB
+Cf
 ri
 Tv
 FK
@@ -6048,52 +6058,52 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
 FK
 FK
 Tv
-hb
-WK
-LY
-fK
-fK
-fK
-fK
-fK
-fK
-Md
-CE
-tO
+Dy
+Of
+Qc
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+xn
+CS
+WV
 ZH
 ZH
 ZH
 ZH
 ZH
 nV
-ZH
-Km
-ZH
+mb
+Qi
+mb
 nV
 ZH
 ZH
 ZH
 ZH
 ZH
-ol
-sr
-LY
-fK
-fK
-fK
-fK
-fK
-fK
-Md
-yB
-cc
+gL
+uj
+Qc
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+xn
+Xn
+jw
 Tv
 FK
 FK
@@ -6154,11 +6164,11 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 Tv
 ri
-gY
+uc
 ri
 ri
 ri
@@ -6166,8 +6176,8 @@ ri
 ri
 ri
 ri
-Qc
-gK
+Yz
+ke
 ri
 ri
 ri
@@ -6175,9 +6185,9 @@ ri
 ri
 ri
 Tv
-ri
+Yz
 fN
-ri
+Yz
 Tv
 ri
 ri
@@ -6185,7 +6195,7 @@ ri
 ri
 ri
 ri
-gK
+ke
 ri
 ri
 ri
@@ -6194,13 +6204,13 @@ ri
 ri
 ri
 ri
-TE
+uU
 ri
 Tv
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
@@ -6269,7 +6279,7 @@ Tv
 Tv
 Tv
 ri
-We
+wP
 ri
 Tv
 Tv
@@ -6277,7 +6287,7 @@ Tv
 Tv
 Tv
 Tv
-Qc
+Yz
 Tv
 Tv
 Tv
@@ -6286,8 +6296,8 @@ Tv
 Tv
 Tv
 Tv
-Oq
-We
+lI
+wP
 ri
 Tv
 Tv
@@ -6354,7 +6364,7 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
@@ -6371,34 +6381,34 @@ Xi
 Nm
 Tv
 ri
-We
+wP
 ri
 Tv
-iz
-iz
-iz
-wU
-hn
-Qc
-hn
-wU
-wU
-iz
-iz
-iz
-iz
+dI
+dI
+dI
+FM
+jd
+Yz
+jd
+FM
+FM
+dI
+dI
+dI
+dI
 Tv
-Oq
-rG
+lI
+wx
 ri
 Tv
-YT
-YT
-YT
-YT
-YT
-Nj
-Qz
+AI
+AI
+AI
+AI
+AI
+CE
+Ul
 Tv
 FK
 FK
@@ -6408,7 +6418,7 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 "}
 (43,1,1) = {"
@@ -6461,7 +6471,7 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 Tv
 Em
@@ -6473,34 +6483,34 @@ gB
 fU
 Tv
 ri
-We
+wP
 ri
 vS
-iz
-jI
-ng
-ng
-Qc
-ng
-ng
-ng
-Qc
-ng
-ng
-wA
-iz
+dI
+Bm
+Jh
+Jh
+Yz
+Jh
+Jh
+Jh
+Yz
+Jh
+Jh
+qG
+dI
 vS
 ri
-rG
-Oq
+wx
+lI
 Tv
-YT
-YT
-YT
-YT
-YT
-YT
-YT
+AI
+AI
+AI
+AI
+AI
+AI
+AI
 Tv
 FK
 FK
@@ -6575,34 +6585,34 @@ gz
 yL
 Tv
 ri
-We
+wP
 ri
 vS
-iz
-Qc
-kq
-kq
-kq
-Qc
-Qc
-kq
-kq
-ct
-kq
-Nn
-iz
+dI
+Yz
+Fi
+Fi
+Fi
+Yz
+Yz
+Fi
+Fi
+qm
+Fi
+Iv
+dI
 vS
 ri
-We
-Oq
+wP
+lI
 Tv
-YT
-YT
-YT
-YT
-YT
-YT
-Kj
+AI
+AI
+AI
+AI
+AI
+AI
+KQ
 Tv
 FK
 FK
@@ -6610,7 +6620,7 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
@@ -6668,7 +6678,7 @@ FK
 FK
 FK
 Tv
-Zy
+Gb
 gz
 Wq
 Tv
@@ -6677,25 +6687,25 @@ gz
 Wq
 Tv
 ri
-We
+wP
 ri
 Tv
-iz
-KX
-kq
-wW
-cb
-wW
-Qc
-Qc
-wW
-wW
-kq
-Nn
-iz
+dI
+Uk
+Fi
+LR
+Ik
+LR
+Yz
+Yz
+LR
+LR
+Fi
+Iv
+dI
 Tv
 ri
-We
+wP
 ri
 Tv
 Tv
@@ -6765,7 +6775,7 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
@@ -6779,43 +6789,43 @@ gz
 yL
 Tv
 ri
-We
+wP
 ri
 Tv
-iz
-KX
-kq
-Qc
-kq
-ct
-Qc
-kq
-Qc
-Qc
-kq
-Nn
-iz
+dI
+Uk
+Fi
+Yz
+Fi
+qm
+Yz
+Fi
+Yz
+Yz
+Fi
+Iv
+dI
 Tv
 ri
-We
+wP
 ri
 Tv
-eS
+Tx
 Fw
-dJ
-dJ
-kI
-dJ
-UI
+nK
+nK
+tq
+nK
+LY
 Tv
 FK
-QI
+wc
 FK
 FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 "}
@@ -6876,39 +6886,39 @@ RT
 kc
 fU
 Tv
-Zy
+Gb
 dl
 fU
 Tv
 ri
-ZA
+pp
 ri
 rj
-iz
-KX
-kq
-kq
-kq
-Qc
-Qc
-kq
-kq
-Qc
-kq
-Nn
-iz
+dI
+Uk
+Fi
+Fi
+Fi
+Yz
+Yz
+Fi
+Fi
+Yz
+Fi
+Iv
+dI
 Fw
-PS
-OH
-ZU
+DS
+iz
+UL
 Tv
-sE
+aI
 Fw
-IW
+YZ
 Fw
 Fw
 Fw
-Zb
+oQ
 Tv
 FK
 FK
@@ -6982,40 +6992,40 @@ Jn
 Bc
 mo
 ZH
-zm
-bM
-oE
+eL
+bf
+iv
 Dz
-eg
-rm
+mt
+Iq
 gD
 gD
 gD
-QA
-QA
-QA
+ge
+ge
+ge
 gD
 gD
-QA
-Fa
-iz
-Cz
-ir
+ge
+dc
+dI
+YC
+mw
 ri
-dm
-ok
-QN
-sB
-sB
-sB
-lr
-ga
-Gf
+bg
+Nx
+qd
+bV
+bV
+bV
+UX
+Sd
+WZ
 Tv
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
@@ -7069,11 +7079,11 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
-QI
+wc
 FK
 Tv
 Tv
@@ -7085,25 +7095,25 @@ Tv
 Tv
 Tv
 ri
-Lo
+Rq
 ri
-cR
-GD
-KX
-kq
-kq
-Qc
-Qc
-Qc
-Uc
-kq
-kq
-kq
-Nn
-iz
+Ka
+nQ
+Uk
+Fi
+Fi
+Yz
+Yz
+Yz
+bm
+UH
+Fi
+Fi
+Iv
+dI
 Fw
-qF
-cc
+FR
+jw
 ri
 Tv
 Tv
@@ -7190,19 +7200,19 @@ Tv
 Tv
 Tv
 Tv
-GD
-KX
-kq
-kq
-Qc
-kq
-Qc
-Qc
-Qc
-kq
-kq
-Qc
-iz
+nQ
+Uk
+Fi
+Fi
+Yz
+Fi
+Yz
+Yz
+Yz
+Fi
+Fi
+Yz
+dI
 Tv
 Tv
 Tv
@@ -7292,19 +7302,19 @@ FK
 FK
 FK
 Tv
-GD
-KX
-Qc
-Qc
-Qc
-kq
-Qc
-kq
-Qc
-kq
-Qc
-yj
-iz
+nQ
+Uk
+Yz
+Yz
+Yz
+Fi
+Yz
+Fi
+Yz
+Fi
+Yz
+Hs
+dI
 Tv
 FK
 FK
@@ -7313,12 +7323,12 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
@@ -7385,28 +7395,28 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 vS
-fz
-Qc
-kq
-Qc
-kq
-Qc
-kq
-kq
-Qc
-Qc
-kq
-Qc
-iz
+ud
+Yz
+Fi
+Yz
+Fi
+Yz
+Fi
+Fi
+Yz
+Yz
+Fi
+Yz
+dI
 vS
 FK
 FK
@@ -7496,23 +7506,23 @@ FK
 FK
 FK
 vS
-fz
-nR
-SU
-Qc
-Qc
-SU
-Qc
-Qc
-Qc
-SU
-Qc
-Qc
-Qc
+ud
+XB
+gl
+Yz
+Yz
+gl
+Yz
+Yz
+Yz
+gl
+Yz
+Yz
+Yz
 vS
 FK
 FK
-QI
+wc
 FK
 FK
 FK
@@ -7520,7 +7530,7 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
@@ -7598,19 +7608,19 @@ FK
 FK
 FK
 Tv
-Yn
-Qc
-Ej
-Ej
-Ej
-Qc
-Qc
-iz
-rA
-Qc
-rA
-Qc
-Qc
+rU
+Yz
+cB
+cB
+cB
+Yz
+Yz
+dI
+mm
+Yz
+mm
+Yz
+Yz
 Tv
 FK
 FK
@@ -7690,7 +7700,7 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
@@ -7720,7 +7730,7 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
@@ -7826,7 +7836,7 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
@@ -7898,13 +7908,10 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
-QI
-FK
-FK
-FK
+wc
 FK
 FK
 FK
@@ -7920,7 +7927,10 @@ FK
 FK
 FK
 FK
-QI
+FK
+FK
+FK
+wc
 FK
 FK
 FK
@@ -8230,7 +8240,7 @@ FK
 FK
 FK
 FK
-QI
+wc
 FK
 FK
 FK
