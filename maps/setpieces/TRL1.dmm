@@ -126,7 +126,7 @@
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gib2"
 	},
-/turf/unsimulated/martian/floor,
+/turf/unsimulated/floor/martian,
 /area/space)
 "cJ" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -370,7 +370,7 @@
 /turf/simulated/floor/white/grime,
 /area/space)
 "id" = (
-/turf/unsimulated/martian/floor,
+/turf/unsimulated/floor/martian,
 /area/space)
 "io" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
@@ -407,11 +407,11 @@
 /turf/unsimulated/floor/plating/random,
 /area/space)
 "je" = (
-/obj/machinery/atmospherics/valve{
-	dir = 8
-	},
 /obj/cable/brown{
 	icon_state = "2-5"
+	},
+/obj/machinery/atmospherics/binary/valve{
+	dir = 4
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
@@ -560,6 +560,10 @@
 "mw" = (
 /obj/disposalpipe/junction/left/west,
 /turf/unsimulated/floor/black/grime,
+/area/space)
+"mD" = (
+/mob/living/critter/shade/crew/researcher,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "mE" = (
 /obj/stool/chair/comfy{
@@ -724,6 +728,10 @@
 	name = "Fleshy Floor"
 	},
 /area/space)
+"pM" = (
+/mob/living/critter/shade/crew/lost,
+/turf/unsimulated/floor/plating/random,
+/area/space)
 "pN" = (
 /obj/machinery/door/poddoor/blast{
 	icon_state = "bdoorleft1";
@@ -845,7 +853,7 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/turf/unsimulated/martian/floor,
+/turf/unsimulated/floor/martian,
 /area/space)
 "rQ" = (
 /obj/stool/chair/office/blue{
@@ -879,6 +887,10 @@
 	pixel_x = 14
 	},
 /turf/unsimulated/floor/grime,
+/area/space)
+"sE" = (
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/turf/unsimulated/floor/engine,
 /area/space)
 "sG" = (
 /obj/cable{
@@ -1039,7 +1051,7 @@
 /area/space)
 "vR" = (
 /obj/decal/cleanable/blood/drip/high,
-/turf/unsimulated/martian/floor,
+/turf/unsimulated/floor/martian,
 /area/space)
 "vS" = (
 /turf/unsimulated/wall/setpieces/leadwindow/gray{
@@ -1067,7 +1079,11 @@
 /area/space)
 "wx" = (
 /obj/decal/cleanable/blood/splatter,
-/turf/unsimulated/martian/floor,
+/turf/unsimulated/floor/martian,
+/area/space)
+"wF" = (
+/mob/living/critter/plasmaspore,
+/turf/unsimulated/floor/engine,
 /area/space)
 "wP" = (
 /obj/cable{
@@ -1114,8 +1130,8 @@
 /turf/unsimulated/wall/auto/adventure/icemoon,
 /area/space)
 "xr" = (
-/obj/machinery/atmospherics/valve{
-	dir = 8
+/obj/machinery/atmospherics/binary/valve{
+	dir = 4
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
@@ -1311,8 +1327,8 @@
 /turf/unsimulated/floor/plating,
 /area/space)
 "BI" = (
-/obj/critter/crunched,
-/turf/simulated/floor/purple/checker,
+/obj/machinery/atmospherics/pipe/tank,
+/turf/unsimulated/floor/engine,
 /area/space)
 "BX" = (
 /obj/disposalpipe/segment{
@@ -1359,6 +1375,10 @@
 	},
 /obj/disposalpipe/segment,
 /turf/unsimulated/floor/black/grime,
+/area/space)
+"Cx" = (
+/mob/living/critter/crunched,
+/turf/unsimulated/wall/auto/lead/gray,
 /area/space)
 "CE" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -1462,7 +1482,7 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/turf/unsimulated/martian/floor,
+/turf/unsimulated/floor/martian,
 /area/space)
 "Ei" = (
 /obj/decal/fakeobjects/apc_broken{
@@ -1615,8 +1635,8 @@
 /turf/unsimulated/floor/grime,
 /area/space)
 "GU" = (
-/obj/machinery/atmospherics/valve,
-/turf/simulated/floor/white/grime,
+/obj/machinery/portable_atmospherics/canister/empty,
+/turf/unsimulated/floor/engine,
 /area/space)
 "GW" = (
 /obj/table/reinforced/auto,
@@ -1653,6 +1673,10 @@
 	icon_state = "6-8"
 	},
 /turf/unsimulated/floor/engine,
+/area/space)
+"HU" = (
+/mob/living/critter/shade,
+/turf/unsimulated/floor/plating/random,
 /area/space)
 "HV" = (
 /obj/decal/cleanable/blood/gibs{
@@ -1751,6 +1775,10 @@
 	icon_state = "1-4"
 	},
 /turf/unsimulated/floor/engine,
+/area/space)
+"JS" = (
+/obj/machinery/portable_atmospherics/canister/air/large,
+/turf/simulated/floor/specialroom/arcade,
 /area/space)
 "Ka" = (
 /turf/unsimulated/wall/auto/adventure/meat/meatier,
@@ -1876,7 +1904,7 @@
 /turf/unsimulated/floor/black/grime,
 /area/space)
 "LJ" = (
-/obj/machinery/atmospherics/valve,
+/obj/machinery/atmospherics/binary/valve,
 /turf/unsimulated/floor/engine,
 /area/space)
 "LN" = (
@@ -2036,6 +2064,12 @@
 "Oh" = (
 /turf/unsimulated/wall/auto/adventure/moon,
 /area/space)
+"Op" = (
+/mob/living/critter/crunched,
+/turf/simulated/floor/purplewhite{
+	dir = 8
+	},
+/area/space)
 "Ow" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4;
@@ -2060,7 +2094,7 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/turf/unsimulated/martian/floor,
+/turf/unsimulated/floor/martian,
 /area/space)
 "OG" = (
 /obj/stool/bed,
@@ -2228,20 +2262,24 @@
 	},
 /turf/unsimulated/floor/plating/random,
 /area/space)
+"SM" = (
+/mob/living/critter/shade,
+/turf/unsimulated/floor/black/grime,
+/area/space)
 "SS" = (
 /obj/table/wood/auto,
 /obj/item/reagent_containers/food/snacks/burger/moldy,
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/space)
 "Tc" = (
-/obj/machinery/atmospherics/valve{
-	dir = 8
-	},
 /obj/cable/brown{
 	icon_state = "2-5"
 	},
 /obj/cable/brown{
 	icon_state = "2-9"
+	},
+/obj/machinery/atmospherics/binary/valve{
+	dir = 4
 	},
 /turf/unsimulated/floor/engine,
 /area/space)
@@ -2292,7 +2330,7 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/obj/machinery/portable_atmospherics/canister/empty,
+/obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/unsimulated/floor/engine,
 /area/space)
 "TY" = (
@@ -2520,6 +2558,7 @@
 /obj/disposalpipe/segment{
 	dir = 4
 	},
+/mob/living/critter/shade/crew/lost,
 /turf/unsimulated/floor/arctic/snow/ice,
 /area/space)
 "Yz" = (
@@ -4077,7 +4116,7 @@ hR
 Tv
 TP
 TP
-MF
+sE
 MF
 MF
 MF
@@ -4085,7 +4124,7 @@ Lq
 tr
 DH
 CP
-MF
+GU
 MF
 MF
 Tv
@@ -4592,7 +4631,7 @@ hu
 bG
 LJ
 gp
-MF
+wF
 MF
 ue
 yh
@@ -4694,7 +4733,7 @@ YV
 YV
 JL
 gG
-MF
+BI
 LJ
 gp
 Tv
@@ -5208,7 +5247,7 @@ MF
 MF
 Ll
 MF
-MF
+wF
 MF
 vS
 ND
@@ -5940,7 +5979,7 @@ tU
 Tv
 GK
 hU
-GU
+tU
 cJ
 vS
 FK
@@ -6521,7 +6560,7 @@ Yz
 Tv
 SD
 cQ
-ri
+SM
 VW
 XO
 Yz
@@ -7656,7 +7695,7 @@ Tv
 Tv
 Tv
 Tv
-Tv
+Cx
 Tv
 Tv
 xA
@@ -7852,12 +7891,12 @@ vS
 dI
 Bm
 Jh
+Op
+mD
 Jh
-Yz
 Jh
-Jh
-Jh
-Yz
+Op
+pM
 Jh
 Jh
 qG
@@ -7969,8 +8008,8 @@ Yz
 Ea
 xA
 Tv
-AI
-AI
+JS
+JS
 AI
 AI
 AI
@@ -8158,13 +8197,13 @@ Tv
 dI
 Uk
 Fi
-Yz
+HU
 Fi
 qm
 Yz
 Fi
 Yz
-Yz
+HU
 Fi
 Iv
 dI
@@ -8568,7 +8607,7 @@ Uk
 Fi
 Fi
 Yz
-BI
+Fi
 Yz
 Yz
 Yz

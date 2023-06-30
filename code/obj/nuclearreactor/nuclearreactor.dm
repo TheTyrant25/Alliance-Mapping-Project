@@ -705,6 +705,12 @@
 				src.component_grid[x][y] = new /obj/item/reactor_component/fuel_rod("plutonium")
 		..()
 
+/// this is the specific setup used in the temporal labs
+/obj/machinery/atmospherics/binary/nuclear_reactor/prefilled/puzzle
+	New()
+		// will design a setup at a later point
+		..()
+
 #undef REACTOR_GRID_WIDTH
 #undef REACTOR_GRID_HEIGHT
 #undef REACTOR_TOO_HOT_TEMP
