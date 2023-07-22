@@ -79,3 +79,22 @@ ABSTRACT_TYPE(/obj/item/audio_tape/temporal_labs)
 			"...",
 			"*click*"
 		)
+
+/obj/item/audio_tape/temporal_labs/day_nine
+	New()
+		..()
+		src.speakers = list(
+			"Quiet Voice",
+			"Quiet Voice",
+			"Quiet Voice",
+			"Quiet Voice",
+			"tape cut"
+		)
+		src.messages = list(
+			"...",
+			"There's telecrystal dust in the air. Everyone seems to be coughing.",
+			"...",
+			"The scientists seem a bit... manic. Like they're on a schedule. All us other staff are a bit worried.",
+			"...",
+			"*click*"
+		)
