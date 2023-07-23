@@ -145,8 +145,8 @@ ABSTRACT_TYPE(/obj/item/audio_tape/temporal_labs)
 			"I can't remember which name is mine.",
 			"Oh, and my cover is blown. Everyone knows that I work for NT now. Or was it the syndicate?",
 			"It doesn't matter. Everyone remembers working for everyone else. I really hope tomorrow's experiment fixes all this.",
-			"Operative, uh... something. Signing out. Fuck- did I already record this? I think I did. Damn."
-			"Why am I still making these? I already have them on my desk. I- wait. No, that hasn't happened yet. I think?"
+			"Operative, uh... something. Signing out. Fuck- did I already record this? I think I did. Damn.",
+			"Why am I still making these? I already have them on my desk. I- wait. No, that hasn't happened yet. I think?",
 			"*click*"
 		)
 
@@ -194,7 +194,7 @@ ABSTRACT_TYPE(/obj/item/audio_tape/temporal_labs)
 			"Quiet Voice",
 			"Quiet Voice",
 			"Quiet Voice",
-			"Quiet Voice, which you realise sounds a lot like your own voice"
+			"Quiet Voice, which you realise sounds a lot like your own voice",
 			"tape cut"
 		)
 		src.messages = list(
