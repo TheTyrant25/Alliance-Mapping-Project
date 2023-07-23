@@ -1,4 +1,9 @@
-// stuff for TRL-1 by Tyrant.
+/* stuff for TRL-1 by Tyrant.
+	Areas
+	Audio tapes
+	Papers
+	Special things.
+*/
 
 /area/temporal_labs
 	name = "Temporal Research Facility 1"
@@ -7,13 +12,12 @@
 /area/temporal_labs/void
 	icon_state = "purple"
 
-
+// they'll find the tapes lying around and have to put them into the audio log device to read them, is the idea.
 /obj/item/device/audio_log/temporal_labs
 	New()
 		..()
 		src.tape = new /obj/item/audio_tape/temporal_labs/day_four(src)
 
-// they'll find the tapes lying around and have to put them into the audio log device to read them, is the idea.
 // this abstract parent is to organise it
 ABSTRACT_TYPE(/obj/item/audio_tape/temporal_labs)
 /obj/item/audio_tape/temporal_labs
@@ -140,7 +144,7 @@ ABSTRACT_TYPE(/obj/item/audio_tape/temporal_labs)
 			"Nearly every piece of writing is now just a smear of ink or graphite. Especially names.",
 			"I can't remember which name is mine.",
 			"Oh, and my cover is blown. Everyone knows that I work for NT now. Or was it the syndicate?",
-			"It doesn't matter. Everyone remembers working for everyone else. I really hope tomorrow's experiment fixes all this."
+			"It doesn't matter. Everyone remembers working for everyone else. I really hope tomorrow's experiment fixes all this.",
 			"Operative, uh... something. Signing out. Fuck- did I already record this? I think I did. Damn."
 			"Why am I still making these? I already have them on my desk. I- wait. No, that hasn't happened yet. I think?"
 			"*click*"
@@ -170,7 +174,7 @@ ABSTRACT_TYPE(/obj/item/audio_tape/temporal_labs)
 			"???",
 			"Manic Voice",
 			"???",
-			"???"
+			"???",
 			"tape cut",
 			"Quiet Voice",
 			"Quiet Voice",
@@ -237,3 +241,5 @@ ABSTRACT_TYPE(/obj/item/audio_tape/temporal_labs)
 			"See you soon.",
 			"*click*"
 		)
+
+//
