@@ -182,8 +182,9 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 	var/aiDisabledIdScanner = FALSE
 	var/aiHacking = 0
 
-	var/cycle_id = ""	//! Which airlocks this door is connected too.
+	var/cycle_id = ""	//! Which airlocks this door is connected to.
 	var/cycle_enter_id = ""	//! An ID for double doors sharing a direction in a cycling airlock system.
+	var/shuttle_link_dir	//! The direction in which it should try to detect if a shuttle leaves/arrives.
 
 	var/list/signalers[10]
 	var/lockdownbyai = 0

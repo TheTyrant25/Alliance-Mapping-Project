@@ -44,6 +44,7 @@ so I feel they're better and more versatile, even if they're harder to set up.. 
 	// for var editing:
 	var/cycle_id = ""	//! The ID of the cycling airlock. All airlocks connected should have the same ID
 	var/enter_id = ""	//! Used within a network for things like double doors.
+	// by convention/convenience, outward ones usually use "outer" and inner ones user "inner" as enter_ids.
 
 	setup()
 		if (!src.cycle_id)
@@ -52,3 +53,24 @@ so I feel they're better and more versatile, even if they're harder to set up.. 
 			D.cycle_id = src.cycle_id
 			D.cycle_enter_id = src.enter_id
 			D.attempt_cycle_link()
+
+	inner
+		enter_id = "inner"
+
+	outer
+		enter_id = "outer"
+
+/// special case of cycling airlock used to detect ships/shuttles.
+/obj/mapping_helper/airlock/cycler/linked
+	dir = SOUTH
+	icon_state = "cycle_linked"
+	enter_id = "outer"
+
+	setup()
+		if (!src.cycle_id)
+			CRASH("[src] has no cycle ID set. Coords: [src.x], [src.y], [src.z]")
+		for (var/obj/machinery/door/airlock/D in src.loc)
+			D.cycle_id = src.cycle_id
+			D.cycle_enter_id = src.enter_id
+			D.attempt_cycle_link()
+			D.shuttle_link_dir = src.dir
