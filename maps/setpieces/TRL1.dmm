@@ -71,10 +71,6 @@
 	},
 /turf/unsimulated/floor/black/grime,
 /area/temporal_labs)
-"bm" = (
-/obj/mob_spawn/corpse/human/random,
-/turf/unsimulated/floor/plating/random,
-/area/temporal_labs)
 "bn" = (
 /obj/stool/chair/comfy{
 	name = "ratty brown chair";
@@ -109,7 +105,9 @@
 /turf/unsimulated/floor/engine,
 /area/temporal_labs)
 "bP" = (
-/obj/machinery/atmospherics/mixer,
+/obj/machinery/atmospherics/trinary/mixer{
+	pixel_x = -1
+	},
 /turf/unsimulated/floor/engine,
 /area/temporal_labs)
 "bV" = (
@@ -453,7 +451,6 @@
 /area/temporal_labs)
 "il" = (
 /obj/stool/bed,
-/obj/mob_spawn/corpse/human/random,
 /obj/decal/cleanable/cobweb,
 /obj/decal/cleanable/blood/drip/high,
 /turf/unsimulated/floor/ancient,
@@ -702,7 +699,6 @@
 /obj/disposalpipe/segment{
 	dir = 4
 	},
-/obj/mob_spawn/corpse/human/random,
 /obj/decal/cleanable/blood/drip/high,
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/temporal_labs)
@@ -835,7 +831,6 @@
 /obj/stool/chair/comfy{
 	name = "ratty brown chair"
 	},
-/obj/mob_spawn/corpse/human/random,
 /obj/decal/cleanable/blood/drip/high,
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/temporal_labs)
@@ -1253,7 +1248,6 @@
 	name = "ratty brown chair";
 	dir = 1
 	},
-/obj/mob_spawn/corpse/human/random,
 /obj/decal/cleanable/blood/drip/high,
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/temporal_labs)
@@ -1373,7 +1367,6 @@
 	dir = 4;
 	name = "ratty brown chair"
 	},
-/obj/mob_spawn/corpse/human/random,
 /obj/decal/cleanable/blood/drip/high,
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/temporal_labs)
@@ -1676,7 +1669,6 @@
 /obj/disposalpipe/broken{
 	dir = 4
 	},
-/obj/mob_spawn/corpse/human/random,
 /obj/decal/cleanable/blood/drip/high,
 /turf/unsimulated/floor/plating/random,
 /area/temporal_labs)
@@ -2073,7 +2065,6 @@
 /area/temporal_labs/void)
 "Jn" = (
 /obj/stool/bed,
-/obj/mob_spawn/corpse/human/random,
 /obj/decal/cleanable/cobweb2,
 /obj/decal/cleanable/blood/drip/high,
 /turf/unsimulated/floor/ancient,
@@ -2389,13 +2380,6 @@
 /obj/machinery/atmospherics/pipe/tank,
 /turf/unsimulated/floor/engine,
 /area/temporal_labs)
-"NW" = (
-/obj/cable{
-	icon_state = "1-2"
-	},
-/obj/mob_spawn/corpse/human/random,
-/turf/unsimulated/floor/black/grime,
-/area/temporal_labs)
 "Of" = (
 /obj/disposalpipe/junction/left/south,
 /turf/unsimulated/floor/black/grime,
@@ -2539,7 +2523,6 @@
 /obj/stool/chair/comfy{
 	name = "ratty brown chair"
 	},
-/obj/mob_spawn/corpse/human/random,
 /obj/decal/cleanable/blood/drip/high,
 /turf/unsimulated/floor/plating/random,
 /area/temporal_labs)
@@ -2560,7 +2543,6 @@
 	name = "ratty brown chair";
 	dir = 8
 	},
-/obj/mob_spawn/corpse/human/random,
 /obj/decal/cleanable/blood/drip/high,
 /turf/unsimulated/floor/specialroom/cafeteria,
 /area/temporal_labs)
@@ -2765,7 +2747,6 @@
 /area/temporal_labs)
 "Up" = (
 /obj/stool/bed/moveable/hospital,
-/obj/mob_spawn/corpse/human/random,
 /obj/decal/cleanable/blood/drip/high,
 /turf/simulated/floor/white/grime,
 /area/temporal_labs)
@@ -7975,7 +7956,7 @@ Qi
 mb
 nV
 ZH
-NW
+ZH
 ZH
 no
 pU
@@ -8687,7 +8668,7 @@ Fi
 qm
 Yz
 Fi
-bm
+Yz
 Oy
 Fi
 Iv
@@ -8992,7 +8973,7 @@ Fi
 Yz
 Yz
 de
-bm
+Yz
 Fi
 Fi
 Fi
@@ -9191,7 +9172,7 @@ FK
 Tv
 nQ
 Uk
-bm
+Yz
 Yz
 Yz
 Fi
