@@ -8,8 +8,8 @@
 	name = "magical power storage unit"
 	desc = "A high-capacity superconducting magnetic energy storage (SMES) unit. Magically produces power, using magic."
 	process()
-		capacity = INFINITY
-		charge = INFINITY
+		src.capacity = INFINITY
+		src.charge = INFINITY
 		..()
 
 /obj/machinery/power/smes
@@ -24,7 +24,7 @@
 	var/loaddemand = 0
 	var/capacity = 1e8
 	var/charge = 2e7
-	var/charging = 0
+	var/charging = FALSE
 	var/chargemode = 1
 	var/chargecount = 0
 	var/chargelevel = 30000
@@ -51,7 +51,7 @@
 /obj/machinery/power/smes/emp_act()
 	..()
 	src.online = 0
-	src.charging = 0
+	src.charging = FALSE
 	src.output = 0
 	src.charge -= 1e6
 	if (src.charge < 0)
@@ -74,17 +74,17 @@
 						terminal = term
 						break dir_loop
 
-		if (!terminal)
-			status |= BROKEN
+		if (!src.terminal)
+			src.status |= BROKEN
 			return
 
-		terminal.master = src
+		src.terminal.master = src
 
 		UpdateIcon()
 
 
 /obj/machinery/power/smes/update_icon()
-	if (status & BROKEN)
+	if (src.status & BROKEN)
 		ClearAllOverlays()
 		return
 
@@ -92,17 +92,17 @@
 	UpdateOverlays(I, "operating")
 
 	I = SafeGetOverlayImage("chargemode",'icons/obj/power.dmi', "smes-oc1")
-	if (charging)
+	if (src.charging)
 		I.icon_state = "smes-oc1"
 
-	else if (chargemode)
+	else if (src.chargemode)
 		I.icon_state = "smes-oc0"
 	else
 		I = null
 
 	UpdateOverlays(I, "chargemode", 0, 1)
 
-	var/clevel = chargedisplay()
+	var/clevel = src.chargedisplay()
 	if (clevel>0)
 		I = SafeGetOverlayImage("chargedisp",'icons/obj/power.dmi',"smes-og[clevel]")
 		UpdateOverlays(I, "chargedisp")
@@ -112,96 +112,96 @@
 
 /obj/machinery/power/smes/process(mult)
 
-	if (status & BROKEN)
+	if (src.status & BROKEN)
 		return
 
 
 	//store machine state to see if we need to update the icon overlays
-	var/last_disp = chargedisplay()
-	var/last_chrg = charging
-	var/last_onln = online
+	var/last_disp = src.chargedisplay()
+	var/last_chrg = src.charging
+	var/last_onln = src.online
 
 	// Had to revert a hack here that caused SMES to continue charging despite insufficient power coming in on the input (terminal) side.
-	if (terminal)
+	if (src.terminal)
 		charge(mult)
 
-	if (online)		// if outputting
+	if (src.online)		// if outputting
 		if (prob(5))
 			SPAWN(1 DECI SECOND)
 				playsound(src.loc, pick(ambience_power), 60, 1)
 
-		lastout = min(charge, output)		//limit output to that stored
+		src.lastout = min(src.charge, src.output)		//limit output to that stored
 
-		charge -= lastout		// reduce the storage (may be recovered in /restore() if excessive)
+		src.charge -= src.lastout		// reduce the storage (may be recovered in /restore() if excessive)
 
-		add_avail(lastout)				// add output to powernet (smes side)
+		src.add_avail(src.lastout)				// add output to powernet (smes side)
 
-		if (charge < 0.0001)
-			online = 0					// stop output if charge falls to zero
+		if (src.charge < 0.0001)
+			src.online = 0					// stop output if charge falls to zero
 
 	// only update icon if state changed
-	if (last_disp != chargedisplay() || last_chrg != charging || last_onln != online)
-		UpdateIcon()
+	if (last_disp != src.chargedisplay() || last_chrg != src.charging || last_onln != src.online)
+		src.UpdateIcon()
 
 	src.updateDialog()
 
 /obj/machinery/power/smes/proc/charge(mult)
-	var/excess = terminal.surplus()
+	var/excess = src.terminal.surplus()
 	var/load = 0
-	if (charging)
+	if (src.charging)
 		if (excess >= 0)		// if there's power available, try to charge
 
-			load = min(capacity-charge, chargelevel)		// charge at set rate, limited to spare capacity
+			load = min(src.capacity-src.charge, src.chargelevel)		// charge at set rate, limited to spare capacity
 
 			// Adjusting mult to other power sources would likely cause more harm than good as it would cause unusual surges
 			// of power that would only be noticed though hotwire or be unrationalizable to player.  This will extrapolate power
 			// benefits to charged value so that minimal loss occurs.
-			if(terminal.add_load(load))			// add the load to the terminal side network
-				charge += load * mult	// increase the charge if successful
+			if(src.terminal.add_load(load))			// add the load to the terminal side network
+				src.charge += load * mult	// increase the charge if successful
 
 		else					// if not enough capcity
-			charging = 0		// stop charging
-			chargecount  = 0
+			src.charging = FALSE		// stop charging
+			src.chargecount  = 0
 
-	else if (chargemode)
-		if (chargecount > 2)
-			charging = 1
-			chargecount = 0
-		else if (excess >= chargelevel)
-			chargecount++
+	else if (src.chargemode)
+		if (src.chargecount > 2)
+			src.charging = TRUE
+			src.chargecount = 0
+		else if (excess >= src.chargelevel)
+			src.chargecount++
 		else
-			chargecount = 0
+			src.chargecount = 0
 
-	lastexcess = load + excess
+	src.lastexcess = load + excess
 
 // called after all power processes are finished
 // restores charge level to smes if there was excess this ptick
 
 /obj/machinery/power/smes/proc/restore()
-	if (status & BROKEN)
+	if (src.status & BROKEN)
 		return
 
-	if (!online || isnull(powernet))
-		loaddemand = 0
+	if (!src.online || isnull(src.powernet))
+		src.loaddemand = 0
 		return
 
-	var/excess = powernet.netexcess		// this was how much wasn't used on the network last ptick, minus any removed by other SMESes
+	var/excess = src.powernet.netexcess		// this was how much wasn't used on the network last ptick, minus any removed by other SMESes
 
-	excess = min(lastout, excess)				// clamp it to how much was actually output by this SMES last ptick
+	excess = min(src.lastout, excess)				// clamp it to how much was actually output by this SMES last ptick
 
-	excess = min(capacity-charge, excess)	// for safety, also limit recharge by space capacity of SMES (shouldn't happen)
+	excess = min(src.capacity-src.charge, excess)	// for safety, also limit recharge by space capacity of SMES (shouldn't happen)
 
 	// now recharge this amount
 
-	var/clev = chargedisplay()
+	var/clev = src.chargedisplay()
 
-	charge += excess
-	powernet.netexcess -= excess		// remove the excess from the powernet, so later SMESes don't try to use it
+	src.charge += excess
+	src.powernet.netexcess -= excess		// remove the excess from the powernet, so later SMESes don't try to use it
 
-	loaddemand = lastout - excess
+	src.loaddemand = lastout - excess
 
-	if (clev != chargedisplay())
-		UpdateIcon()
+	if (clev != src.chargedisplay())
+		src.UpdateIcon()
 
 /obj/machinery/power/smes/ui_interact(mob/user, datum/tgui/ui)
 	ui = tgui_process.try_update_ui(user, src, ui)
@@ -237,8 +237,8 @@
 	switch(action)
 		if("toggle-input")
 			src.chargemode = !src.chargemode
-			if (!chargemode)
-				charging = 0
+			if (!src.chargemode)
+				src.charging = FALSE
 			src.UpdateIcon()
 			. = TRUE
 		if("toggle-output")
@@ -290,18 +290,18 @@
 
 
 /obj/machinery/power/smes/smart/charge(mult)
-	var/excess = terminal.surplus()
+	var/excess = src.terminal.surplus()
 	var/load = 0
-	if (charging)
+	if (src.charging)
 		if (excess >= 0)		// if there's power available, try to charge
 
-			load = min(capacity-charge, chargelevel)		// charge at set rate, limited to spare capacity
+			load = min(src.capacity-src.charge, src.chargelevel)		// charge at set rate, limited to spare capacity
 
 			// Adjusting mult to other power sources would likely cause more harm than good as it would cause unusual surges
 			// of power that would only be noticed though hotwire or be unrationalizable to player.  This will extrapolate power
 			// benefits to charged value so that minimal loss occurs.
-			if(terminal.add_load(load))			// attempt to add the load to the terminal side network
-				charge += load * mult	// increase the charge if successful
+			if(src.terminal.add_load(load))			// attempt to add the load to the terminal side network
+				src.charge += load * mult	// increase the charge if successful
 
 			// Simulate bad PID
 			var/adjust = 0
@@ -313,21 +313,21 @@
 				adjust += rand(-3 KILO WATTS, 3 KILO WATTS)
 				src.chargelevel = clamp((src.chargelevel + adjust), 0 , SMESMAXCHARGELEVEL)
 		else					// if not enough capcity
-			charging = 0		// stop charging
-			chargecount  = 0
+			src.charging = FALSE		// stop charging
+			src.chargecount  = 0
 			src.chargelevel = round(chargelevel*0.7)
 
-	else if (chargemode)
-		if (chargecount > 1)
-			charging = 1
-			chargecount = 0
-		else if (excess >= chargelevel)
-			chargecount++
+	else if (src.chargemode)
+		if (src.chargecount > 1)
+			src.charging = TRUE
+			src.chargecount = 0
+		else if (excess >= src.chargelevel)
+			src.chargecount++
 		else
-			chargecount = 0
-			src.chargelevel = round(chargelevel*0.5)
+			src.chargecount = 0
+			src.chargelevel = round(src.chargelevel*0.5)
 
-	lastexcess = load + excess
+	src.lastexcess = load + excess
 
 #undef SMESMAXCHARGELEVEL
 #undef SMESMAXOUTPUT
